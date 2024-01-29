@@ -1,18 +1,16 @@
-word	defintion	function	category	example	
+word	defintion	function	category	example	crossword clue
+HP	mobile phone (ha pay)	noun			
 abang	older brother	noun	family		
 acak	jumbled	adjective	describing		
-selama	during				
-urutan	order, sequence, position	noun			
-layanan	service	noun			
-anggaran	budget	noun	work		
 ada	is/ are/ am existing.	verb			
 ada apa	what's going on happened? 	verb			
 adalah	is/ am/ are (statement)	verb			
 aduh	ouch	interjection	health		
-agar	so that (to cause) 	conjunction			
+agar	so that (to cause) 	conjunction	grammar		
 agar-agar	jelly	noun	food		
 air	water	noun	food		
 ajaib	strange (magic/ surprising but good) (ajibe)	adjective			
+ajak	to come with	verb			
 akan	will	verb			
 akhir	last/ end	adjective			
 akhir pekan	weekend	noun			
@@ -25,8 +23,10 @@ anak	child	noun	family
 anak-anak	children	noun	family		
 anda	you (formal)	noun	family		
 aneh	strange (weird) (anay)	adjective			
+anggaran	budget	noun	business		
+angkat	lift	verb			
 anjing	dog	noun	animals		
-antar	deliver	verb	work		
+antar	deliver	verb	business		
 antara	in between	preposition			
 anu	mmmm	interjection	social		
 apa	what	pronoun			
@@ -34,12 +34,9 @@ apa-apa	something	noun
 apakah	is/ are/ do/ did/ does (question)	verb			
 apalah	whatever	pronoun	social		
 api	fire	noun			
-rumit	complicated	adjective			
-menolong	help, assist	verb	social		
 apotek	chemist	noun	health		
+arah	direction	noun	travel		
 aroma	smell	noun			
-putaran	round, revolution	noun			
-putar	turn	verb			
 arti	meaning	noun			
 artinya	meaning	noun			
 arus	strong current	noun	nature		
@@ -47,9 +44,8 @@ asam	sour	adjective	food
 asap	smoke	noun			
 asin	salty	adjective	food		
 asli	original	adjective			
-atas	on top	preposition			
+atas	on top, upper	preposition	travel	naik ke atas	
 awal	beginning	noun			
-bagi	for	preposition			
 awas	watch out!	verb	social		
 ayah	actual father	noun	family		
 ayam	chicken	noun	animals		
@@ -59,95 +55,122 @@ babi hutan	boar	noun	animals
 bad	buruk 	adjective			
 badan	body	noun	body		
 bagaimana	how?	adverb			
-bagi	like	conjunction	(None)	(None)	
+bagi	for	preposition			
 bagian	slice, part, region	noun			
+berguna	useful	adjective			
+benar-benar	truly	adverb			
+bagusnya	that's good	grammar			
 bagus	good for a thing	adjective			
 bahagia	happy	adjective	social		
-bahkan	even (used to accentuate something)				
+bahkan	even (used to accentuate something)	adverb			
 bahu	shoulder	noun	body		
-bahwa	that (flow on)	conjunction			
+bahwa	that (flow on)	conjunction	grammar		
 baik	good (for a person	adjective	social		
 baiklah	okay.				
-baju/ pakaian	clothes	noun			
+baju	dress, clothes	noun	clothes		
 bakar	doing bbq or burn	verb			
 balik	return home	verb			
+bangun	awake, get up	verb			
+bangunan	building	noun			
+banjir	flood	noun	nature		
+bank	bank	noun	business		
+bantuan	assistance	noun			
+komel	cute	adjective	social		
+bantu	help	verb	social		
 banyak	many	adjective			
-bapak	father or older man	mr			
+bapak	father or older man	mr	family		
 barat	west	noun	travel		
+barat daya	southwest	noun	travel		
+barat laut	northwest	noun	travel		
 baru	new/ just	adjective			
-basah	wet				
-batu	stone				
-bau	scent				
+basah	wet	adjective			
+batu	stone	noun			
+bau	scent	noun			
 bawa	bring	verb			
-bawah	under	adjective			
+bawah	under, lower	adjective		turun ke bawah	
 bawang	onion	noun	food		
-bayak sekali	a lot				
-bayam	spinach				
+bayak sekali	a lot	adjective			
+bayam	spinach	noun	food		
 bayi	baby	noun	family		
-bebek	duck				
-belakang	behind				
-belalai	trunk				
-belok	turn				
-belum	not yet				
-belum masak	not yet ripe				
-benang	wool/ cotton/ yarn				
-benar	correct				
-bendungan	dam				
-bensin	petrol				
-berada	am at				
-berangin	windy				
-berangkat	depart				
-lanpangan	field, court	noun	sport		
+bebek	duck	noun	animals		
+beda	different	adjective			
+belakang	behind	preposition			
+belalai	trunk	noun	animals		
+belas	mercy	noun	social		
+beli	buy, purchase	verb	shopping		
+belok	turn	verb	travel		
+belum	not yet	adverb	social		
+belum masak	not yet ripe	adjective			
+benang	wool/ cotton/ yarn	noun			
+benar	correct	adjective			
+benar-benar	truly	adverb			
+benda	object, thing	noun			
+bendungan	dam	noun			
+bensin	petrol	noun	travel		
+berada	am at	adjective	travel		
+berangin	windy	adjective	weather		
+berangkat	leave, go	verb			
+berangkat	depart	verb	travel		
 berani	brave	adjective	social		
-berapa	how many				
-berapa kali	how many times?				
+lapangan	field	noun	nature		
+berapa	how many	adverb			
+berapa kali	how many times?	adverb			
 berat	heavy	adjective			
 berbagi	various	adjective			
-berbarapa	some or few				
-berbaring	lie down				
+berbarapa	some or few	adjective			
+berbaring	lie down	verb			
 berbeda	different	adjective			
-tujuan	goal, objective	noun			
-berberapa	some				
-berbicara	speak				
-bercanda	joke				
-berdasarkan (formal)	according				
-bergerak	moving (active)				
-berguna	use				
+berberapa	some	adjective			
+berbicara	speak	verb	social		
+cara	method	noun		bagaimana cara membuat	
+bercanda	joke	noun	social		
+bercanda	joking, kidding	verb	social		
+berdasarkan	according				
+berdiri	stand up	verb			
+bergerak	moving (active)	verb			
+berguna	use	verb			
+berguna	useful	adjective			
 berhasil	succeed	verb			
-beri	give 				
-berikut	the following (this)				
-berikutnya	next				
+berhenti	stop	verb		(None)	(None)
+beri	give 	verb			
+berikut	the following (this)	conjunction	grammar		
+berikutnya	next	adjective			
 berisik	noisy	adjective			
 berita	news (tv or radio)	noun	social		
-berjalan	walk	verb			
-berjalar	study	verb			
-berkenalan	aquanited				
-berkerja	work	verb			
-berkumpul	gathering				
-pimpinan	leader	noun			
-bernyanyi	sing				
-berpakaian	dressing				
+berjalan	walk	verb	travel		
+berjalar	study, to be	verb			
+berjamur	sunbathing	verb	social		
+berkenalan	aquanited	adjective			
+berkerja	work	verb	business		
+berkumpul	gathering, gather	noun, verb	social		
+berlima	quantity of five				
+bernyanyi	sing	verb	music		
+berpakaian	dressing	verb	clothes		
 berpamitan	say goodbye				
-bersalah	guilty	adjective			
-bersedia	willing	adjective	social		
-bertamu	visit/ visted				
-bertemu	meet				
-bertingu	boxing				
+berperang	warring, fighting	verb	social		
+berpikir	think	verb			
+bersalah	guilty	adjective	social		
+bersama	together, with	adjective	social		
+bersedia	willing, ready, prepared	adjective	social		
+bertamu	visit/ visted	verb	social		
+bertemu	meet	verb	social		
+bertingu	boxing	verb	sport		
 berubah	changed	adjective			
-dukungan	support	noun			
-beruntung	lucky				
-besah	wet				
-besar	large				
-besok	tomorrow				
+beruntung	lucky	adjective	social		
+besah	wet	adjective			
+besar	big, large	adjective			
+besok	tomorrow	noun	time		
 biar	let	verb			
 biarkan saja	let whatever be				
 biarlah	so be it				
 biasa	normal	adjective			
 biasanya	normally	adverb			
+bicara	speak				
 bicara	talk	verb	social		
 biji	piece (seed)	noun	plants		
 bilang	said				
 binatang	animals	noun	animals		
+bintang	start	noun			
 bingung	confused 	adjective			
 birbir	lips	noun	body		
 biru	blue	adjective	colour		
@@ -162,7 +185,7 @@ boleh	may (as in may i)
 bosan	bored	adjective	social		
 brokoli	broccoli	noun	food		
 buah	fruit (for large things)				
-buang	throw or dump	verb			
+buang	throw away, drop, dump	verb	jacl		
 buat	make	verb			
 buaya	crocodile	noun	animals		
 bubar	disbanded	verb			
@@ -186,24 +209,29 @@ cabe	chilli	noun	food
 cakar	claw	noun	animals		
 cantik	pretty	adjective	social		
 cantoh	example				
+capai	reach, achieve	verb			
 capek	sleepy	adjective	social		
 cari	search	look			(None)
 cat	paint	noun			
-celana	shorts				
+catatan	note, records	noun	social		
+celana	shorts, pants				
 celana panjang	long pants				
+kura-kura	tortoise	noun	animals		
 celana pendek	shorts				
 cepat	fast				
+cepek	physically tired	advjective			
 cerah	sunny				
 cerita	story				
 cewek	girl				
 cinta	love				
 cium	kiss / smell				
 coba	try				
+cocok	appropriate, suitable	adjective	(None)	(None)	(None)
 cokelat	brown	adjective			
 contoh	example				
 cowok	guy				
 cuaca	weather	noun	weather		
-cuci	wash	verb	work		
+cuci	wash	verb	business		
 cuka	vinegar	noun	food		
 cukup	enough				
 curi	steal				
@@ -216,30 +244,46 @@ dahi	forehead	noun	body
 dahinya	forehead	noun	body		
 dalam	inside				
 dalang	master (puppet)	noun	arts		
-dan	and	conjunction			
+dan	and	conjunction	grammar		
 danahu	lake	noun	nature		
 dapur	kitchen	noun	home		
 darah	blood	noun	body		
 dari	from				
-daripada	than (compared to) rather than (when used alone)	conjunction			
+daripada	than (compared to) rather than (when used alone)	conjunction	grammar		
 dasar	basic	adjective			
-datang	come				
+akhiran	suffix	noun	grammar		
+awalan	prefix	prefix	grammar		
+ketik	type	verb	business		
+kotor	dirty	adjective			
+langit-langit	ceiling	noun	home		
+datang	come	verb	travel		
+datanglah	come	verb			
 daun	leaf	noun	nature		
 daun-daun	leaves	noun	nature		
+daya	power	noun			
 dekat	near/ close	adjective	travel		
-dengang	with	conjunction			
+delapan	eight, 8	noun	numbers		
+sendok	spoon	noun	kitchen		
+garpu	fork	noun	kitchen	str(None)	str(None)
+dengang	with	conjunction	grammar		
 dengar	hear	verb			
-depan	front	adjective			
-depat	can (formal)				
-depat	get				
-derajat	degree (celcius)				
+depan	front, next	adjective			
+depat	can (formal)	verb			
+depat	get	verb			
+derajat	degree (celcius)	noun	weather		
 desa	bigger village 	noun	travel		
+detik	seconds	noun	time		
+di bawah	under	preposition			
 di mana	where				
+di mana-man	everywhere	noun			
 di sana	there				
 dia	he or she	noun	family		
+diam	stationary	adjective			
 dibandingkan	compared to 				
+dibesarbesarkan	exagerated				
 dicuri	stolen	adjective	emergency		
 dihinggapi	on (only for any insects and animals that fly)				
+dilakukan	done	verb			
 dimana	where (statement not qeuestion)				
 diminta	sought				
 dingin	cold	adjective	weather		
@@ -247,8 +291,14 @@ dinging	wall	noun
 dipakai	used	adjective			
 diperiksa	checked	verb			
 dipilih	picked	verb			
+dipimpin	lead (past tense)	verb			
+diri	self	pronoun			
+diri sendiri	be myself	verb	social		
+dirimu sendiri	be yourself	verb	social		
+dirinya sendiri	be his self, her self, their selves	verb	social		
 disebabkan	caused by				
 disebut	is called	verb			
+sebut	say	verb	jacl		
 ditulis	written				
 ditutup	covered				
 diulang	repeated				
@@ -256,70 +306,88 @@ dokter	doctor	noun	health
 domba	lamb	noun	animals		
 dorong	push	verb			
 dorongan	support	verb			
+nyata	two	noun	numbers		
 dudukan	seat	noun			
-dulu	first or long time				
+duduklah	sit	verb			
+dugaan	guess	noun			
+dukungan	support	noun			
+dulu	first, or long time ago	adjective	grammar		
 dupa	insense 	adjective	social		
 ekor	tail (for animals)	noun	animals		
 elbow	siku	noun	body		
+empat	four	noun	numbers		
 enak	delicious	adjective	food		
+enam	six	noun	numbers		
 eneh	strange	adjective	social		
 es	ice	noun	food		
 evil	jahat	adjective	social		
 eye	mata	noun	body		
+feri	ferry	noun	travel		
 gading	tusks	noun	animals		
 gajah	elephant	noun	animals		
 galup	dark	adjective	time		
 gambar	drawing	noun	arts		
 gambaran	description, picture in mind	noun	social		
+gampang	easy	adjective			
 gang	alleyway	noun	travel		
+lumba-lumba	dolphin	noun	animals		
+ganggu	disturb, annoy	verb	social		
+pagar	fence	noun	home		
+ganti	change	verb			
 garam	salt	noun	food		
 gari kaki	toes	noun	body		
 gari tengang	finger	noun	body		
 gatal	itchy	adjective	health		
 gatal-gatal	itchy	adjective	health		
 gaun	dress	noun	clothes		
-gedung	building				
-gempa	earthquake				
-menjaga	protect	verb			
+gedung	building	noun			
+gelap	dark	adjective	time		
+gempa	earthquake	noun	nature		
 gendut	fat (whole person)	adjective	body		
 gigi	teeth	noun	body		
+gigit	bite	verb	animals		
 gong-gong	barking	verb	animals		
+ular	snake	noun	animals		
+gosok	brush, scrub	verb	bathroom		
 gratis	free	adjective	shopping		
 gugur	autumn (falling down leaves/ fallen soldiers etc)	verb	time		
 gula	sugar	noun	food		
 gunung	mountain	noun	nature		
-gurih	tasty - not sweet not salt				
-guru	teacher				
-habis	finished				
-halaman	garden				
+gurih	tasty - not sweet not salty	adjective	food		
+guru	teacher	noun	business		
+habis	finished	adjective			
+halaman	yard	noun			
 hambar	plain	bland			
 hampir	almost/ nearly	adjective			
-handuk	towel				
-hangat	warm				
-hangus	burnt for food.				
-hangya bercanda	just kidding				
-hanya	only				
-harap	wish				
+handuk	towel	noun			
+hangat	warm	adjective			
+hangus	burnt for food.	adjective	food		
+hanya	only	adverb	social	hanya bercanda	
+hapus	erase, delete	verb			
+harap	wish	verb			
 hari	day	noun	time		
-hari ini	today				
+hari ini	today	noun			
 hari ulangtahun	birthday. (ulang - repeat)	noun	social		
 harum	perfume				
 harus	must				
 hati	heart or liver	noun	body		
 hati-hati	be careful				
 haus	thirsty	adjective	social		
-head	kepala				
+henti	stop	verb			
 heran	wonder				
-hewan	animals	noun	animals		(None)
+hewan	animals	noun	animals		
 hidung	nose	noun	body		
-hidup	live/ on/ start				
-hidupkan	turn on				
+hidup	live/ on/ start	verb			
+hidupkan	turn on	verb			
+sabun	soap	noun	bathroom		
+sampo	shampoo	noun	bathroom		
 hijau	green	adjective	colour		
-hilang	missing				
+permanas	heater	noun	home		
+hilang	missing	adjective			
 hilir	estuary	noun	boating		
 hingaggap	on (only for any insects and animals that fly)				
-laporan	report	noun	work		
 hitam	black	adjective			
+hubungan	relationship, connection	noun	social		
 hujan	wet weather rain				
 hulu	stream	noun	boating		
 hutan	forest	noun	nature		
@@ -327,64 +395,53 @@ ibu	mother or older woman	noun	family
 ide	idea	noun			
 ikan	fish	noun	animals		
 ikut	follow	verb			
+impian	dream, wish	noun	social		
 indah	beautiful for things.	adjective			
 ingat	remember				
 irim	send	verb			
 isi	pakai	with			
-bantuan	assistance	noun			
-mengubah	change	verb			
-memberi	provide	verb			
 istirahat	rest				
 istri	wife	noun	family		
-mengingatkan	reminds				
-catatan	note, records	noun	social		
-bangun	awake, get up	verb			
-bangunan	building	noun			
-serangan	attack	noun	social		
-hubungan	relationship	noun	social		
-iya/ ya	yes				
-jadi	so (commonly start of sentence)				
-lingkungan	environment	noun			
-jagung	corn				
-jahe	giner				
+iya/ ya	yes	partical			
+jabatan	position, job	noun			
+jadi	so (commonly start of sentence)	conjunction	grammar		
+jaga	protect, guard	verb			
+jagung	corn	noun	food		
+jahe	ginger	noun	food		
 jahu	known (don't pronouce the 'h')	verb			
 jahu	tofu (pronounce the 'h')	noun	food		
-jajan	snacking				
-jalan	road				
-jalan kaki	walk				
-jalan kecil	small track				
-jalan-jalan	walkaround				
-ke	to				
+jajan	snacking	verb	food		
+jalan	road	noun	travel		
+jalan kaki	walk	verb	travel		
+jalan kecil	small track	noun	travel		
+jalan-jalan	walkaround	verb	travel		
 jalur	path	noun	travel		
 jam	time	noun	time		
+jaman	era	noun			
 jangan	don't/ shouldn't	verb			
 jantung	heart	noun	body		
 jarak	distance	noun	travel		
-jarang	rarely	adverb			
+jarang	rarely	adverb	time		
 jari	finger	noun	body		
 jauh	far	adjective			
+jawab	answer	verb	social		
 jawap	answer	noun			
 jelak	bored	adjective			
-jelas	clear				
-jelas kaca	clear glass				
+jelas	clear	adjective			
 jelek	ugly, bad	adjective			
-gigit	bite	verb			
-menggigit	bite	verb	(None)	(None)	(None)
-HP	mobile phone (ha pay)	noun			
-menelephon	telephone	verb	social		
-jendela	window				
-jika	if				
-juga	too, as in also				
+jendela	window	noun	home		
+jika	if	conjunction			
+jual	sell	verb			
+juga	too, as in also	conjunction	grammar		
 jumat	monday	noun	time		
 jumput	pick up	verb			
-juta	one million	adjective			
-kabar	news	noun			
+juta	one million	adjective	numbers		
+kabar	news	noun	social		
 kabelnya	wire	noun			
 kabunraya	botanic gardens	noun			
 kaca	glass	noun			
 kaca mata	glasses	noun			
-kadang-kadang	sometimes				
-kadang-kadang	sometimes				
+kadang-kadang	sometimes	adverb	time		
 kaget/ terkejut	surprised				
 kah	huh?				
 kain	cloth				
@@ -392,81 +449,98 @@ kain meja	table cloth	noun
 kaiu	wood/ timber	noun			
 kakak	brother	noun	family		
 kaki	foot	noun	body		
-kalau	if				
-kali	times				
-kalian	youse	noun			
-kalimat	sentence	noun			
+kalau	if	conjunction			
+kali	times	noun			
+kalian	youse	pronoun			
+kalimat	sentence	noun	grammar		
 kamar	room	noun	home		
 kamar cuci	bathroom	noun	home		
 kamar kecil	toilet	noun	home		
 kamar mandi	shower	noun	home		
+mandi	bathe, shower, wash	verb	social		
 kamar tidur	bedroom	noun	home		
 kambing	goat	noun	animals		
 kami	we except you	noun	social		
+jatuh	fall	verb			
 kamis	thursday	noun	time		
 kampong	village	noun			
 kamu	you (informal)	noun	social		
+kau	you (informal)	noun	social		
 kanan	right	noun	travel		
 kandang	cage	noun	animals		
-kangan	missed				
 kangkung	water spinach	noun	food		
-kantor	office	noun	work		
+aku	I, me	pronoun			
+kantor	office	noun	business		
 kapal	boat	noun	travel		
-kapan	when/ what time?		time		
-kapan-kapan	sometimes		time		
+kapan	when/ what time?	adverb	time		
+kapan-kapan	sometimes	adverb	time		
 kasi sayang ibu	love of mother				
 kasih	give	verb			
-kata	word	noun			
+kata	word	noun	grammar		
+kata-kata	quote	verb			
 kaya	rich	adjective			
+ke	to	preposition			
+ke mana-mana	anywhere	noun			
 keadaan	situation	noun			
 kebakaran	on fire	adjective			
 kebetulan	what a conincidence!				
-kebun	garden, field	noun	nature		
-kebun	vegetable garden				
+kebun	flower garden, vegetable garden	noun	home		
 kecap	soy sauce	noun	food		
+petani	farmer, gardener	noun	work		
 kecil	small	adjective			
 kedang	extension	noun			
-kedapatan	to be found out, discovered				
+kedapatan	to be found out, discovered	adjective			
+kejar	chase	verb			
 keju	cheese	noun	food		
-kekerignan	drought				
+kekerignan	drought	noun	weather		
 keluarja	family	noun	family		
+keluarkan 	remove	verb			
 kemarin	yesterday	noun	time		
-kembalian	change				
+kembalian	change	verb			
 kembang	flowers	noun	plants		
-kemudian	then/ subsequently				
-kenalan	acquaintance				
-kenalkan	an introduction				
-kenapa	why				
+kemping	camping	verb	travel		
+kemudian	then/ subsequently	conjunction			
+kenalan	acquaintance	noun	social		
+kenalkan	an introduction	noun			
+sungai	river				
+tengah-tengah	middle, misdt				
+berani	brave	adjective			
+kenapa	why	adverb			
+kendaraan	vehicle	noun	travel		
 kentang	potato	noun	food		
 kepada	to  (to a person (only)				
 kepala	head	noun	body		
-keputusan	descision (noun)				
+kepala	head	noun	body		
+keputusan	descision	noun			
 keputusanyna	the decision	noun	social		
 keras	hard	adjective			
-kerbanakan	most 				
+kerbanakan	most 	adjective			
 kerbanyakan	most				
-kerena	because				
-kereta api	train				
-kering	dry weather				
-keringat	sweat				
-kerja	work				
-kertamu	paper				
-kesakitan	in pain				
+kerena	because	conjunction	grammar		
+pinggir	edge	noun			
+kereta api	train	noun	travel		
+kering	dry weather	noun	weather		
+keringat	sweat	noun			
+kerja	work	verb	business		
+kertamu	paper	noun	business		
+kesakitan	in pain	noun	health		
 keterang	describe	verb			
 keterangan	information	noun			
 ketika	when (conjunction)				
 ketinggalan	left behind				
-khawatir	worried				
+bernama	named	adjective			
+khawatir	worried	adjective	social		
 khusus	special	adjective			
-kini	now				
-kira	reckon				
+kini	now	noun	time		
+kira	reckon, think				
 kira-kira	approximately/ about.				
 kiri	left	adjective			
-kirim	deliver but only for thing				
+kirim	deliver but only for thing	verb			
 kita	we (all of us here)	pronoun			
-kolega	colleague	noun	work		
+kolega	colleague	noun	business		
 kompleks	complex	adjective			
-kompor	stove	noun			
+kompor	stove	noun	kitchen		
+koneksi	connection	noun			
 kontak	contact	noun			
 koran	newspaper	noun			
 kosong	empty	adjective			
@@ -482,25 +556,32 @@ kuning	yellow	adjective
 kurang	less	adjective			
 kurang-lebih	estimate				
 kursi	chair	noun	house		
+kursi panas	important place, hot seat	noun	house		
+kutub	pole	noun	travel		
 lacar	flow				
 lada	pepper	noun	food		
-lagi	in the process of and again				
-lain	other				
+lagi	in the process of and again		grammar		
+lain	other	adjective			
 laki-laki	male	adjective	family		
-lalu	previous or long time ago.				
+lakukan	do	verb			
+lalu	then, lalu	conjunction	grammar		
 lalu-lintus	traffic (then cross)				
 lama	long (time)	adjective	time		
+lama-lama	in a long time				
 lampar	throw	verb			
 lampar saja	just throw it				
 lampu	light	adjective	time		
 langit	sky 	noun	nature		
 langsung	right away				
 lanjut	continue/ carry on 				
-lanti	floor	noun	house		
-lapar	hungry	adjective	social		
+contok	example	noun			
+lanpangan	field, court	noun	sport		
+lantai	floor	noun	home	turun ke lantai bawah	
 lapar	hungry 	adjective	food		
+laporan	report	noun	business		
 lari	run	verb			
-laut	sea	noun	nature		
+laut	sea	noun	travel		
+layanan	service	verb			
 layangan	kite	noun			
 layu	stale	adjective	food		
 lebar	wide	adjective			
@@ -509,26 +590,35 @@ lebih baik	better (more good)	adjective
 lebih banyak	more (quantity)	noun			
 lebih suka	prefer	verb			
 leher	neck	noun	body		
-lelah	physcially tired	noun	health		
+lelah	physcially tired	adjective	health		
 lem	glue	noun			
 lembab	moist/ humid/ damp	adjective			
 lembah	valley	noun	nature		
 lembap	humid	adjective	weather		
 lengang	arm	noun	body		
+lepas	free	adjective	jacl	lepas sepatunya	
+lepaskan	let go, release	verb			
+lewat	through	preposition	travel		
 liar	wild	adjective	animal		
+libur	holidays	noun			
+liburan	holidays	noun		(None)	(None)
 liburan	holidays	noun	travel		
 lidah	tongue	noun	body		
+lima	five	noun	numbers		
+lingkungan	environment	noun			
 listrik	electricity	noun	technology		
 lobak	radish	noun	food		
+luang	spare time	noun	social		
 luar	outside	noun	house		
 lucu	funny	adjective	social		
 lukisan	painting	noun	activities		
 lupa	forget	verb	social		
 lurus	straight ahead	noun	travel		
-lusa	two days time	noun	time		
+lusa	day after tomorrow, two days time	noun	time		
 lutut	knees	noun	body		
 macet	traffic jam	noun	travel		
 mahal	expensive	adjective	shopping		
+maju	advanced, advance	adjective, verb			
 makan	eat	verb	food		
 malam	night	noun	time		
 malas	lazy	adjective	social		
@@ -537,17 +627,21 @@ malu-malu	very shy	adjective	social
 mana	where	adverb	social		
 mana-mana	anywhere	adverb	social		
 mancing	fishing	verb	activities		
+mandiri	independent	adjective	nanik		
 manis	sweet	adjective	food		
 marah	angry	adjective	social		
 mari	let's	interjection	social		
 mari bersulang	toast! cheers!	interjection	social		
 mas	brother (from another mother)	noun	social		
 masak	cooking	verb	food		
+masalah	problem	noun			
 masih	still	adverb	grammar		
+masing masing	each	adjective			
 masuk	enter	verb	house		
 mata	eye	noun	body		
 mata kaki	anklebone	noun	body		
-mata-mata	spy 	noun	work		
+mata-mata	spy	noun			
+mata-mata	spy 	noun	business		
 matang	not ripe	adjective	food		
 mati	dead	adjective	health		
 matikan	turn off	verb			
@@ -556,77 +650,112 @@ mbok	sister (balanese)	noun	social
 mecoba	try	verb			
 meja	table	noun	house		
 melaku	do	verb			
-melakukan	perform	verb			(None)
+melakukan	do	verb			
 melampari	throw often	verb			
-melukis	painting	verb	arts		
+melatih	train	verb			
+meletus	erruption				
+melukis	painting	verb	art		
 memakan	eat but more for animals	verb	animals		
 memanggil	call	verb	social		
+memantao	monitoring	verb			
 membaca	read	verb			
 membakar	burn	verb			
+kemunkinan	possibility	noun			
 membantu	helpful	verb	social		
 membawa	bring	verb			
+membeli	buy, purchase	verb	shopping	(None)	(None)
+memberi	give, provide	verb	jacl		
+membesarbesarkan	hyperbole, exagerate	verb			
 memegang	hold				
 memijat	massage	verb			
 memilih	choose	verb			
+memiliki	own	verb			
+memimpin	lead	verb	business		
 meminta	request	verb	shopping		
 memolong	help	verb	emergency		
 mempelajari	learn (specifically what do you learn)	verb			
+memulai	start	verb			(None)
 menaman	planting	verb			
 menanam	to plant	verb			
 menangis	cry	verb	social		
 menapa	why				
 menarik	pull	verb	verb		
+mencapai	reach, achieve	verb		(None)	(None)
 mencari	search	look			
 mencari	search	verb			
 mencium	smells	verb			
-mencuci	washing	verb	work		
-mencuri	steal				
+mencuci	washing	verb	business		
+mencuri	steal	verb			
+mendaki	hiking	verb			
 mendapat	get	verb			
 mendengar	listen	verb	social		
 mendung	overcast	adjective	weather		
+menelephon	telephone	verb	social		
+menemani	accompanies				
 menelepon	telephon				
-mengantuk	sleepy.				
-mengapa	why? (more formal)				
-mengecat	paint	verb			
-ganggu	disturb, annoy	verb	social		
+meneruskan	continue, go ahead	verb	social		
 menganggu	disturb, annoy	verb	social	(None)	(None)
+selalu	always	adverb			
+jarang	seldom, rarely	adverb			
+mengantuk	sleepy				
+mengapa	why? (more formal)				
+mengapus	erase, delete	verb			
+mengecat	paint	verb			
 mengepel	mop				
 mengerti	understand				
-menggambar	drawing (verb)				
+pengganti	replacement	noun			
+menggambar	drawing	verb			
+acara	event, program, schedule	noun			
+menggigit	bite	verb	(None)	(None)	(None)
+barang	goods	noun			
+menghadap	faces	verb			
+menghadapi	is facing	verb	(None)	(None)	(None)
+menghidup	alive	adjective	social		
 menghormati	appreciate				
+mengingatkan	reminds				
 mengirim	giving, sending, delivering	verb	(None)	(None)	(None)
 mengirimkan	giving, sending, delivering	verb			
 mengiris	slice	verb	food		
 mengobati	treats 				
-mengulis	write				
+mengosok	brush, scrub	verb			
+mengubah	change	verb			
+meningal	died				
 menit	minute				
-menjadi	becomes				
+menjadi	becomes, to be				
+menjaga	protect, guard	verb			
 menjalar	teach				
-menulis	write				
+menolong	help, assist	verb	social		
+mentulis	write				
+menuju	heading, travelling	verb	travel	Kami berjalan bersama menuju sekolah.	
+menulis	write	verb			
 menulisnya	write it	verb	activities		
-menunggu	wait				
-menyapu	sweep				
-menyenangkan	pleasant				
-menyopir	driving				
+menunggu	wait	verb			
+menyapu	sweep	verb			
+menyenangkan	pleasant	adjective			
+menyikat	brushing	verb			
+menyopir	driving	verb	travel		
 merah	red	adjective	colour		
-merasa	feel 				
+merasa	feel 	verb			
 merawat	take care of	verb			
+merebus	boils	verb	cooking		
 merica	pepper	noun	food		
-merintih	moaning (in pain)				
-mesin	engine 				
-mewarnai	colouring in. (give colour)				
-minggu	monday				
-minta	ask for				
-minyak	oil				
-mirip	resemble				
-misalnya	example				
+merintih	moaning (in pain)	verb	health		
+merubah	change	verb			
+mesin	engine 	noun	travel		
+mewarnai	colouring in. (give colour)	verb			
+milik	possesion	noun			
+mimpi	sleep dream	noun	social		
+minggu	monday	noun	time		
+minta	ask for	verb			
+minyak	oil	noun	food		
+mirip	resemble	verb			
+misalnya	example	noun			
 miskin	poor	adjective			
-mohon	please				
-momong	speak/ talk				
+mohon	please	verb	social		
+momong	speak/ talk	verb	social		
 muda	young	adjective	social	(None)	
 mudah	red	adjective			
 mulai	start	verb			
-memulai	start	verb			(None)
 mulut	mouth 	noun	body		
 muncul	appear				
 mungkin	may/ maybe/ possible				
@@ -636,15 +765,17 @@ musim	season	noun	weather
 mutik	carving knife	noun			
 nafas	breath				
 naga	dragon	noun	animals		
-naik	"go up	 ride"	verb		
+naik	go up, ride	verb	travel		
 nakal	naughty	adjective	social		
-namun	however/ yet	conjunction			
+namun	however/ yet	conjunction	grammar		
 nanti	later	noun	time		
+negara	country	noun			
 nelayan	fisherman	noun	boating		
 nih	here	noun			
 nomor	number	noun			
 nonton	watch (a movie)	verb			
 nuno	nanik's dog	proper noun			
+nyebrang	crossing	verb	travel		
 nyeker	bare feet	noun	body		
 obat	medicine	noun	health		
 oli	motor oil	noun	travel		
@@ -654,53 +785,69 @@ orang tua	old person	￼also parent
 otak	brain	noun	body		
 otot	muscle	noun	body		
 oven	oven	noun	home		
+pada	on	preposition			
 padas	hot/ spice	adjective	food		
+padat	conjested, dense	adjective	travel	lalu lintusnya padat	
 pagi	morning	noun	time		
 paha	thigh	noun	body		
-paham	understand				
+paham	understand	verb			
 pahit	bitter	adjective	food		
 pak	father 	noun	family		
 pakai	wear/ use 	verb			
-paku	nails	noun			
+pakaian	clothes	noun			
+pakan	feed	verb	food		
+paku	nails	noun	body		
 paling	most/ extreme/ very last	adjective			
 paling mahal	the most expensive	adjective			
 panas	hot	adjective			
+panci	pot	noun	kitchen		
+panggil	call	verb	social	Panggil saya!	
 panjang	long	adjective			
 pantai	beach	noun	nature		
+papan	board, plank	noun			
+parah	critical, very bad	adjective			
 paruh	beak	noun	animals		
-pas	just right				
-pasang	install 	verb	work		
-pasti	certain/ surely				
+pas	just right	adjective			
+pasang	put, install 	verb	jacl	pasang kemeja	
+pasti	certain/ surely	adjective			
 payang	umbrella	noun			
+pedahal	meanwhile	conjunction	grammar		
 pedas	spicy	adjective	food		
-pegawai	employee	noun	work		
+pegawai	employee	noun	business		
 pekan	week	noun	time		
-pekir	think	verb	work		
-pelayan	servant	noun	work		
-pelayan makanan	waiter	noun	work		
-pelayan toko	shop keeper	noun	work		
-pembeli	buyer				
-pembelian	purchase				
+pekerjaan	job	noun			
+pekir	think	verb	business		
+pelarajan	lesson	noun			
+pelayan	servant	noun	business		
+pelayan makanan	waiter	noun	business		
+pelayan toko	shop keeper	noun	business		
+pembeli	buyer	noun			
+pembelian	a purchase	noun			
+pemilihan	election	noun			
 pemilik	owner	noun			
+pemimpin	leader	noun			
 penari	dancer	noun	arts		
-pencuri	thief				
-pendapat	opinion				
-pendapatan	income	noun	work		
-pendek	short (time and distance)				
-peneliti	researcher	noun	work		
-pengacara	lawyer	noun	work		
-penggambar	drawer				
-penting	important				
-penuh	full				
-penyanyi	singer				
+pencuri	thief	noun			
+pendapat	opinion	noun			
+pendapatan	income	noun	business		
+pendek	short (time and distance)	adjective			
+pendirian	faith in myself, confidence	verb	social		
+peneliti	researcher	noun	business		
+pengacara	lawyer	noun	business		
+penggambar	drawer	noun			
+penjual	seller	noun	business		
+penting	important	adjective			
+penuh	full	adjective			
+penyanyi	singer	noun	music		
 perahu	boat	noun	boating		
-perawat	nurse	noun	work		
+perang	war	noun			
+perawat	nurse	noun	business		
 perbaba	different	adjective			
-perbabaan	difference				
+perbedaan	difference	noun			
 perempatan	four way junction	noun	travel		
 perempuan	female	adjective	social		
-pergang	hold				
-pergantian	changing 				
+pergang	hold	verb			
+pergantian	replacement	noun			
 pergelangan kaki	ankle	noun	body		
 pergelangan tengang	wrist	noun	body		
 pergi	go	verb	travel		
@@ -708,94 +855,124 @@ perjabat	offical	noun	government
 perjalanan	trip/ journey	noun			
 perkerja	worker	noun			
 perkerjaan	working	verb	activities		
-perlu	need				
-perlukis	painter	noun	work		
+perlu	need	noun			
+perlukis	painter	noun	business		
 permen	candy	noun	food		
-pernah	ever				
-perpustakaan	library				
+pernah	ever	adverb			
+perpustakaan	library	noun			
 persimpangan	junction	noun	travel		
 pertanyaan	question	noun			
-pertigaan	three way junction.		travel		
-pertunjukan	performance				
+pertigaan	three way junction.	noun	travel		
+pertunjukan	performance	noun			
+perubahan	change	noun			
 perut	stomach	noun	body		
+merusak	damages	verb	jacl		
 pesan	message	noun	social		
 pesawat	plane	noun	travel		
 petang	late afternoon	noun	time		
-petani	farmer				
-pijat	massage (noun)				
-pikir	thought				
+petani	farmer	noun	business		
+pijat	massage	noun			
+mangkuk	bowl	noun	kitchen		
+bersih	clean	adjective			
+tepat	appropriate	adjective			
+televisi	television	noun	home		
+pikir	thought	noun			
 pilih	choose	verb			
+pilihan	choice	noun			
+tirai	curtain	noun	home		
+tangga	stairs	noun	home		
+bantal	pillow	noun	home		
+pimpinan	boss, team leader	noun	business		
 pindah / geser	move a bit	verb			
 pinjam	borrow	verb			
 pintu	door	noun	home		
 pintu geser	sliding door	noun	home		
 pipi	cheek	noun	body		
-pisah	separate				
-pisang	banana				
-pisau	knife				
+pisah	separate	adjective			
+pisang	banana	noun	food		
+pisau	knife	noun	kitchen		
 pohon	tree	noun	plants		
-polisi	police	noun	work		
-ponontong	viewer / audience				
-porsi	portion				
+polisi	police	noun	business		
+ponontong	viewer / audience	noun			
+porsi	portion	noun			
+posisi	position, rank	noun	business		
 potong	cut	verb			
-prajurit	soldier	noun	work		
-prankiraan cuaca	weather forecast				
+prajurit	soldier	noun	business		
+prankiraan cuaca	weather forecast	noun			
 pria	man	noun	family		
-produk	product	noun	work		
-profesi	profession	noun	work		
+produk	product	noun	business		
+profesi	profession	noun	business		
 pulpen	fountain pen	noun			
 pun	even (also)				
+puncak	peak, summit	noun			
+punggung	back	noun	body		
 punya	have	verb			
-pura	temple				
+pura	temple	noun	religion		
 pura-pura	pretend				
 pusat	centre	adjective			
+putar	turn	verb			
+putaran	round, revolution	noun			
 putih	white	adjective			
-putus	separated/ broken (like a piece of string)				
-putus-putus	breaking up (bad phone connection)				
-putuskan	decided 				
+putri	daughter	noun	family		
+puturan	round, cycle	noun			
+putus	separated/ broken (like a piece of string)	adjective			
+putus-putus	breaking up (bad phone connection)	verb			
+putuskan	decided 	adjective			
 rabu	monday	noun	time		
-rabus	boiled				
-ragu	uncertain				
-rajin	diligent				
-ramah	friendly				
+rabus	boiled	adjective	cooking		
+ragu	uncertain	adjective			
+rajin	diligent	adjective			
+ramah	friendly	adjective	social		
 rambut	hair	noun	body		
-rancana	plan	noun	work		
-rancananya	the plan	noun	work		
-rapat	meeting	noun	work		
+rancana	plan	noun	business		
+rancananya	the plan	noun	business		
+ransel	backpack	noun	camping		
+rapat	meeting	noun	business		
 rasa	flavour	noun	food		
 ratus	100	verb			
 reda	subside/ blow over	verb			
-rekan	colleague	noun	work		
+rekan	colleague	noun	business		
 renyah	crunchy	adjective	food		
-resah	worried				
-resmi	formal / official	adjective	work		
+seprai	bed sheets	noun	home		
+resah	worried	adjective	social		
+resmi	formal / official	adjective	business		
 ribu	one thousand	adjective			
 ringan	light (not heavy)	adjective			
 rok	skirt	noun	clothes		
 ruang	room	noun	home		
-ruang keluarga	family room				
+ruang keluarga	family room	noun	home		
 ruangan	room	noun	home		(None)
+terlambat	late	adjective			
 rubanya	apparently				
+kelihatan	looks	noun			
 rujak	fruit salad	noun	food		
-rumput	grass				
-saat	moment	when	time		
-sabtu	monday		time		
-sagara	sea (balanese)				
+balkon	balcony	noun	home		
+gerbang	gate	noun	home		
+rumit	complicated	adjective			
+rumput	grass	noun	nature		
+mainan	toy	noun			
+saat	moment	noun	time		
+sabtu	monday	noun	time		
+sagara	sea (balanese)	noun			
 saja	just				
+saju	snoun	noun	nature		
+buang	throw away	verb	jacl		
 sakit	painful or sick.	adjective	health		
+salah	wrong	adjective			
 salalu	always				
-sambal	chilli sauce				
+sambal	chilli sauce	noun	food		
 sampah	rubbish/ trash 	noun			
 sampai	until/ arrive				
 sampai besok	until tomorrow!				
 sampai nanti	see you later				
-samping	beside (adjacent)	preposition			
+nyata	beside (adjacent)	preposition			
 sana	there out of sight 				
-sana-sana	go away				
-sangat bagus	very good!				
+sana-sana	go away	verb			
+sangat	very	adjective		sangat bagus	
 sapu	broom	noun	home		
 sapu ijuk	palm family (softer for indoor)				
 sapu lidi	broom made from cocunut bone.				
+satu	one	noun	numbers		
 satu bungkus	one packet	noun			
 satu kali	one time				
 satu lagi	one more				
@@ -803,34 +980,45 @@ satwa	animals	noun	animals
 saudara	brother	noun	family		
 saudari	sister	noun	family		
 sawah	rice field	noun			
-saya	I	noun	social		
+saya	I, me	noun	social		
+menukar	exchange, swap	verb			
+tak	not	adverb			
+sayur	vegetables	noun	food		
 sebab	cause	noun			
-sebaliknya	conversely				
+sebaliknya	conversely	conjunction	grammar		
 sebantar	moment	noun	time		
-sebelah	adjacent				
-sebelum	before				
+sebelah	adjacent	preposition			
+sebelum	before	adjective	time		
 sebentar	a moment/ not for long time.				
 sedadung	going				
-sedang	currently				
+sedang	currently	adjective	time		
 sedankan	meanwhile				
+sederhana	simple	adjective			
 sedia	ready	adjective			
+sedia	ready	adjective	nanik		malasian
 sedih	sad	adjective			
 segar	fresh				
-segera	quick	adverb			
+segera	quickly	adverb			
 seharusnya	supposed to				
+seharusnya	should	adverb	social		
 sehat	well/ healthy.	adjective	health		
 sehingga	so that/ so as	conjunction	grammar		
-sehurusnya	should/ supposed to	conjunction			
+lengan	arm	noun	body		
+lembut	tender	adjective	food		
+sehurusnya	should/ supposed to	conjunction	grammar		
 sejuk	cool	adjective			
 sekali	very or one time.	adjective			
 sekali lagi	once again (say again)				
 sekarang	now	noun			
+sekolah	school	noun			
 selai	jam	noun	food		
 selalu	always/ all the time	adverb			
 selama	as long as	preposition			
+selama	during				
 selancar	surfing	verb	activities		
 selasa	monday	noun	time		
-selatan	south		travel		
+selatan	south	noun	travel		
+seledri	celeri	noun	food		
 selesai	finish				
 seluruh	all over/ everywhere				
 sembarangan	randomly/ everywhere				
@@ -839,8 +1027,10 @@ semoga	hope/ wish
 semua	all				
 semuanya	all of them				
 senang	happy	adjective			
+sendiri	alone	adjective	social		
 senin	monday				
 senyum	smile				
+sepatu	shoe	noun	clothing		
 seperdua	half				
 seperempat	quarter				
 seperti	example (and resembles)				
@@ -848,70 +1038,85 @@ seperti apa	such as
 sepi	quiet				
 sepiring	one plate				
 seporsi	one portion				
-serok	rake				
-serperti	example				
-sesaui	match/ in accordance/ co-ordinates				
+serang	attack	verb	jacl		
+serangan	attack	noun	social		
+sering	often	adverb	time		
+serok	rake	verb			
+sesaui	match/ in accordance/ co-ordinates	adjective			
+sesua	whatever	pronoun	nanik		
+sesuai	appropriate, suitable	adjective			
 sesuatu	something				
-sesudah	after				
-setelah	after				
-setengah	half				
-setiap	every				
-setidaknya	unless				
-setrika	ironing	verb	work		
-pelarajan	lesson	noun			
-setuju	agree				
-sial	bugger (damn it)				
+semuanya	all, everything	pronoun	jacl		
+sesudah	after	conjunction			
+setelah	after	conjuncion			
+setengah	half	noun	numbers		
+setiap	each	advjective			
+berkunjung	visit	verb			
+kunjung	visit	verb	(None)	(None)	(None)
+setiap	every	adjective			
+setidaknya	unless	conjunction			
+setrika	ironing	verb	business		
+jahit	sewing	verb			
+penjahit	sewer	noun	work		
+sendok	spoon	noun	kitchen	str(None)	str(None)
+setuju	agree	verb			
+setuju	agree	verb			
+sial	bugger (damn it)	verb	social		
 siang	noon	noun	time		
-siap	ready				
-siapa	who				
-sibuk	busy	adjective	work		
+siap	ready	adjective			
+siapa	who	pronoun			
+sibuk	busy	adjective	business		
 sikat	brush	noun			
-siku-siku	90 degress.				
-silikan	go ahead/ be my guest/ help yourself				
-silikan masuk	welcome	come in!			
-sini	here	noun			
-sinyalnya	the signal				
-sip!	done deal!				
-sisat	characteristics				
+siku-siku	90 degress.	noun			
+silikan	go ahead/ be my guest/ help yourself	verb	social	silikan masuk	
+simpan	put, save, set	verb			
+simpang	intersection	noun	travel		
+sini	here	noun	travel		
+sinyalnya	the signal	noun			
+sip!	Okay, done deal!				
+sisa	remainder	noun			
+sisat	characteristics	adjective			
 situ	somewhere 	there in sight			
-sopir	driver	noun	work		
+sopir	driver	noun	business		
 sore	afternoon	noun	time		
 spageti	spaghetti				
-suami	husband				
-suara	"noise	 voice"			
+suami	husband	noun	family		
+suara	noise	noun			
 suara apa	what noise?				
 sudah	already.				
 sudahla	never mind				
 suhu	temperature				
 sulit	difficult				
 sungai	river				
-supaya	cause	conjunction			
+supaya	cause	conjunction	grammar		
+suruh	ask	verb	social		
 surup	dropping				
+susah	difficult	adjective			
+usah	never mind	verb	social		
 susu	milk				
 syukurlah	thank god! (shuherla)				
-tadi	just before/ earlier		time		
+tadi	just before/ earlier	adverb	time		
 tahu	know or tofu				
+tahun	year	noun			
 takut	scared	adjective			
 tali	plastic	adjective			
 talinya	rope	noun			
 taman	park		nature		
 tambah	more/ plus/ becoming 				
+tambahan	extra	adjective			
 tambakan	add	verb			
-sering	often	adjective			
-berjamur	sunbathing	verb	social		
-mengosok	brush, scrub	verb			
-gosok	brush, scrub	verb	(None)	(None)	(None)
-tampa	without	conjunction			
+tampa	without	conjunction	grammar		
 tampan	handsome	adjective	social		
 tampat duduk	chair	noun	home		
 tamu	guest				
 tanam	to plant (tunam)				
 tanaman	plant				
+tanda-tanda	sign, signal, warning	noun			
 tangan	hand				
 tangkap	catch				
 tanpa	without				
 tanta/ bibi/ bi	aunty 				
-tanya	ask				
+tanya	ask	verb	social		
 tapi	but				
 taplak	table cloth				
 tarik	take/ pull				
@@ -922,93 +1127,126 @@ tearsi	shrimp past
 telah	already				
 telapak	palm or sole	noun	body		
 telinga	ears	noun	body		
+telur	egg	noun	food		
 teman	friend				
-teman bisnis	business 				
+teman bisnis	business 	noun	business		
+hadiah	gift, present	noun	social		
+tertawa	laugh	verb	social		
+adik					
 teman kerja	colleague				
-tembok	wall	noun			
-tempat	place 				
+tembak	shoot	verb			
+tembok	wall	noun	house		
+asli	genuine	adjective			
+nyata	real, realistic	adjective			
+patung	statue	noun			
+tempat	place 	noun			
 tempat duduk	chair (place for sitting)				
 tengang	hand				
+tenggara	southeast	noun	travel		
 tenggorokan	throat	noun	body		
 tentang	about (topic/subject)				
 terahkir	very last				
 terang	bright	adjective			
 terbaik	best	adjective			
 terbakar	burnt yourself	your skin			
+bak	tub	noun	home		
+terbang	flying	verb	travel		
+terbeli	for sale	adjective			
 terbiasa	used to it/ become normal.				
+tercapai	achived	adjectived			
 terdapat	available, there is, occur	adjective			
 tergantung	depends				
-tergendut	fattest of the fat people				
-terima	accept				
+tergendut	fattest of the fat people	adjective	body		
+terima	accept	verb			
 terjadi	happen/ occur				
-terkirim	sent/ delivered				
-terlalu	too/ overly		000		
+terjual	sold	adjective			
+terkirim	sent/ delivered	verb			
+terlalu	too/ overly	adjective			
 terlalu cepat	too soon	too fast.			
 terlalu mahal	too expensive				
 terputus	breaking up				
 tersedia	available	adjective			
 tersembunyi	hidden				
-terserah	terserahlah	up to you			
-tersunum	smiling				
-tertarik	interested/ pull				
-tertawa	laughing				
-terung	eggplant				
-terus	keep going/ and next				
-terutama	mainly 				
-tetangga	neighbour				
-tetapi	but				
-hapus	erase, delete	verb			
-mengapus	erase, delete	verb			
-papan	board, plank	noun			
-tiba	arrive				
-tiba-tiba	suddenly				
-tidak ada	none.				
+terserah	up to you				
+terserahlah	up to you				
+nari	dance	verb	social		
+pernari	dancer	noun	social		
+tersunum	smiling	adjective			
+tertarik	interested/ pull	verb			
+tertawa	laughing	verb	social		
+terung	eggplant	noun	food		
+terus	keep going/ and next	verb	travel		
+terutama	mainly 	adjective			
+tinju	boxing	verb	sport		
+pertinju	boxer	noun	sport		
+gulat	wrestling	verb	sport		
+pegulat	wrestler	noun	sport		
+balapan	racing	verb	sport		
+pembalap	racer	noun	sport		
+sendok	spoon	noun	kitchen	str(None)	str(None)
+tetangga	neighbour	noun	social		
+tetap diam	stay still, stationary	adverb			
+tetapi	but	conjunction	grammar		
+tiba	arrive	verb	travel		
+tiba-tiba	suddenly	adverb			
+tidak ada	none				
 tidak apa-apa	nothing				
 tidak makasih	no thank you.				
-tidak masalah	no problem.				
+petarung	fighter	noun			
 tidak terlalu	so so	up and down			
-tidur	sleep/ nap				
-tilih	choose	verb			(None)
-timor	east				
+tidur	sleep/ nap	verb			
+suara	voice				
+ayam jantanayam jago	rooster	noun	animals		
+tiga	three	noun	numbers		
+tilih	choose	verb			
+timur	east	noun	travel		
+timur laut	northeast	noun	travel		
 tinggal	live or stay				
 tipe	type	noun			
-titup	closed				
-tolong	help				
-tomat	tomato				
+titik	spot, period!	noun			
+titup	closed	adjective			
+tolong	help	verb			
+tomat	tomato	noun	food		
 transmisi	transmission	noun	travel		
-trek	truck	noun			
-trotoar	sidewalk				
-tua	old	adjective	social	(None)	
-tuan	sir	noun	work		
+trek	truck	noun	travel		
+trotoar	sidewalk	noun	travel		
+tua	old	adjective	social		
+tuan	sir	noun	business		
 tubuh	body	noun	body		
 tuhun	year	noun	time		
-tujuan	objective/ purpose	noun	work		
-tukang	handyman	noun	work		
-tukar	change				
+tujuan	objective, purpose, goal	noun	business		
+inilah	here it is	grammar			
+tujuh	seven	noun	numbers		
+tukang	handyman	noun	business		
+tukar	swap, change	verb			
 tulang	bones	noun	body		
 tumbuh	growing	adjective			
-tumbuhan	big plant (like a tree)				
-tunggu	wait	verb			
-tunjuk	show				
-turun	descend	verb			
-uang	money	noun			
-udang	prawn	noun	food		
-udara	sky (in the air)				
+tumbuhan	big plant (like a tree)	noun	nature		
+tunggu	wait	verb	massage	tunggu sebentar	
+tunjuk	show	verb			
+turun	down, descend	verb	travel		
+uang	money	noun	business		
+udang	prawn	noun	animals		
+udara	sky (in the air)	noun	nature		
 udeng	head band	noun	religion		
 ulang	repeat	verb			
 umum	general	adjective			
 umur	age	noun			
 undang	invite	verb	social		
-untuk	for (the purpose of)				
+untuk	for (the purpose of)	conjunction			
+untung	profit	noun	business		
+untungnya	fortunately	adjective			
+urutan	order, sequence, position	noun			
 urutkan	unjumble	verb			
+nyata	pleased, happy	adjective	social		
 usia	age	noun	social		
-utara	north	adjective	travel		
+utara	north	noun	travel		
 wajah	face	noun	body		
 wajan	pan	noun	kitchen		
-waktu	time/ when		time		
-waktu	when (conjuction)				
+waktu	time/ when	noun	time		
+waktulah	take your time	verb	time		
 waktunya bernyanyi	time to sing				
-wartawan	reporter	noun	work		
+wartawan	reporter	noun	business		
 wortel	carrot	noun	food		
 yaitu	specifically/ namely				
 yang	that (which)				
