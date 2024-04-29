@@ -124,7 +124,9 @@ def create_crossword(words):
         return True
 
     # Place words on the grid
-    placed_words = []
+    placed_across = []
+    placed_down = []
+
     for word in words:
         placed = False
         attempts = 0
@@ -134,18 +136,18 @@ def create_crossword(words):
             if can_place_horizontally(word, row, col):
                 for i in range(len(word)):
                     grid[row][col + i] = word[i]
-                placed_words.append((word, 'A', row, col))
+                placed_across.append((word, row * col))
                 placed = True
             elif can_place_vertically(word, row, col):
                 for i in range(len(word)):
                     grid[row + i][col] = word[i]
-                placed_words.append((word, 'D', row, col))
+                placed_down.append((word, row * col))
                 placed = True
             attempts += 1
 
     # Convert grid to a printable string
     crossword = '\n'.join([''.join(row) for row in grid])
-    return crossword, placed_words
+    return crossword, placed_across, placed_down
 
 # Example usage
 word_list = [
@@ -154,17 +156,26 @@ word_list = [
     'MASAK', 'MAKAN', 'MAKANAN', 'PISANG', 'BABI', 'BAYAM',
     'MAU', 'MEMASAN', 'PANAS', 'DINGIN', 'DAGING', 'GARPU', 'SENDOK',
     'MEJA', 'PIRING', 'IKAN', 'CABAI', 'GARAM', 'GURIH', 'BAWANG',
-    'AYAM', 'BUMBU', 'ASIN', 'ROTI', 'SARAPAN'
+    'AYAM', 'BUMBU', 'ASIN', 'ROTI', 'SARAPAN', 'SAYURAN', 'SAMBAL',
+    'KENTANG', 'PISAU', 'MANGKUK', 'KOMPOR', 'WARUNG', 'MINUMAN',
+    'MINUM', 'GURITA', 'TANPA', 'BERDELAPAN'
     ]
 
-crossword, placed_words = create_crossword(word_list)
+crossword, placed_across, placed_down = create_crossword(word_list)
 
 # Print the crossword grid
 print("## [grid]\n")
 print(crossword)
 
+placed_across.sort(key=lambda word: word[1])
+placed_down.sort(key=lambda word: word[1])
+
 # Print the updated positions of the words
 print("\n\n## [clues]\n")
-for word, orientation, row, col in placed_words:
-    print(f"{orientation}{(row * 21) + col}. {word}")
+for word, square in placed_across:
+    print(f"A{square}. {word}")
 
+print("\n")
+
+for word, square in placed_down:
+    print(f"D{square}. {word}")
