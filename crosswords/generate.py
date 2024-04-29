@@ -3,7 +3,7 @@ import random
 
 def create_crossword(words):
     # Create an empty grid
-    grid = [[' ' for _ in range(21)] for _ in range(21)]
+    grid = [['#' for _ in range(21)] for _ in range(21)]
 
     # Sort words by length in descending order
     words.sort(key=lambda x: len(x), reverse=True)
@@ -17,7 +17,7 @@ def create_crossword(words):
         if grid[row][col] == letter:
             return True
 
-        if grid[row][col] != ' ':
+        if grid[row][col] != '#':
             # The square doesn't contain the letter being places and
             # isn't clear so can't go there.
             return False
@@ -25,20 +25,20 @@ def create_crossword(words):
         # Check cell is clear side to side
         if col == 20:
             # Only need to check above as we are on the bottom row
-            if grid[row][col-1] != ' ':
+            if grid[row][col-1] != '#':
                 return False
             
             return True
             
         if col == 0:
             # Only need to check below as we are on the top row
-            if grid[row][col+1] != ' ':
+            if grid[row][col+1] != '#':
                 return False
             
             return True
         
         # We are somewhere in the middle so check above and below
-        if grid[row][col-1] != ' ' or grid[row][col+1] != ' ':
+        if grid[row][col-1] != '#' or grid[row][col+1] != '#':
             return False
 
         return True
@@ -50,7 +50,7 @@ def create_crossword(words):
         if grid[row][col] == letter:
             return True
         
-        if grid[row][col] != ' ':
+        if grid[row][col] != '#':
             # The square doesn't contain the letter being places and
             # isn't clear so can't go there.
             return False
@@ -58,20 +58,20 @@ def create_crossword(words):
         # Check cell is clear above and below
         if row == 20:
             # Only need to check above as we are on the bottom row
-            if grid[row-1][col] != ' ':
+            if grid[row-1][col] != '#':
                 return False
             
             return True
             
         if row == 0:
             # Only need to check below as we are on the top row
-            if grid[row+1][col] != ' ':
+            if grid[row+1][col] != '#':
                 return False
 
             return True
     
         # We are somewhere in the middle so check above and below
-        if grid[row-1][col] != ' ' or grid[row+1][col] != ' ':
+        if grid[row-1][col] != '#' or grid[row+1][col] != '#':
             return False
 
         return True
@@ -85,15 +85,14 @@ def create_crossword(words):
         for i in range(len(word)):
             if i == 0:
                 # This is the first letter so also check the left is clear
-                if col - 1 > -1 and grid[row][col - 1] != ' ':
+                if col - 1 > -1 and grid[row][col - 1] != '#':
                     return False 
         
             if i == len(word) - 1:
                 # This is the last letter so also check the right is clear
                 if col + i + 1 < 21:
-                    print("Last letter (" + word[i] + ") check for word " + word +
-                      " has square " + grid[row][col + i + 1])
-                    if grid[row][col + i + 1] != ' ':
+                    #print("Last letter (" + word[i] + ") check for word " + word + " has square " + grid[row][col + i + 1])
+                    if grid[row][col + i + 1] != '#':
                         return False 
                            
             if not is_clear_horizontal(word[i], row, col + i):
@@ -110,15 +109,14 @@ def create_crossword(words):
         for i in range(len(word)):
             if i == 0:
                 # This is the first letter so also check above is clear
-                if row - 1 > -1 and grid[row - 1][col] != ' ':
+                if row - 1 > -1 and grid[row - 1][col] != '#':
                     return False 
         
             if i == len(word) - 1:
                 # This is the last letter so also check below is clear
                 if row + i + 1 < 21:
-                    print("Last letter (" + word[i] + ") check for word " + word +
-                      " has square " + grid[row + i + 1][col])
-                    if grid[row + i + 1][col] != ' ':
+                    #print("Last letter (" + word[i] + ") check for word " + word + " has square " + grid[row + i + 1][col])
+                    if grid[row + i + 1][col] != '#':
                         return False 
                       
             if not is_clear_vertical(word[i], row + i, col):
@@ -136,12 +134,12 @@ def create_crossword(words):
             if can_place_horizontally(word, row, col):
                 for i in range(len(word)):
                     grid[row][col + i] = word[i]
-                placed_words.append((word, 'Horizontal', row, col))
+                placed_words.append((word, 'A', row, col))
                 placed = True
             elif can_place_vertically(word, row, col):
                 for i in range(len(word)):
                     grid[row + i][col] = word[i]
-                placed_words.append((word, 'Vertical', row, col))
+                placed_words.append((word, 'D', row, col))
                 placed = True
             attempts += 1
 
@@ -153,18 +151,20 @@ def create_crossword(words):
 word_list = [
     'SEPOSI', 'TAHU', 'NASI', 'GORENG', 'ENAK', 'MENGIRIS', 'ROTI',
     'KEJU', 'MERICA', 'RASA', 'MANIS', 'GULA', 'TELUR', 'LAPAR',
-    'MASAK', 'MAKAN', 'MAKANAN', 'PISANG', 'BABI', 'MENYANANGKAN',
+    'MASAK', 'MAKAN', 'MAKANAN', 'PISANG', 'BABI', 'BAYAM',
     'MAU', 'MEMASAN', 'PANAS', 'DINGIN', 'DAGING', 'GARPU', 'SENDOK',
-    'MEJA', 'PIRING', 'IKAN'
+    'MEJA', 'PIRING', 'IKAN', 'CABAI', 'GARAM', 'GURIH', 'BAWANG',
+    'AYAM', 'BUMBU', 'ASIN', 'ROTI', 'SARAPAN'
     ]
 
 crossword, placed_words = create_crossword(word_list)
 
 # Print the crossword grid
+print("## [grid]\n")
 print(crossword)
 
 # Print the updated positions of the words
-#print("Words placed with updated positions:")
-#for word, orientation, row, col in placed_words:
-#    print(f"{word} placed {orientation} at row {row}, column {col}")
+print("\n\n## [clues]\n")
+for word, orientation, row, col in placed_words:
+    print(f"{orientation}{(row * 21) + col}. {word}")
 
