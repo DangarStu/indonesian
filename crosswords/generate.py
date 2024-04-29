@@ -9,44 +9,119 @@ def create_crossword(words):
     words.sort(key=lambda x: len(x), reverse=True)
 
     # Helper function to check cells around a given position
-    # Only needs to be clear to left or right if vertical
-    # and up and down if horizontal
-    # Additionally:
-    # If vertical the first letter must be clear above and
-    # the last letter must be clear below
-    # If horizonal the first letter must be clear to the left
-    # and the last letter must be clear to the right.
-    def is_clear_side_to_side(row, col):
+
+    # The first letter must be clear above and the last
+    # letter must be clear below
+    def is_clear_vertical(letter, row, col):
+        # If the letter is already in that square, all good
+        if grid[row][col] == letter:
+            return True
+
+        if grid[row][col] != ' ':
+            # The square doesn't contain the letter being places and
+            # isn't clear so can't go there.
+            return False
+        
         # Check cell is clear side to side
-        for c in range(max(0, col - 1), min(21, col + 2)):
-            if grid[row][c] != ' ':
+        if col == 20:
+            # Only need to check above as we are on the bottom row
+            if grid[row][col-1] != ' ':
                 return False
+            
+            return True
+            
+        if col == 0:
+            # Only need to check below as we are on the top row
+            if grid[row][col+1] != ' ':
+                return False
+            
+            return True
+        
+        # We are somewhere in the middle so check above and below
+        if grid[row][col-1] != ' ' or grid[row][col+1] != ' ':
+            return False
+
         return True
     
-    def is_clear_up_and_down(row, col):
+    # The first letter must be clear to the left and
+    # the last letter must be clear to the right
+    def is_clear_horizontal(letter, row, col):
+        # If the letter is already in that square, all good
+        if grid[row][col] == letter:
+            return True
+        
+        if grid[row][col] != ' ':
+            # The square doesn't contain the letter being places and
+            # isn't clear so can't go there.
+            return False
+        
         # Check cell is clear above and below
-        for r in range(max(0, row - 1), min(21, row + 2)):
-            if grid[r][col] != ' ':
+        if row == 20:
+            # Only need to check above as we are on the bottom row
+            if grid[row-1][col] != ' ':
                 return False
+            
+            return True
+            
+        if row == 0:
+            # Only need to check below as we are on the top row
+            if grid[row+1][col] != ' ':
+                return False
+
+            return True
+    
+        # We are somewhere in the middle so check above and below
+        if grid[row-1][col] != ' ' or grid[row+1][col] != ' ':
+            return False
+
         return True
     
     # Function to check if a word can be placed horizontally at a specific position
     def can_place_horizontally(word, row, col):
         if col + len(word) > 21:
             return False
+    
         # Check each letter and the surrounding cells
         for i in range(len(word)):
-            if not is_clear_up_and_down(row, col + i):
+            if i == 0:
+                # This is the first letter so also check the left is clear
+                if col - 1 > -1 and grid[row][col - 1] != ' ':
+                    return False 
+        
+            if i == len(word) - 1:
+                # This is the last letter so also check the right is clear
+                if col + i + 1 < 21:
+                    print("Last letter (" + word[i] + ") check for word " + word +
+                      " has square " + grid[row][col + i + 1])
+                    if grid[row][col + i + 1] != ' ':
+                        return False 
+                           
+            if not is_clear_horizontal(word[i], row, col + i):
                 return False
+            
         return True
 
     # Function to check if a word can be placed vertically at a specific position
     def can_place_vertically(word, row, col):
         if row + len(word) > 21:
             return False
+        
         # Check each letter and the surrounding cells
         for i in range(len(word)):
-            if not is_clear_side_to_side(row + i, col):
+            if i == 0:
+                # This is the first letter so also check above is clear
+                if row - 1 > -1 and grid[row - 1][col] != ' ':
+                    return False 
+        
+            if i == len(word) - 1:
+                # This is the last letter so also check below is clear
+                if row + i + 1 < 21:
+                    print("Last letter (" + word[i] + ") check for word " + word +
+                      " has square " + grid[row + i + 1][col])
+                    if grid[row + i + 1][col] != ' ':
+                        return False 
+                      
+            if not is_clear_vertical(word[i], row + i, col):
                 return False
         return True
 
@@ -75,14 +150,21 @@ def create_crossword(words):
     return crossword, placed_words
 
 # Example usage
-word_list = ['ROTI', 'KEJU', 'MERICA', 'RASA', 'MANIS', 'GULA', 'TELUR', 'LAPAR', 'MASAK', 'MAKAN', 'MAKANAN', 'PISANG', 'BABI']
+word_list = [
+    'SEPOSI', 'TAHU', 'NASI', 'GORENG', 'ENAK', 'MENGIRIS', 'ROTI',
+    'KEJU', 'MERICA', 'RASA', 'MANIS', 'GULA', 'TELUR', 'LAPAR',
+    'MASAK', 'MAKAN', 'MAKANAN', 'PISANG', 'BABI', 'MENYANANGKAN',
+    'MAU', 'MEMASAN', 'PANAS', 'DINGIN', 'DAGING', 'GARPU', 'SENDOK',
+    'MEJA', 'PIRING', 'IKAN'
+    ]
+
 crossword, placed_words = create_crossword(word_list)
 
 # Print the crossword grid
 print(crossword)
 
 # Print the updated positions of the words
-print("Words placed with updated positions:")
-for word, orientation, row, col in placed_words:
-    print(f"{word} placed {orientation} at row {row}, column {col}")
+#print("Words placed with updated positions:")
+#for word, orientation, row, col in placed_words:
+#    print(f"{word} placed {orientation} at row {row}, column {col}")
 
