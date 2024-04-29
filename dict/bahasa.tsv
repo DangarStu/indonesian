@@ -1,9 +1,9 @@
 Word	Definition	Part of speech	Category	Example sentence	Notes
 abang	older brother	noun	family		
-acak	jumbled	adjective	describing		
+acak	jumbled	adjective			
 acara	event, program, schedule	noun			
 ada	is, are, am	verb		Ada apa	Question
-adalah	is, am, are	verb			Statement
+adalah	is, am, are	auxiliary verb			Statement
 adik	younger brother	noun	family		
 adil	fair	adverb			
 aduh	ouch	interjection	health		
@@ -25,23 +25,23 @@ alamat	address	noun	travel
 alat-alat	tools	noun			
 alis	eyebrow	noun	body		
 almari	wardrobe	noun			
-ambil	take/ pick up thing.	verb			
+ambil	take, pick up	verb			
 anak	child	noun	family		
 anak-anak	children	noun	family		
 anda	you (formal)	noun	family		
 aneh	strange, weird	adjective			
+anggar	hangar	noun			
 anggaran	budget	noun	business		
 angkat	lift	verb			
 anjing	dog	noun	animals		
-ankat	lift	verb			
 antara	in between	preposition			
 anu	mmmm	interjection	social		
 apa	what	pronoun			
 apa-apa	something	noun			
 apabila	if	conjunction			Formal
-apakah	is, are, do	verb			
+apakah	is, are, do	verb			Question
 apalah	whatever	pronoun	social		
-apapun	whatever	conjunction			
+apapun	whatever	pronoun, conjunction			
 api	fire	noun			
 apotek	chemist	noun	health		
 arah	direction	noun	travel		
@@ -61,30 +61,32 @@ awalan	prefix	prefix	grammar
 awas	watch out!	verb	social		
 ayah	father	noun	family		Actual father, not an older male.
 ayam	chicken	noun	animals		
-jantan	male	adjective			
 ayolah	come on	verb	social		
 babi	pork	noun	food		
 babi hutan	boar	noun	animals		
 badan	body	noun	body		
-bagaimana	how?	adverb		Bagaimana kalau kita pergi camping mingu depan	
+bagaimana	how	adverb		Bagaimana kalau kita pergi camping minggu depan	
 bagi	for	preposition			
 bagian	slice, part, region	noun		Serangan ini adalah bagian dari perlawanan mereka	
 bagus	good for a thing	adjective			
-bagusnya	that's good	grammar			
+bagusnya	that's good	phrase			
 bahagia	happy	adjective	social		
 bahaya	danger	noun			
-bahkan	even (used to accentuate something)	adverb			
+bahkan	even	adverb			Used to accentuate something
 bahu	shoulder	noun	body		
-bahwa	that (flow on)	conjunction	grammar		
-baik	good (for a person	adjective	social		
+bahwa	that	conjunction	grammar		Flow on conjunction
+baik	good	adjective	social		
 baikkan	make it better	verb		Kita sudah baikkan	
-baiklah	okay.				
+baiklah	okay				
 baju	dress, clothes	noun	clothes		
 bak	tub	noun	home		
 bakar	doing bbq or burn	verb			
-balapan	racing	verb	sport		
+balap	raceing	verb			
+balapan	race	noun	sport		
 balik	come back	verb			
 balkon	balcony	noun	home		
+ban	tyre	noun	travel		
+bandara	airport	noun	travel		
 bangau	stork	noun	animals		
 banget	very	adjective			
 bangun	awake, get up, build	verb			
@@ -95,9 +97,9 @@ bantal	pillow	noun	home
 bantu	help	verb	social		
 bantuan	assistance	noun			
 banyak	many	adjective			
-bapak	father or older man	mr	family		
-barang	goods	noun			
+bapak	father, older man	mr	family		
 barang	items, good	noun			
+barangkali	perhaps	adverb			
 barat	west	noun	travel		
 barat daya	southwest	noun	travel		
 barat laut	northwest	noun	travel		
@@ -116,7 +118,7 @@ bayangkan	imagine	verb		Coba kamu banyangkan
 bayi	baby	noun	family		
 bebek	duck	noun	animals		
 beda	different	adjective			
-bedarnya	the difference	noun			
+bedanya	the difference	noun			
 begitu	so, like that	adverb			As in very (so much)
 bekas	trace, mark	noun		Itu mobil bekas atau baru	
 belakang	behind	preposition			
@@ -170,7 +172,7 @@ berisik	noisy	adjective
 berita	news (tv or radio)	noun	social		
 berjalan	walk	verb	travel		
 berjalar	study, to be	verb			
-berjamur	sunbathing	verb	social		
+berjemur	sunbathing	verb	social		
 berkata	said	verb			
 berkenalan	aquanited	adjective			
 berkerja	work	verb	business		
@@ -182,13 +184,12 @@ bernama	named	adjective
 bernyanyi	sing	verb	music		
 beromong	speaking, talking	verb	social	Kamu omong apa?	
 berpakaian	dressing	verb	clothes		
-berpamitan	say goodbye				
+berpamitan	say goodbye	verb	social		
 berperang	warring, fighting	verb	social		
 berpikir	think	verb			
 bersalah	guilty	adjective	social		
 bersama	together, with	adjective	social		
 bersedia	willing, ready, prepared	adjective	social		
-bersedia	willing	adjective			
 bersenang-senang	enjoying	verb	social	Saya besanang-sanang	
 bersih	clean	adjective			
 bertanya	ask	verb			
@@ -214,8 +215,7 @@ bilang	said
 bilangan	number, numeral	noun	numbers		
 binatang	animals	noun	animals		
 bingung	confused	adjective		salah satu yang saya masih bingung	
-bingung	confused	adjective	social		
-bintang	start	noun			
+bintang	star	noun			
 birbir	lips	noun	body		
 biru	blue	adjective	colour		
 bis	bus	noun	travel		
@@ -239,8 +239,8 @@ bubar	disbanded	verb
 bubur	porridge	noun	food		
 bugil	naked	adjective			
 bugil	naked	adjective			
-bukit	hill	noun	nature		
 bukit	bukit	hill	nature		
+bukit	hill	noun	nature		
 bula mata	eye lashes	noun	body		
 bulan	month, moon	noun	time		
 bulat	round	adjective			
@@ -264,6 +264,7 @@ cakar	claw	noun	animals
 cantik	pretty	adjective	social		
 capai	reach, achieve	verb			
 capek	sleepy	adjective	social		
+cara	method	noun			
 cara	method, way	noun		bagaimana cara membuat	
 cari	search	verb			(None)
 cat	paint	noun			
@@ -368,6 +369,7 @@ dorongan	encouragement	verb
 dudukan	seat	noun			
 duduklah	sit	verb			
 dugaan	guess	noun			
+duina	earth, world	noun	nature		
 dukungan	support, endorsement	noun			
 dulu	first, or long time ago	adjective	grammar		
 dungu	idiot	noun			rude
@@ -407,7 +409,6 @@ gedung	building	noun
 gelap	dark	adjective	time		
 gelas	glass, cup	noun	food		
 gempa	earthquake	noun	nature		
-duina	earth, world	noun	nature		
 gendut	fat (whole person)	adjective	body		
 gerbang	gate	noun	home		
 gigi	teeth	noun	body		
@@ -489,8 +490,8 @@ jaga	protect, guard	verb
 jagung	corn	noun	food		
 jahe	ginger	noun	food		
 jahit	sewing	verb			
-jajan	snacking	verb	food		
 jajan	snack	noun	food		
+jajan	snacking	verb	food		
 jalan	road	noun	travel		
 jalan kaki	walk	verb	travel		
 jalan kecil	small track	noun	travel		
@@ -499,6 +500,7 @@ jalur	path	noun	travel
 jam	time, hour	noun	time		
 jaman	era	noun	time		
 jangan	don't/ shouldn't	verb			
+jantan	male	adjective			
 jantung	heart	noun	body		
 jarak	distance	noun	travel		
 jarang	seldom, rarely	adverb	time		
@@ -527,9 +529,9 @@ kabunraya	botanic gardens	noun
 kaca	glass	noun			
 kaca mata	reading glasses	noun			
 kadang-kadang	sometimes	adverb	time		
-kaget/ terkejut	surprised				
+kaget/ terkejut	surprised	adjective			
 kah	huh?				
-kain	cloth				
+kain	cloth	noun			
 kain meja	table cloth	noun			
 kaiu	wood/ timber	noun			
 kakak	brother	noun	family		
@@ -562,6 +564,7 @@ kata-kata	quote	verb
 katak	frog	noun	animals		
 kau	you (informal)	noun	social		
 kawan	friend	noun	social		
+kawat	net	noun			
 kaya	rich	adjective			
 ke	to	preposition			
 keadaan	situation, condition	noun			
@@ -625,6 +628,7 @@ khusus	special	adjective
 kini	now	noun	time		
 kira	reckon, think				
 kira-kira	approximately/ about.				
+kiranya	perhaps	adverb			
 kiri	left	adjective			
 kirim	deliver, send	verb			
 kita	we (all of us here)	pronoun			
@@ -726,9 +730,10 @@ luang	spare time	noun	social
 luar	outside	noun	house		
 lucu	funny	adjective	social		
 luhur	noble	adjective			
-lukisan	painting	noun	activities		
 lukisan	painting	noun			
+lukisan	painting	noun	activities		
 lumba-lumba	dolphin	noun	animals		
+lumpuh	paralised	adjective			
 lupa	forget	verb	social		
 lurus	straight ahead	noun	travel		
 lusa	day after tomorrow, two days time	noun	time		
@@ -782,8 +787,8 @@ meledak	explode	verb
 melemparkan	throw	verb	jacl		
 meler	runny	adjective	health	Saya punya hidung meler	
 meletus	errupt	verb	nature		
-melukis	painting	verb	art		
 melukis	painting	verb			
+melukis	painting	verb	art		
 memakan	eat but more for animals	verb	animals		
 memanggil	call	verb	social		
 memangsa	eat	verb			For animals
@@ -844,6 +849,7 @@ mengajar	teach	verb
 mengantuk	sleepy				
 mengapa	why? (more formal)				
 mengapus	erase, delete	verb			
+mengatur	arrange	verb			
 mengecat	paint	verb			
 mengenang	remember	verb			
 mengepel	mop	noun	home		
@@ -879,8 +885,8 @@ menukar	exchange, swap	verb
 menulis	write	verb			
 menulisnya	write it	verb	activities		
 menunggu	wait	verb	jacl		
-menurut	opinion	noun		Menurutmu bagaimana	
 menurut	obey	verb			
+menurut	opinion	noun		Menurutmu bagaimana	
 menyalakan	turn on	verb			
 menyapu	sweep	verb			
 menyenangkan	fun, pleasant	adjective	social	Semoga harimu menyenangkan	
@@ -937,6 +943,7 @@ nomor	number	noun
 nonton	watch (a movie)	verb			
 nuno	nanik's dog	proper noun			
 nusa	homeland	noun	travel		
+nyamuk	mosquito	animals			
 nyata	real, realistic	adjective			
 nyebrang	crossing	verb	travel		
 nyegarkan	refresh	verb			
@@ -966,6 +973,7 @@ paku	nails	noun	body
 paling	most/ extreme/ very last	adjective			
 paling mahal	the most expensive	adjective			
 paman	uncle	noun	family		
+pamit	farewell	verb			
 panas	hot	adjective			
 panci	pot, pan	noun	kitchen		
 pandai	clever	adjective			
@@ -1245,6 +1253,7 @@ seledri	celeri	noun	food
 selesai	finished, completed	adjective			
 seluruh	all over/ everywhere				
 semangat	spirit	noun			
+sembarangan	hapzarardly, carelessly	adjective			
 sembarangan	randomly/ everywhere				
 sembuh	healed, recovered	verb	health		
 semi	spring (not cold nice)				
@@ -1329,15 +1338,15 @@ susu	milk
 syukurlah	thank god! (shuherla)				
 tadi	just before/ earlier	adverb	time		
 tahan	stand	verb			
-tahu	tofu	noun	food		Pronounce the 'h'
 tahu	know	verb			Don't pronounce the 'h'
+tahu	tofu	noun	food		Pronounce the 'h'
 tahun	year	noun	time		
 tajam	sharp	adjective			
 tak	not	adverb			
 takdir	destiny, purpose	noun		Sudah takdir	
 taktik	tactik	noun	sport		
-takut	scared, afraid	adjective			
 takut	scared	adjective			
+takut	scared, afraid	adjective			
 tali	plastic	adjective			
 talinya	rope	noun			
 taman	park		nature		
@@ -1368,6 +1377,7 @@ taruh	put / keep
 tarung	fight	verb			
 tawar	bland/ to bargin				
 tearsi	shrimp past				
+tekanan	pressure	noun			
 telah	has				
 telapak	palm or sole	noun	body		
 telat	late	adjective	time		
@@ -1380,6 +1390,7 @@ tembak	shoot	verb
 tembok	wall	noun	house		
 tempat	place	noun			
 tempat duduk	chair (place for sitting)				
+temu	meeting	noun	social		
 tenang	calm, tranquil, restful	adjective			
 tengah	middle				
 tengah-tengah	middle, misdt				
@@ -1469,6 +1480,7 @@ tunjuk	show	verb
 turun	down, descend	verb	travel		
 uang	money	noun	business		
 udang	prawn	noun	animals		
+udara	air	noun	travel		
 udara	air	noun	nature		
 udeng	head band	noun	religion		
 ulang	repeat	verb			
