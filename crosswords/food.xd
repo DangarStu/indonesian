@@ -1,30 +1,63 @@
-Title: Food - Baha Indonesia
-Author: Stuart Allen
-Date: 2023-11-19
+Title: Food and eating out
+Author: by Stuart Allen
+Copyright: © 2024 Stuart Allen
+Date: 2024-04-30
 
 
-B###HANGUS#M###
-A##########A###
-BURBUR#####S###
-I#######PISANG#
-###########K###
-###############
-###############
-###############
-###############
-###############
-###############
-###############
-###############
-###############
-###############
+#SAMBAL#SEPOSI#####D#
+R##################I#
+O#######G#C#####M##N#
+T#BERDELAPAN##M#E##G#
+I#######R#B#M#A#N##I#
+#SENDOK#P#A#E#K#G##N#
+P#######U#I#M#A#I###M
+I#TELUR#####A#N#R###A
+R######G####S#A#I#P#K
+I######O##M#A#N#S#I#A
+N####S#R##E#N#####S#N
+G####A#E##R##M#MASAK#
+#M#D#R#NASI##A####N#K
+RASA#A#G##C##N#B##G#O
+#N#G#P##ENAK#I#A#G##M
+#G#I#A#######S#W#A##P
+#K#N#N####M####A#R##O
+#U#G#####SAYURAN#A##R
+#K##LAPAR#U####G#M###
+#####################
+#MINUMAN####KENTANG##
 
 
-A5. Burnt (for food)
-A10. Fish
-A43. Porridge
-A72. Bananna
+A1. SAMBAL
+A2. SEPOSI
+A8. BERDELAPAN
+A11. SENDOK
+A14. TELUR
+A20. MASAK
+A23. NASI
+A25. RASA
+A27. ENAK
+A30. SAYURAN
+A31. LAPAR
+A32. MINUMAN
+A33. KENTANG
 
-D1. Pork
-D18. Cook
-
+D3. DINGIN
+D4. ROTI
+D5. GARPU
+D6. CABAI
+D7. MENGIRIS
+D9. MAKANAN
+D10. MEMASAN
+D12. PIRING
+D13. MAKAN
+D15. GORENG
+D16. PISANG
+D17. MERICA
+D18. SARAPAN
+D19. MANIS
+D21. MANGKUK
+D22. DAGING
+D24. KOMPOR
+D26. BAWANG
+D28. GARAM
+D29. MAU

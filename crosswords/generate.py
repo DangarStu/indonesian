@@ -1,5 +1,6 @@
 #!/usr/local/bin/python
 import random
+import datetime
 
 def create_crossword(words):
     # Create an empty grid
@@ -124,8 +125,7 @@ def create_crossword(words):
         return True
 
     # Place words on the grid
-    placed_across = []
-    placed_down = []
+    placed_words = []
 
     for word in words:
         placed = False
@@ -136,18 +136,18 @@ def create_crossword(words):
             if can_place_horizontally(word, row, col):
                 for i in range(len(word)):
                     grid[row][col + i] = word[i]
-                placed_across.append((word, row * col))
+                placed_words.append((word, (row * 21) + col + 1, 'across'))
                 placed = True
             elif can_place_vertically(word, row, col):
                 for i in range(len(word)):
                     grid[row + i][col] = word[i]
-                placed_down.append((word, row * col))
+                placed_words.append((word, (row * 21) + col + 1, 'down'))
                 placed = True
             attempts += 1
 
     # Convert grid to a printable string
     crossword = '\n'.join([''.join(row) for row in grid])
-    return crossword, placed_across, placed_down
+    return crossword, placed_words
 
 # Example usage
 word_list = [
@@ -161,21 +161,65 @@ word_list = [
     'MINUM', 'GURITA', 'TANPA', 'BERDELAPAN'
     ]
 
-crossword, placed_across, placed_down = create_crossword(word_list)
+crossword, placed_words = create_crossword(word_list)
+
+# Print the metadata
+print("Title: Food and eating out")
+print("Author: by Stuart Allen")
+print("Copyright: © 2024 Stuart Allen")
+print("Date: " + str(datetime.date.today()))
+print("\n")
+
 
 # Print the crossword grid
-print("## [grid]\n")
 print(crossword)
-
-placed_across.sort(key=lambda word: word[1])
-placed_down.sort(key=lambda word: word[1])
-
-# Print the updated positions of the words
-print("\n\n## [clues]\n")
-for word, square in placed_across:
-    print(f"A{square}. {word}")
 
 print("\n")
 
-for word, square in placed_down:
-    print(f"D{square}. {word}")
+sorted_across = []
+sorted_down = []
+
+# Sort the words into order of the square they start in
+placed_words.sort(key=lambda word: word[1])
+
+# Reduce the starting squares to a sequential order
+ordered_words = []
+
+clue_number = 1
+last_square = 0
+
+# We need to order the words sequentially, but clues that start on the
+# same square need to have the same clue number
+for i in range(len(placed_words)):
+    word, square, orientation = placed_words[i]  # Unpack the current tuple
+
+    if (last_square == square):
+        # This clue starts in the same square as the last so don't
+        # increment the clue_number
+        ordered_words.append((word, clue_number, orientation))
+    else:
+        ordered_words.append((word, clue_number, orientation))
+        clue_number += 1
+    
+    last_square = square
+
+# print(ordered_words)
+
+for i in range(len(ordered_words)):
+    word, square, orientation = ordered_words[i]  # Unpack the current tuple
+    if (orientation) == 'across':
+        sorted_across.append((word, square))
+
+for i in range(len(ordered_words)):
+    word, square, orientation = ordered_words[i]  # Unpack the current tuple
+    if (orientation == 'down'):
+        sorted_down.append((word, square)) 
+    
+# Print the updated positions of the words
+for word, number in sorted_across:
+    print(f"A{number}. {word}")
+
+print("")
+
+for word, number in sorted_down:
+    print(f"D{number}. {word}")
