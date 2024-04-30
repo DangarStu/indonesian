@@ -1,6 +1,8 @@
 #!/usr/local/bin/python
 import random
 import datetime
+import csv
+import sys
 
 def create_crossword(words):
     # Create an empty grid
@@ -127,7 +129,8 @@ def create_crossword(words):
     # Place words on the grid
     placed_words = []
 
-    for word in words:
+    for word_and_clue in words:
+        word, clue = word_and_clue
         placed = False
         attempts = 0
         while not placed and attempts < 100:
@@ -136,12 +139,12 @@ def create_crossword(words):
             if can_place_horizontally(word, row, col):
                 for i in range(len(word)):
                     grid[row][col + i] = word[i]
-                placed_words.append((word, (row * 21) + col + 1, 'across'))
+                placed_words.append((word, (row * 21) + col + 1, clue, 'across'))
                 placed = True
             elif can_place_vertically(word, row, col):
                 for i in range(len(word)):
                     grid[row + i][col] = word[i]
-                placed_words.append((word, (row * 21) + col + 1, 'down'))
+                placed_words.append((word, (row * 21) + col + 1, clue, 'down'))
                 placed = True
             attempts += 1
 
@@ -149,22 +152,39 @@ def create_crossword(words):
     crossword = '\n'.join([''.join(row) for row in grid])
     return crossword, placed_words
 
-# Example usage
-word_list = [
-    'SEPOSI', 'TAHU', 'NASI', 'GORENG', 'ENAK', 'MENGIRIS', 'ROTI',
-    'KEJU', 'MERICA', 'RASA', 'MANIS', 'GULA', 'TELUR', 'LAPAR',
-    'MASAK', 'MAKAN', 'MAKANAN', 'PISANG', 'BABI', 'BAYAM',
-    'MAU', 'MEMASAN', 'PANAS', 'DINGIN', 'DAGING', 'GARPU', 'SENDOK',
-    'MEJA', 'PIRING', 'IKAN', 'CABAI', 'GARAM', 'GURIH', 'BAWANG',
-    'AYAM', 'BUMBU', 'ASIN', 'ROTI', 'SARAPAN', 'SAYURAN', 'SAMBAL',
-    'KENTANG', 'PISAU', 'MANGKUK', 'KOMPOR', 'WARUNG', 'MINUMAN',
-    'MINUM', 'GURITA', 'TANPA', 'BERDELAPAN'
-    ]
+# Check if a filename was provided
+if len(sys.argv) < 2:
+    print("Usage: python script.py filename.csv")
+    sys.exit(1)  # Exit the script with an error status
 
-crossword, placed_words = create_crossword(word_list)
+filename = sys.argv[1]  # Get the filename from command line arguments
+
+# List to hold words and clues
+words_and_clues = []
+
+# Reading the CSV file
+delimiter = '\t' if filename.endswith('.tsv') else ','  # Set delimiter based on file extension
+
+try:
+    with open(filename, newline='') as file:
+        reader = csv.reader(file, delimiter=delimiter)
+        next(reader)  # Skip the header row
+        for row in reader:
+            if len(row) >= 2:  # Ensuring there are at least two columns
+                word = row[0].strip().upper()  # Clean up any extra whitespace
+                clue = row[1].strip().capitalize() # Capitalise the first letter of the clue
+                words_and_clues.append((word, clue))  # Append the word and clue as a tuple
+except FileNotFoundError:
+    print(f"Error: File '{filename}' not found.")
+    sys.exit(1)
+except Exception as e:
+    print(f"An error occurred: {e}")
+    sys.exit(1)
+
+crossword, placed_words = create_crossword(words_and_clues)
 
 # Print the metadata
-print("Title: Food and eating out")
+print("Title: " + filename)
 print("Author: by Stuart Allen")
 print("Copyright: © 2024 Stuart Allen")
 print("Date: " + str(datetime.date.today()))
@@ -191,14 +211,14 @@ last_square = 0
 # We need to order the words sequentially, but clues that start on the
 # same square need to have the same clue number
 for i in range(len(placed_words)):
-    word, square, orientation = placed_words[i]  # Unpack the current tuple
+    word, square, clue, orientation = placed_words[i]  # Unpack the current tuple
 
     if (last_square == square):
         # This clue starts in the same square as the last so don't
         # increment the clue_number
-        ordered_words.append((word, clue_number, orientation))
+        ordered_words.append((word, clue_number, clue, orientation))
     else:
-        ordered_words.append((word, clue_number, orientation))
+        ordered_words.append((word, clue_number, clue, orientation))
         clue_number += 1
     
     last_square = square
@@ -206,20 +226,20 @@ for i in range(len(placed_words)):
 # print(ordered_words)
 
 for i in range(len(ordered_words)):
-    word, square, orientation = ordered_words[i]  # Unpack the current tuple
+    word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
     if (orientation) == 'across':
-        sorted_across.append((word, square))
+        sorted_across.append((word, square, clue))
 
 for i in range(len(ordered_words)):
-    word, square, orientation = ordered_words[i]  # Unpack the current tuple
+    word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
     if (orientation == 'down'):
-        sorted_down.append((word, square)) 
+        sorted_down.append((word, square, clue)) 
     
 # Print the updated positions of the words
-for word, number in sorted_across:
-    print(f"A{number}. {word}")
+for word, number, clue in sorted_across:
+    print(f"A{number}. {clue}")
 
 print("")
 
-for word, number in sorted_down:
-    print(f"D{number}. {word}")
+for word, number, clue in sorted_down:
+    print(f"D{number}. {clue}")
