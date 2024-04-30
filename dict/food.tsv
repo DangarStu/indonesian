@@ -4,6 +4,7 @@ air	water
 asam	sour
 asin	salty
 babi	pork
+bakar	doing bbq or burn
 bawang	onion
 bayam	spinach
 brokoli	broccoli
@@ -21,7 +22,6 @@ garam	salt
 gelas	glass, cup
 gula	sugar
 gurih	tasty
-sarapan	breakfast
 hangus	burnt for food.
 jagung	corn
 jahe	ginger
@@ -33,13 +33,14 @@ kentang	potato
 lada	pepper
 lapar	hungry
 layu	stale
-lembut	tender
+lembut	tenderly, softly
 lobak	radish
 makan	eat
 manis	sweet
 masak	cooking
 matang	not ripe
 mengiris	slice
+merebus	boils
 merica	pepper
 minyak	oil
 padas	hot, spicy
@@ -48,10 +49,12 @@ pakan	feed
 pedas	spicy
 permen	candy
 pisang	banana
+rabus	boiled
 rasa	flavour
 renyah	crunchy
 rujak	fruit salad
 sambal	chilli sauce
+sarapan	breakfast
 sayur	vegetables
 selai	jam
 seledri	celeri
