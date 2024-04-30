@@ -4,63 +4,64 @@ Copyright: © 2024 Stuart Allen
 Date: 2024-04-30
 
 
-HANGUS###########RASA
-#######BURBUR###B####
-CUKA##J######LAPAR##A
-##E###A#KEJU####Y###S
-##N###J######KECAP##I
-##T#AGAR-AGAR#S#M###N
-B#A###N##############
-U#N##################
-B#G#CABAI##E#BROKOLI#
-U##########N#########
-R###B#G###BABI#BUTIR#
-###LAYU####K########P
-K#G#W#L##J####BAKAR#A
-A#E#A#A#JAGUNG######H
-N#L#N####H####GARAM#I
-G#A#G####E##########T
-K#S#######AIR#LADA#C#
-U##GURIH###########A#
-N########BUMBU#####B#
-G##################E#
-#####DAGING##ASAM####
+#LEMBUT#CABAI#P######
+##############A#GELAS
+#P#BURBUR#####H###A##
+#A#########H#AIR##D##
+#K#########A##T###A#A
+DAGING#BAWANG#######G
+#N#########G###B####A
+K#####B####U##MASAK#R
+E#G###U###ASAM#Y#S##-
+C#U#K#M#######MANIS#A
+A#R#E#B#JAJAN##M#N##G
+P#I#J#U#############A
+##H#U######BROKOLI##R
+#####BAKAR###########
+CABE###########L#####
+#####JAHE###GULA#E#B#
+#CUKA#####S####P#S#A#
+#######GARAM###A###B#
+BUBUR#####Y####R###I#
+#########BUTIR#######
+##JAGUNG##R###ENAK###
 
 
-A1. Burnt for food.
-A2. Flavour
-A3. Porridge
-A5. Vinegar
-A8. Hungry
-A10. Cheese
-A11. Soy sauce
-A13. Jelly
-A15. Chilli
-A17. Broccoli
-A20. Pork
-A21. Grain (for small (and roundish) things) - include
-A22. Stale
-A27. Doing bbq or burn
-A28. Corn
-A29. Salt
-A30. Water
-A31. Pepper
-A33. Tasty
-A34. Seasoning
-A35. Meat
-A36. Sour
+A1. Tenderly, softly
+A2. Chilli
+A4. Glass, cup
+A7. Porridge
+A9. Water
+A11. Meat
+A12. Onion
+A16. Cooking
+A19. Sour
+A21. Sweet
+A22. Snacking
+A23. Broccoli
+A24. Doing bbq or burn
+A25. Chilli
+A27. Ginger
+A28. Sugar
+A31. Vinegar
+A33. Salt
+A34. Porridge
+A35. Grain (for small (and roundish) things) - include
+A36. Corn
+A37. Delicious
 
-D4. Spinach
-D6. Potato
-D7. Snacking
-D9. Salty
-D12. Ice
-D14. Porridge
-D16. Delicious
-D18. Onion
-D19. Sugar
-D23. Bitter
-D24. Water spinach
-D25. Glass, cup
-D26. Ginger
-D32. Chilli
+D3. Bitter
+D5. Pepper
+D6. Feed
+D8. Burnt for food.
+D10. Jelly
+D13. Spinach
+D14. Soy sauce
+D15. Seasoning
+D17. Salty
+D18. Tasty
+D20. Cheese
+D26. Hungry
+D29. Ice
+D30. Pork
+D32. Vegetables
