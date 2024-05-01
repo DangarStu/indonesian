@@ -20,6 +20,7 @@ class Orientation(Enum):
 class Mode(Enum):
     RANDOM = 1
     SYSTEMATIC = 2
+    CENTRE = 3
 
 def create_crossword(words):
     # Create an empty grid
@@ -185,9 +186,9 @@ def create_crossword(words):
     # Record how long the generation takes
     start_time = time.time()
 
-    # Start in random mode until we hit the first word that can't
-    # be placed after max_attempts
-    mode = Mode.RANDOM
+    # Start in centre mode while placing the first word as it is also the
+    # longest word.
+    mode = Mode.CENTRE
 
     for word_and_clue in words:
         word, clue = word_and_clue
@@ -204,6 +205,10 @@ def create_crossword(words):
                 row = random.randint(0, 20)
                 col = random.randint(0, 20)
 
+            elif mode == Mode.CENTRE:
+                row = 10
+                col = 5
+
             # Test fit the word going down and across from the chosen starting square
             horizonal_score = can_place_horizontally(word, row, col)
             vertical_score = can_place_vertically(word, row, col)
@@ -218,6 +223,12 @@ def create_crossword(words):
                 if vertical_score >= best_score:
                     best_score = vertical_score
                     best_position = (row, col, Orientation.VERTICAL)
+
+            if mode == Mode.CENTRE:
+                # This is the first word placement so it can only have
+                # succeeded, break and place it.
+                mode = Mode.RANDOM
+                break
 
             attempts += 1
 
