@@ -1,71 +1,75 @@
 Title: ../dict/food.tsv
-Words: 40
-Author: by Stuart Allen
-Copyright: © 2024 Stuart Allen
+Words: 45 placed out of 67
+Time to generate: 1 seconds
 Date: 2024-05-01
 
 
-#GURIH########DAGING#
-L########KECAP######J
-A####CUKA###########A
-Y########C###BURBUR#G
-U#ASAM##JAHE###A####U
-###E#####B#####B#R##N
-#R#L#KENTANG##BUBUR#G
-BAYAM####I##L##S#J###
-#S#I########O####A###
-#A##BABI##CABE#BAKAR#
-############A########
-#ASIN#######K#BUTIR#G
-######KEJU##########U
-###G#L####BROKOLI###L
-E#BAWANG#M########L#A
-N##R#P###A##ES#JAJAN#
-A#MASAK##K########D##
-K##M#R#AGAR-AGAR##A#A
-#########N##########I
-##BUMBU#####HANGUS##R
-#######GELAS#########
+##G#PAHIT#######M#M##
+##ES#####LEMBUT#A#A##
+##L######A######K#T#K
+#HANGUS##P######A#A#E
+##S######A##JAJAN#N#N
+#####BUTIR####A###G#T
+#L###U####C###G#####A
+#O###R#BAYAM#RUJAK##N
+#B#BUBUR##B###N#####G
+LAYU#U#O#CABE#GURIH##
+#K#M#R#K##I#N#######T
+###B###O###KANGKUNG#A
+KEJU###L####K#######H
+#####D#I#########B##U
+##GULA##J#####M#LADA#
+#C###GARAM#PADAS#K#S#
+#U###I##H#R###N#BABI#
+#K###N#KECAP##I##R#N#
+BAWANG####S#MASAK####
+##########A##########
+#AGAR-AGAR#ASAM#AIR##
 
 
-A1. Tasty
-A2. Meat
-A4. Soy sauce
-A6. Vinegar
-A8. Porridge
-A10. Sour
-A12. Ginger
-A15. Potato
+A2. Bitter
+A5. Ice
+A6. Tenderly, softly
+A8. Burnt for food.
+A9. Snacking
+A11. Grain (for small (and roundish) things) - include
+A14. Spinach
+A15. Fruit salad
 A16. Porridge
-A17. Spinach
-A19. Pork
-A20. Chilli
-A21. Doing bbq or burn
-A22. Salty
-A23. Grain (for small (and roundish) things) - include
-A25. Cheese
-A28. Broccoli
-A30. Onion
-A33. Ice
-A34. Snacking
-A35. Cooking
-A36. Jelly
-A38. Seasoning
-A39. Burnt for food.
-A40. Glass, cup
+A17. Stale
+A18. Chilli
+A20. Tasty
+A22. Water spinach
+A23. Cheese
+A26. Sugar
+A29. Pepper
+A32. Salt
+A33. Hot, spicy
+A35. Pork
+A36. Soy sauce
+A37. Onion
+A38. Cooking
+A39. Jelly
+A40. Sour
+A41. Water
 
-D3. Stale
-D5. Corn
-D7. Chilli
-D9. Boiled
-D11. Jam
-D13. Fruit salad
-D14. Flavour
-D18. Radish
-D24. Sugar
-D26. Salt
-D27. Hungry
-D29. Delicious
-D31. Eat
-D32. Pepper
-D37. Water
+D1. Glass, cup
+D3. Eat
+D4. Not ripe
+D6. Hungry
+D7. Potato
+D10. Corn
+D11. Porridge
+D12. Radish
+D13. Chilli
+D14. Broccoli
+D16. Seasoning
+D19. Delicious
+D21. Tofu
+D24. Meat
+D25. Doing bbq or burn
+D27. Ginger
+D28. Sweet
+D30. Salty
+D31. Vinegar
+D34. Flavour

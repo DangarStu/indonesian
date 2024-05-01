@@ -6,7 +6,7 @@ import csv
 import sys
 import time
 
-max_attempts = 1000000
+max_attempts = 10000
 
 class Status(Enum):
     EMPTY = 1
@@ -298,24 +298,30 @@ sorted_down = []
 # Sort the words into order of the square they start in
 placed_words.sort(key=lambda word: word[1])
 
+#for placed_word in placed_words:
+#    print(placed_word)
+
 # Reduce the starting squares to a sequential order
 ordered_words = []
 
-clue_number = 1
-last_square = 0
+clue_number = 0
+last_square = -1
 
 # We need to order the words sequentially, but clues that start on the
 # same square need to have the same clue number
 for i in range(len(placed_words)):
     word, square, clue, orientation = placed_words[i]  # Unpack the current tuple
 
+    # print("Word is " + word + ", last square is " + str(last_square) + " and this square is " + str(square))
+
     if (last_square == square):
         # This clue starts in the same square as the last so don't
         # increment the clue_number
+        # print("Adding word " + word + " without incrementing clue number.")
         ordered_words.append((word, clue_number, clue, orientation))
     else:
-        ordered_words.append((word, clue_number, clue, orientation))
         clue_number += 1
+        ordered_words.append((word, clue_number, clue, orientation))
     
     last_square = square
 
@@ -339,3 +345,4 @@ print("")
 
 for word, number, clue in sorted_down:
     print(f"D{number}. {clue}")
+
