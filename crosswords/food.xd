@@ -1,67 +1,71 @@
 Title: ../dict/food.tsv
+Words: 40
 Author: by Stuart Allen
 Copyright: © 2024 Stuart Allen
-Date: 2024-04-30
+Date: 2024-05-01
 
 
-#LEMBUT#CABAI#P######
-##############A#GELAS
-#P#BURBUR#####H###A##
-#A#########H#AIR##D##
-#K#########A##T###A#A
-DAGING#BAWANG#######G
-#N#########G###B####A
-K#####B####U##MASAK#R
-E#G###U###ASAM#Y#S##-
-C#U#K#M#######MANIS#A
-A#R#E#B#JAJAN##M#N##G
-P#I#J#U#############A
-##H#U######BROKOLI##R
-#####BAKAR###########
-CABE###########L#####
-#####JAHE###GULA#E#B#
-#CUKA#####S####P#S#A#
-#######GARAM###A###B#
-BUBUR#####Y####R###I#
-#########BUTIR#######
-##JAGUNG##R###ENAK###
+#GURIH########DAGING#
+L########KECAP######J
+A####CUKA###########A
+Y########C###BURBUR#G
+U#ASAM##JAHE###A####U
+###E#####B#####B#R##N
+#R#L#KENTANG##BUBUR#G
+BAYAM####I##L##S#J###
+#S#I########O####A###
+#A##BABI##CABE#BAKAR#
+############A########
+#ASIN#######K#BUTIR#G
+######KEJU##########U
+###G#L####BROKOLI###L
+E#BAWANG#M########L#A
+N##R#P###A##ES#JAJAN#
+A#MASAK##K########D##
+K##M#R#AGAR-AGAR##A#A
+#########N##########I
+##BUMBU#####HANGUS##R
+#######GELAS#########
 
 
-A1. Tenderly, softly
-A2. Chilli
-A4. Glass, cup
-A7. Porridge
-A9. Water
-A11. Meat
-A12. Onion
-A16. Cooking
-A19. Sour
-A21. Sweet
-A22. Snacking
-A23. Broccoli
-A24. Doing bbq or burn
-A25. Chilli
-A27. Ginger
-A28. Sugar
-A31. Vinegar
-A33. Salt
-A34. Porridge
-A35. Grain (for small (and roundish) things) - include
-A36. Corn
-A37. Delicious
+A1. Tasty
+A2. Meat
+A4. Soy sauce
+A6. Vinegar
+A8. Porridge
+A10. Sour
+A12. Ginger
+A15. Potato
+A16. Porridge
+A17. Spinach
+A19. Pork
+A20. Chilli
+A21. Doing bbq or burn
+A22. Salty
+A23. Grain (for small (and roundish) things) - include
+A25. Cheese
+A28. Broccoli
+A30. Onion
+A33. Ice
+A34. Snacking
+A35. Cooking
+A36. Jelly
+A38. Seasoning
+A39. Burnt for food.
+A40. Glass, cup
 
-D3. Bitter
-D5. Pepper
-D6. Feed
-D8. Burnt for food.
-D10. Jelly
-D13. Spinach
-D14. Soy sauce
-D15. Seasoning
-D17. Salty
-D18. Tasty
-D20. Cheese
-D26. Hungry
-D29. Ice
-D30. Pork
-D32. Vegetables
+D3. Stale
+D5. Corn
+D7. Chilli
+D9. Boiled
+D11. Jam
+D13. Fruit salad
+D14. Flavour
+D18. Radish
+D24. Sugar
+D26. Salt
+D27. Hungry
+D29. Delicious
+D31. Eat
+D32. Pepper
+D37. Water
