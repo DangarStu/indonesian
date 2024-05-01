@@ -282,7 +282,7 @@ crossword, placed_words, elapsed_time = create_crossword(words_and_clues)
 # Print the metadata
 print("Title: " + filename)
 print("Words: " + str(len(placed_words)) + " placed out of " + str(len(words_and_clues)))
-print("Time to generate: " + str(int(elapsed_time)) + " seconds")
+print("Gen time: " + str(int(elapsed_time)) + " seconds")
 print("Date: " + str(datetime.date.today()))
 print("\n")
 
