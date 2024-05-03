@@ -1,74 +1,77 @@
 Title: ../dict/food.tsv
-Words: 44 placed out of 67
-Gen time: 1 seconds
-Date: 2024-05-01
+Words: 47 placed out of 66
+Gen time: 4 seconds
+Date: 2024-05-04
 
 
-#######KENTANG#MASAK#
-#GURIH##############M
-#U###########LEMBUT#A
-#L###LAPAR##B#####A#N
-CABE#A######ASAM##H#I
-##U##D#B####B#S###U#S
-##R#BAYAM###I#I######
-BUBUR##K#C###ENAK####
-U#U#O#BAWANG####A#J##
-M#R#K##R#B#A####N#A#M
-B###O####A#RASA#G#J#A
-U#C#L#MERICA####K#A#T
-#BUTIR#####M#KEJU#N#A
-##K#############N###N
-#DAGING##J#R####G#M#G
-######E#JAGUNG####A##
-LAYU##L##H#J######K##
-######A#KECAP##LOBAK#
-#HANGUS####K######N##
-#####################
-###AGAR-AGAR#AIR##ES#
+#######K###B#########
+MATANG#E##GULA###JAHE
+#######N#C#T#######A#
+#L###K#T#A#I#B#MAKAN#
+LAYU#E#A#BURBUR####G#
+#P###J#N#E###M#LEMBUT
+KANGKUNG#####B###A#S#
+#R########BUBUR##N###
+P#P#########A####I###
+A#A##C#B##D#K##MASAK#
+K#H##AGAR-AGAR#######
+A#I##B#W##G#R######M#
+N#T#GARAM#I##MENGIRIS
+#J###I#N##N########N#
+#A#B###G##GELAS#L##Y#
+#GURIH##########O##A#
+#U#O#####J####B#B##K#
+ENAK##KECAP##LADA#C##
+#G#O#####J####Y#K#U##
+###L###E#A####A###K##
+##AIR#ASIN#ASAM##BABI
 
 
-A1. Potato
-A2. Cooking
-A3. Tasty
-A5. Tenderly, softly
-A7. Hungry
-A9. Chilli
-A11. Sour
-A14. Spinach
-A15. Porridge
-A17. Delicious
-A19. Onion
-A23. Flavour
-A25. Pepper
-A26. Grain (for small (and roundish) things) - include
-A27. Cheese
-A28. Meat
-A33. Corn
-A34. Stale
-A35. Soy sauce
-A36. Radish
-A37. Burnt for food.
-A38. Jelly
-A39. Water
-A40. Ice
+A4. Boils
+A5. Snacking
+A7. Not ripe
+A10. Chilli
+A12. Salt
+A13. Potato
+A18. Seasoning
+A20. Onion
+A22. Jelly
+A24. Tenderly, softly
+A26. Cheese
+A27. Grain (for small (and roundish) things) - include
+A29. Fruit salad
+A30. Chilli
+A32. Tofu
+A35. Flavour
+A36. Hungry
+A39. Delicious
+A40. Radish
+A41. Corn
+A42. Water
+A43. Salty
+A44. Ice
+A45. Sour
 
-D3. Sugar
-D4. Sweet
-D6. Tofu
-D7. Pepper
-D8. Pork
-D10. Porridge
-D12. Salty
-D13. Doing bbq or burn
-D14. Broccoli
-D15. Seasoning
-D16. Chilli
-D18. Water spinach
-D20. Salt
-D21. Snacking
-D22. Not ripe
-D24. Vinegar
-D29. Glass, cup
-D30. Ginger
-D31. Fruit salad
-D32. Eat
+D1. Bitter
+D2. Pepper
+D3. Ginger
+D6. Cooking
+D8. Meat
+D9. Water spinach
+D11. Porridge
+D14. Sugar
+D15. Vinegar
+D16. Sweet
+D17. Pepper
+D19. Porridge
+D20. Doing bbq or burn
+D21. Pork
+D23. Tasty
+D25. Eat
+D26. Soy sauce
+D28. Slice
+D31. Broccoli
+D33. Stale
+D34. Burnt for food.
+D37. Glass, cup
+D38. Spinach

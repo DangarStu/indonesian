@@ -7,7 +7,7 @@ import sys
 import time
 
 max_attempts = 10000
-max_builds = 100
+max_builds = 5 
 
 class Status(Enum):
     EMPTY = 1
@@ -18,6 +18,7 @@ class Orientation(Enum):
     HORIZONTAL = 1
     VERTICAL = 2
     UNKNOWN = 3
+
 class Mode(Enum):
     RANDOM = 1
     SYSTEMATIC = 2
@@ -31,7 +32,7 @@ def create_crossword(words):
     # When placing vertically, the first letter must be clear above and the last
     # letter must be clear below
     def is_clear_vertical(grid, letter, row, col):
-        #print("Testing vertical position: " + str(row) + ", " + str(col))
+        # print("Testing vertical position: " + str(row) + ", " + str(col))
         # If the letter is already in that square, all good
         # This crossover over words is actually the ideal situation
         # so let's weight this outcome higher.
@@ -67,7 +68,7 @@ def create_crossword(words):
     # When placing horizontally, the first letter must be clear to the left and
     # the last letter must be clear to the right
     def is_clear_horizontal(grid, letter, row, col):
-        #print("Testing horizontal position: " + str(row) + ", " + str(col))
+        # print("Testing horizontal position: " + str(row) + ", " + str(col))
         # If the letter is already in that square, all good
         if grid[row][col] == letter:
             return Status.MATCH
@@ -111,7 +112,7 @@ def create_crossword(words):
         # If the position plus the length of the word goes off the grid
         # it clearly can't be placed here.
         # print ("Final square will be col: " + str(col + len(word)))
-        if col + len(word) > 20:
+        if col + len(word) > 21:
             return -1
     
         # Check each letter and the surrounding cells. 
@@ -150,7 +151,7 @@ def create_crossword(words):
         # If the position plus the length of the word goes off the grid
         # it clearly can't be placed here.
         # print ("Final square will be row: " + str(row + len(word)))
-        if row + len(word) > 20:
+        if row + len(word) > 21:
             return -1
         
         # Check each letter and the surrounding cells
@@ -342,8 +343,8 @@ sorted_down = []
 # Sort the words into order of the square they start in
 placed_words.sort(key=lambda word: word[1])
 
-#for placed_word in placed_words:
-#    print(placed_word)
+for placed_word in placed_words:
+    print(placed_word)
 
 # Reduce the starting squares to a sequential order
 ordered_words = []
