@@ -7,7 +7,7 @@ import sys
 import time
 
 max_attempts = 10000
-max_builds = 5 
+max_builds = 200
 
 class Status(Enum):
     EMPTY = 1
@@ -44,22 +44,23 @@ def create_crossword(words):
             # isn't clear so can't go there.
             return Status.OCCUPIED
         
-        # Check cell is clear side to side
         if col == 20:
-            # Only need to check above as we are on the bottom row
+            # Check cell is clear to the left as we are against the
+            # left hand edge of the grid
             if grid[row][col-1] != '#':
                 return Status.OCCUPIED
             
             return Status.EMPTY
             
         if col == 0:
-            # Only need to check below as we are on the top row
+            # Check cell is clear to the right as we are against the
+            # left hand edge of the grid
             if grid[row][col+1] != '#':
                 return Status.OCCUPIED
             
             return Status.EMPTY
         
-        # We are somewhere in the middle so check above and below
+        # We are somewhere in the middle so check side to side
         if grid[row][col-1] != '#' or grid[row][col+1] != '#':
             return Status.OCCUPIED
 
@@ -69,7 +70,8 @@ def create_crossword(words):
     # the last letter must be clear to the right
     def is_clear_horizontal(grid, letter, row, col):
         # print("Testing horizontal position: " + str(row) + ", " + str(col))
-        # If the letter is already in that square, all good
+        # If the letter is already in that square, all good if it is crossing
+        # but not good if extending a word.
         if grid[row][col] == letter:
             return Status.MATCH
         
@@ -80,14 +82,16 @@ def create_crossword(words):
         
         # Check cell is clear above and below
         if row == 20:
-            # Only need to check above as we are on the bottom row
+            # Check cell is clear to the above as we are against the
+            # bottom edge of the grid
             if grid[row-1][col] != '#':
                 return Status.OCCUPIED
             
             return Status.MATCH
             
         if row == 0:
-            # Only need to check below as we are on the top row
+            # Check cell is clear to the below as we are against the
+            # top edge of the grid
             if grid[row+1][col] != '#':
                 return Status.OCCUPIED
 
@@ -162,6 +166,7 @@ def create_crossword(words):
                     return -1 
         
             if i == len(word) - 1:
+                # print("Last word check")
                 # This is the last letter so also check below is clear
                 if row + i + 1 < 21:
                     #print("Last letter (" + word[i] + ") check for word " + word + " has square " + grid[row + i + 1][col])
@@ -275,6 +280,7 @@ def create_crossword(words):
 
     best_so_far = 0
     best_words = []
+    best_grid = []
 
     builds = 0
     while builds < max_builds:
@@ -283,11 +289,12 @@ def create_crossword(words):
         if (len(placed_words) > best_so_far):
             best_so_far = len(placed_words)
             best_words = placed_words
+            best_grid = grid
 
         builds += 1
 
     # Convert grid to a printable string
-    crossword = '\n'.join([''.join(row) for row in grid])
+    crossword = '\n'.join([''.join(row) for row in best_grid])
 
     elapsed_time = time.time() - start_time
 
@@ -340,11 +347,16 @@ print("\n")
 sorted_across = []
 sorted_down = []
 
+#print("This is the order they were placed.")
+#for placed_word in placed_words:
+#    print(placed_word)
+
 # Sort the words into order of the square they start in
 placed_words.sort(key=lambda word: word[1])
 
-for placed_word in placed_words:
-    print(placed_word)
+#print("This is the sorted order.")
+#for placed_word in placed_words:
+#    print(placed_word)
 
 # Reduce the starting squares to a sequential order
 ordered_words = []
@@ -357,7 +369,7 @@ last_square = -1
 for i in range(len(placed_words)):
     word, square, clue, orientation = placed_words[i]  # Unpack the current tuple
 
-    # print("Word is " + word + ", last square is " + str(last_square) + " and this square is " + str(square))
+    #print("Word is " + word + ", last square is " + str(last_square) + " and this square is " + str(square))
 
     if (last_square == square):
         # This clue starts in the same square as the last so don't

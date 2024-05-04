@@ -25,6 +25,7 @@ alamat	address	noun	travel
 alat-alat	tools	noun			
 alis	eyebrow	noun	body		
 almari	wardrobe	noun			
+aman	safe	adjective			
 ambil	take, pick up	verb			
 anak	child	noun	family		
 anak-anak	children	noun	family		
@@ -197,7 +198,7 @@ bertemu	meet, visit	verb	social
 berteriak	scream	verb			
 bertingu	boxing	verb	sport		
 berubah	change, vary	adjective			Abstract - feelings, weather
-beruntung	lucky, profit	adjective	social		
+beruntung	lucky	adjective	social	Untung kamu beli susu, saya lupa	
 besah	wet	adjective			
 besar	big, large	adjective			
 besok	tomorrow	noun	time		
@@ -238,8 +239,6 @@ buaya	crocodile	noun	animals
 bubar	disbanded	verb			
 bubur	porridge	noun	food		
 bugil	naked	adjective			
-bugil	naked	adjective			
-bukit	bukit	hill	nature		
 bukit	hill	noun	nature		
 bula mata	eye lashes	noun	body		
 bulan	month, moon	noun	time		
@@ -252,7 +251,6 @@ bundar	round	adjective
 bunga	flowers	noun	plants		
 buntu	dead end	noun	travel		
 bunuh	kill	verb			
-burbur	porridge	noun	food		
 buruk	bad	adjective			
 burung	bird	noun	animals		
 butir	grain (for small (and roundish) things) - include	noun	food		
@@ -264,7 +262,6 @@ cakar	claw	noun	animals
 cantik	pretty	adjective	social		
 capai	reach, achieve	verb			
 capek	sleepy	adjective	social		
-cara	method	noun			
 cara	method, way	noun		bagaimana cara membuat	
 cari	search	verb			(None)
 cat	paint	noun			
@@ -458,6 +455,7 @@ hijau	green	adjective	colour
 hilang	missing	adjective			
 hilir	estuary	noun	boating		
 hingaggap	on (only for any insects and animals that fly)	preposition			
+hingga	until	preposition			
 hitam	black	adjective			
 hormati	respect	verb	social	Hormati orang yang lebih tua	
 hp	mobile phone (ha pay)	noun			
@@ -705,10 +703,8 @@ lemari	wardrobe	noun
 lembab	moist/ humid/ damp	adjective	weather		
 lembah	valley	noun	nature		
 lembut	tenderly, softly	adjective	food		
-terhadap	to	preposition			
 lempar	throw	noun	jacl		
 lengan	arm	noun	body		
-lengkap	complete	adverb			
 lengkap	complete	adjective			
 lepas	free	adjective	jacl	lepas sepatunya	
 lepaskan	let go, release	verb			
@@ -730,8 +726,7 @@ luang	spare time	noun	social
 luar	outside	noun	house		
 lucu	funny	adjective	social		
 luhur	noble	adjective			
-lukisan	painting	noun			
-lukisan	painting	noun	activities		
+lukisan	painting	noun	arts		
 lumba-lumba	dolphin	noun	animals		
 lumpuh	paralised	adjective			
 lupa	forget	verb	social		
@@ -787,8 +782,7 @@ meledak	explode	verb
 melemparkan	throw	verb	jacl		
 meler	runny	adjective	health	Saya punya hidung meler	
 meletus	errupt	verb	nature		
-melukis	painting	verb			
-melukis	painting	verb	art		
+melukis	painting	verb	arts		
 memakan	eat but more for animals	verb	animals		
 memanggil	call	verb	social		
 memangsa	eat	verb			For animals
@@ -885,7 +879,6 @@ menukar	exchange, swap	verb
 menulis	write	verb			
 menulisnya	write it	verb	activities		
 menunggu	wait	verb	jacl		
-menurut	obey	verb			
 menurut	opinion	noun		Menurutmu bagaimana	
 menyalakan	turn on	verb			
 menyapu	sweep	verb			
@@ -958,7 +951,6 @@ otot	muscle	noun	body
 oven	oven	noun	home		
 pacar	boyfriend, girlfriend	noun	social		
 pada	on, in, at	preposition	grammar		
-padas	hot, spicy	adjective	food		
 padat	conjested, dense	adjective	travel	lalu lintusnya padat	
 pagar	fence	noun	home		
 pagi	morning	noun	time		
@@ -985,7 +977,6 @@ panti jompo	nursing house	noun
 papan	board, plank	noun			
 parah	critical, very bad	adjective			
 paruh	beak	noun	animals		
-paruh	beak	noun	animals		
 pas	just right	adjective			
 pasang	put, install	verb	jacl	pasang kemeja	
 paskah	Easter	noun			
@@ -997,7 +988,7 @@ pawai	parade	noun	social
 payang	umbrella	noun			
 pedagang	trader	noun	work		
 pedahal	meanwhile	conjunction	grammar		
-pedas	spicy	adjective	food		
+pedas	spicy, hot	adjective	food		
 pegawai	employee	noun	business		
 pegulat	wrestler	noun	sport		
 pekan	week	noun	time		
@@ -1011,7 +1002,6 @@ pelayan makanan	waiter	noun	business
 pelayan toko	shop keeper	noun	business		
 pelayanan	service	noun	shopping		
 pemakaman	funeral	noun	social		
-aman	safe	adjective			
 pemasukan	income	noun	business		
 pembalap	racer	noun	sport		
 pembeli	buyer	noun	business		
@@ -1125,8 +1115,8 @@ produk	product	noun	business
 profesi	profession	noun	business		
 pukul	punch	verb			
 pukul	o'clock	noun	time		
-pulau	island	noun	nature		
 pula	also	adverb			
+pulau	island	noun	nature		
 pulpen	fountain pen	noun			
 pun	even, also	adverb			
 puncak	peak, summit	noun			
@@ -1231,13 +1221,13 @@ sedankan	meanwhile	conjunction
 sederhana	simple	adjective			
 sedia	ready	adjective			
 sedih	sad	adjective			
+segala	all, everything	adjective			
 segar	fresh	adjective			
 segera	quickly, soon	adverb			
 seharihari	daily	adverb			
 seharusnya	should	adverb	social		
 sehat	well, healthy	adjective	health		
 sehingga	so that/ so as	conjunction	grammar		
-hingga	until	preposition			
 sehurusnya	should/ supposed to	conjunction	grammar		
 sejuk	cool	adjective			
 sekali	very or one time	adjective			
@@ -1247,7 +1237,6 @@ sekitar	around	preposition
 sekolah	school	noun			
 selai	jam	noun	food		
 selain	besides, except	preposition	grammar		
-sementara	temporary	adjective			
 selalu	always/ all the time	adverb			
 selama	during, as long as	preposition			
 selamanya	forever	adverb			
@@ -1259,8 +1248,8 @@ selesai	finished, completed	adjective
 seluruh	all over/ everywhere				
 semangat	spirit	noun			
 sembarangan	hapzarardly, carelessly	adjective			
-sembarangan	randomly/ everywhere				
 sembuh	healed, recovered	verb	health		
+sementara	temporary	adjective			
 semi	spring (not cold nice)				
 semoga	hope, hopefully, ish	adverb		Semoga selamat di jalan	
 sempurna	perfect	adjective			
@@ -1319,6 +1308,7 @@ siram	water	verb
 sisa	remainder	noun			
 sisat	characteristics	adjective			
 situ	there	preposition			there in sight
+sopan	polite	adjective			
 sopir	driver	noun	business		
 sore	afternoon	noun	time		Pronounced soreh
 spageti	spaghetti	noun	food		
@@ -1351,7 +1341,6 @@ tajam	sharp	adjective
 tak	not	adverb			
 takdir	destiny, purpose	noun		Sudah takdir	
 taktik	tactik	noun	sport		
-takut	scared	adjective			
 takut	scared, afraid	adjective			
 tali	plastic	adjective			
 talinya	rope	noun			
@@ -1417,6 +1406,7 @@ tercapai	achived	adjective
 terdapat	available, there is, occur	adjective			
 tergantung	depends				
 tergendut	fattest of the fat people	adjective	body		
+terhadap	towards	preposition			
 terima	accept, receive	verb		Terima kasih	
 terjadi	happen/ occur				
 terjual	sold	adjective			
@@ -1487,7 +1477,6 @@ turun	down, descend	verb	travel
 uang	money	noun	business		
 udang	prawn	noun	animals		
 udara	air	noun	nature		
-udara	air	noun	travel		
 udeng	head band	noun	religion		
 ulang	repeat	verb			
 ular	snake	noun	animals		
@@ -1495,7 +1484,6 @@ umum	common, general	adjective
 umur	age	noun			
 undang	invite	verb	social		
 untuk	for (the purpose of)	conjunction			
-untung	lucky	adjective		Untung kamu beli susu, saya lupa	
 untung	profit	noun	business		
 untungnya	fortunately	adjective			
 urutan	order, sequence, position	noun			
