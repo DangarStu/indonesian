@@ -199,6 +199,7 @@ def create_crossword(words):
         for word_and_clue in words:
             word, clue = word_and_clue
             best_score = 0
+            regions = 1
             best_position = (0, 0, Orientation.UNKNOWN)
 
             # Make attempts at each word and chose the base location.
@@ -253,6 +254,11 @@ def create_crossword(words):
                                 best_position = (row, col, Orientation.VERTICAL)
 
             chosen_row, chosen_column, chosen_orientation = best_position
+	
+            if (best_score == 0):
+                # This word doesn't touch any others so increment the count
+                # of disconnected regions in the grid
+                regions += 1
 
             # Was a position successfully found?       
             if chosen_orientation == Orientation.HORIZONTAL:
@@ -273,25 +279,27 @@ def create_crossword(words):
                 # been placed so time to switch to SYSTEMATIC mode for the rest of the words
                 mode = Mode.SYSTEMATIC
 
-        return placed_words, grid
+        return placed_words, grid, regions
 
 
     # Record how long the generation takes
     start_time = time.time()
 
     best_so_far = 0
+    least_regions = 100 
     best_words = []
     best_grid = []
 
     builds = 0
     while builds < max_builds:
-        placed_words, grid = build_grid(words)
+        placed_words, grid, regions = build_grid(words)
         # print("This time we placed " + str(len(placed_words)))
         if (len(placed_words) > best_so_far):
             best_so_far = len(placed_words)
-            print("New best grid with " + str(best_so_far) + " words.", file=sys.stderr)
+            print("New best grid with " + str(best_so_far) + " words and " + str(regions) + " regions.", file=sys.stderr)
             best_words = placed_words
             best_grid = grid
+     	
 
         builds += 1
 
