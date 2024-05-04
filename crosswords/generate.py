@@ -7,7 +7,7 @@ import sys
 import time
 
 max_attempts = 10000
-max_builds = 200
+max_builds = 2000
 
 class Status(Enum):
     EMPTY = 1
@@ -27,7 +27,7 @@ class Mode(Enum):
 def create_crossword(words):
     # Sort words by length in descending order
     # ie. Place the largest words first while the grid is clear
-    words.sort(key=lambda x: len(x), reverse=True)
+    words.sort(key=lambda x: len(x[0]), reverse=True)
 
     # When placing vertically, the first letter must be clear above and the last
     # letter must be clear below
@@ -227,7 +227,8 @@ def create_crossword(words):
                     attempts += 1
 
             elif mode == Mode.CENTRE:
-                best_position = (10, 5, Orientation.HORIZONTAL)
+                centre_column = int((21 - len(word)) / 2)
+                best_position = (10, centre_column, Orientation.HORIZONTAL)
 
                 # This is the first word placement so it can only have
                 # succeeded, break and place it.
@@ -288,6 +289,7 @@ def create_crossword(words):
         # print("This time we placed " + str(len(placed_words)))
         if (len(placed_words) > best_so_far):
             best_so_far = len(placed_words)
+            print("New best grid with " + str(best_so_far) + " words.", file=sys.stderr)
             best_words = placed_words
             best_grid = grid
 
