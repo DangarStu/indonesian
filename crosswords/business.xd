@@ -1,68 +1,72 @@
 Title: ../dict/business.tsv
-Words: 38 placed out of 55
-Gen time: 2 seconds
-Date: 2024-05-05
+Words: 42 placed out of 55
+Gen time: 3671 seconds
+Date: 2024-05-06
 
 
-##K#############R##S#
-#PEGAWAI##K#R##RESMI#
-##R#######O#U###K##B#
-NOTA#P####D#G###A##U#
-##A##E###MEMIMPIN##K#
-PIMPINAN#####E####M##
-##U##E#####PEMASUKAN#
-#####LABA#T##P####T##
-AKUN#I###PENGELUARAN#
-N####T#P##M##L####-##
-G###DIPERPANJANG##M##
-GAJI###N##N##J####A#P
-A######D## ##A#KANTOR
-RECANAKAN#K##R#O##A#O
-A######P##E#BISNIS##D
-N##PENGACARA###T####U
-###O###T##J#C##R#BANK
-###S##RANCANANYA#E###
-PEKIR##N####K##KOLEGA
-###S########A####I###
-KETIK#KURSI PANAS#HAL
+########R#CAKAP###K##
+P###A###E###O#E#R#O##
+E#KONTRAK#M#D#N#E#L#P
+K###G###A#E#E#G#C#E#E
+I###G#P#N#M##KEUANGAN
+RENCANA###P#B#L#N#A#E
+####R#J##PEMASUKAN##L
+#P##A#A###L#N#A#K#G#I
+TEMAN KERJA#KERTAMU#T
+#N########J###A#N#R#I
+#D##DIPERPANJANG##U##
+LABA######R#U###G####
+#P##N#PIMPINAN##A#L#P
+KANTOR###E##L###J#A#E
+#T##T#H##G###MEMIMPIN
+RANCANANYA########O#G
+#N####L##W#R#BERKERJA
+####B##S#AKUN#####A#C
+###PEMBELI#G#TUJUAN#A
+####L##W###I########R
+KURSI PANAS#MATA-MATA
 
 
-A4. Employee
-A7. Formal, official
-A8. Bill, receipt
-A10. Lead
-A12. Boss, team leader
-A14. Income
-A15. Profit
-A17. Account
-A18. Expenses
-A20. Extended
-A21. Salary, wages
-A23. Office
-A24. Plan
-A25. Business
-A26. Lawyer
-A28. Bank
-A29. The plan
-A30. Think
-A31. Colleague
-A32. Type
-A33. Important place, hot seat
-A34. Subject, matter
+A2. Competitent
+A9. Contract
+A13. Finance
+A14. Plan
+A16. Income
+A19. Colleague
+A20. Paper
+A21. Extended
+A23. Profit
+A26. Boss, team leader
+A30. Office
+A32. Lead
+A33. The plan
+A35. Work
+A38. Account
+A39. Buyer
+A40. Objective, purpose, goal
+A41. Important place, hot seat
+A42. Spy
 
-D1. Paper
-D2. Colleague
-D3. Busy
-D5. Code
-D6. Loss
-D9. Researcher
-D11. Study, investigate
-D13. Spy
-D16. Colleague
-D17. Budget
-D19. Income
-D22. Product
-D23. Contract
-D26. Position, rank
-D27. Competitent
-D28. Buy
+D1. Colleague
+D3. Code
+D4. Expenses
+D5. Colleague
+D6. Think
+D7. Budget
+D8. Plan
+D10. Study, investigate
+D11. Researcher
+D12. Tax
+D15. Bank
+D17. Income
+D18. Teacher
+D22. Sell
+D24. Salary, wages
+D25. Bill, receipt
+D27. Employee
+D28. Report
+D29. Lawyer
+D31. Subject, matter
+D34. Loss
+D36. Buy
+D37. Rent, lease

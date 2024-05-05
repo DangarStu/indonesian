@@ -1,79 +1,83 @@
 Title: ../dict/food.tsv
-Words: 49 placed out of 61
-Gen time: 2 seconds
-Date: 2024-05-05
+Words: 53 placed out of 62
+Gen time: 3979 seconds
+Date: 2024-05-06
 
 
-####G###BAYAM########
-#LAYU###U############
-##S#R#S#MANIS#####T#A
-#BABI#E#B###ASIN#NASI
-##M#HANGUS##Y###M#H#R
-#J####D#####U##KEJU##
-#A#SEPORSI##R#T#J####
-#H####K#A####KECAP##G
-#ENAK###R###M#H##E##E
-####O###A#B#A##WORTEL
-####P#SEPIRING###M##A
-#MERICA#A#O#G####E##S
-#A####M#N#K#KENTANG##
-#K##P#B###O#U##E#####
-MAS#I#A###L#K##L#####
-#N##SELEDRI###BUTIR##
-##J#A##S###C#R#R###G#
-##A#N#####MASAK#PISAU
-##JAGUNG###B#S#K###R#
-##A########A#A#U###P#
-##N##MENGIRIS#MEREBUS
+#T#KECAP#ENAK########
+MAS#S##I####O##GULA##
+#H#####S#M##P#B##A##G
+BUMBU#PAHIT#IKAN#Y##A
+##E####U#N####Y#BUBUR
+GARPU#H##Y#RASA###A#A
+##I##SAMBAL###MASAK#M
+##C###N##K#D#M##E#A##
+#JAGUNG###SARAPAN#R##
+######U####G#N##D####
+MANIS#SEPIRING#WORTEL
+####E######N#K##K###O
+B###PISANG#G#U#B##K#B
+U###O########K#A#MEJA
+TELUR##P#B#####W##J#K
+I###SELEDRI#CABAI#U##
+R#L#I##S#O###S#N####G
+##A####A#KENTANG#JAHE
+##PERMEN#O#A#M######L
+##A####A#L#S########A
+AIR##MENGIRIS#MEREBUS
 
 
-A2. Spinach
-A3. Stale
-A6. Sweet
-A10. Pork
-A11. Salty
-A12. Rice
-A13. Burnt for food
-A16. Cheese
-A17. One portion
-A20. Soy sauce
-A23. Delicious
-A27. Carrot
-A28. One plate
-A29. Pepper
-A30. Potato
-A33. Sir, brother (waiter)
-A34. Celeri
-A36. Grain (for small (and roundish) things) - include
-A41. Cooking
-A42. Knife
-A43. Corn
-A45. Slice
-A46. To boil
+A2. Soy sauce
+A5. Delicious
+A7. Sir, brother (waiter)
+A8. Sugar
+A13. Seasoning
+A15. Bitter
+A16. Fish
+A17. Porridge
+A19. Fork
+A21. Flavour
+A22. Chilli sauce
+A23. Cooking
+A27. Corn
+A28. Breakfast
+A29. Sweet
+A31. One plate
+A32. Carrot
+A35. Banana
+A38. Table
+A39. Egg
+A42. Celeri
+A43. Chilli
+A47. Potato
+A49. Ginger
+A50. Candy
+A51. Water
+A52. Slice
+A53. To boil
 
-D1. Tasty
-D2. Seasoning
-D4. Sour
-D5. Spoon
-D7. Vegetables
-D8. Tofu
-D9. Water
-D14. Table
-D15. Ginger
-D18. Breakfast
-D19. Tea
-D21. Candy
-D22. Glass, cup
-D24. Coffee
-D25. Bowl
-D26. Broccoli
-D28. Chilli sauce
-D29. Eat
-D31. Egg
-D32. Banana
-D35. Ice
-D37. Snacking
-D38. Chilli
-D39. Flavour
-D40. Fork
-D44. Cake
+D1. Tofu
+D3. Ice
+D4. Knife
+D6. Coffee
+D9. Stale
+D10. Oil
+D11. Spinach
+D12. Salt
+D14. Pepper
+D18. Grilled, barbequed
+D20. Burnt for food
+D24. Spoon
+D25. Meat
+D26. Bowl
+D30. One portion
+D33. Radish
+D34. Grain (for small (and roundish) things) - include
+D36. Onion
+D37. Cheese
+D40. Order
+D41. Broccoli
+D44. Sour
+D45. Hungry
+D46. Glass, cup
+D48. Rice
