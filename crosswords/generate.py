@@ -299,11 +299,16 @@ def create_crossword(words):
     while builds < max_builds:
         placed_words, empty_cells, grid = build_grid(words)
 
+        if builds == 1:
+            builds_text = " build in "
+        else:
+            builds_text = " builds in "
+    
         if favour_words:
             if len(placed_words) > best_so_far:
                 best_so_far = len(placed_words)
                 elapsed_time = time.time() - start_time
-                print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + " builds in " + str(elapsed_time) + " seconds.", file=sys.stderr)
+                print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
                 best_words = placed_words
                 best_grid = grid
         else:
@@ -311,7 +316,7 @@ def create_crossword(words):
                 least_so_far = empty_cells
                 best_so_far = len(placed_words)
                 elapsed_time = time.time() - start_time
-                print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + " builds in " + str(elapsed_time) + " seconds.", file=sys.stderr)
+                print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
                 best_words = placed_words
                 best_grid = grid
 
@@ -345,10 +350,18 @@ max_attempts = int(args.random)
 must_connect = args.must_connect
 favour_words = args.favour_words
 
+print ("Generating from " + filename +":")
 if must_connect:
-    print ("Generating from " + filename + ", words must connect to be placed.")
+    print ("  words must connect to be placed")
 else:
-    print ("Generating from " + filename + ", words can be placed without connecting.")
+    print ("  words can be placed without connecting.")
+
+if favour_words:
+    print ("  favouring number of words place")
+else:
+    print ("  favouring number of cells filled")
+
+print("")
 
 # List to hold words and clues
 words_and_clues = []
