@@ -288,7 +288,13 @@ def create_crossword(words):
         placed_words, grid = build_grid(words)
         if (len(placed_words) > best_so_far):
             best_so_far = len(placed_words)
-            print("New best grid with " + str(best_so_far) + " words.", file=sys.stderr)
+            elapsed_time = time.time() - start_time
+            empty_cells = 0
+            for row in range(21):
+                for col in range(21):
+                    if grid[row][col] == '#':
+                        empty_cells += 1
+            print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + " builds in " + str(elapsed_time) + " seconds.", file=sys.stderr)
             best_words = placed_words
             best_grid = grid
 
@@ -297,7 +303,6 @@ def create_crossword(words):
     # Convert grid to a printable string
     crossword = '\n'.join([''.join(row) for row in best_grid])
 
-    elapsed_time = time.time() - start_time
 
     return crossword, best_words, elapsed_time
 
@@ -322,9 +327,9 @@ max_attempts = int(args.random)
 must_connect = args.must_connect
 
 if must_connect:
-    print ("Words must connect to be placed.")
+    print ("Generating from " + filename + ", words must connect to be placed.")
 else:
-    print ("Words can be placed without connecting.")
+    print ("Generating from " + filename + ", words can be placed without connecting.")
 
 # List to hold words and clues
 words_and_clues = []
