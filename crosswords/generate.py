@@ -311,6 +311,14 @@ def create_crossword(words):
                 print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
                 best_words = placed_words
                 best_grid = grid
+            elif len(placed_words) == best_so_far:
+                if empty_cells < least_so_far:
+                    least_so_far = empty_cells
+                    best_so_far = len(placed_words)
+                    elapsed_time = time.time() - start_time
+                    print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
+                    best_words = placed_words
+                    best_grid = grid
         else:
             if empty_cells < least_so_far:
                 least_so_far = empty_cells
@@ -319,7 +327,13 @@ def create_crossword(words):
                 print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
                 best_words = placed_words
                 best_grid = grid
-
+            elif empty_cells == least_so_far:
+                if len(placed_words) > best_so_far:
+                    best_so_far = len(placed_words)
+                    elapsed_time = time.time() - start_time
+                    print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
+                    best_words = placed_words
+                    best_grid = grid
         builds += 1
 
     # Convert grid to a printable string
