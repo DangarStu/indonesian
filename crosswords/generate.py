@@ -30,7 +30,6 @@ def create_crossword(words):
     # When placing vertically, the first letter must be clear above and the last
     # letter must be clear below
     def is_clear_vertical(grid, letter, row, col):
-        # print("Testing vertical position: " + str(row) + ", " + str(col))
         # If the letter is already in that square, all good
         # This crossover over words is actually the ideal situation
         # so let's weight this outcome higher.
@@ -67,7 +66,6 @@ def create_crossword(words):
     # When placing horizontally, the first letter must be clear to the left and
     # the last letter must be clear to the right
     def is_clear_horizontal(grid, letter, row, col):
-        # print("Testing horizontal position: " + str(row) + ", " + str(col))
         # If the letter is already in that square, all good if it is crossing
         # but not good if extending a word.
         if grid[row][col] == letter:
@@ -109,11 +107,10 @@ def create_crossword(words):
     # >0 indicates the number of other words it crosses when put here 
     def can_place_horizontally(grid, word, row, col):
         # Keep a record of how good this position is for this word
-        score = 0
+        other_words_crossed = 0
 
         # If the position plus the length of the word goes off the grid
         # it clearly can't be placed here.
-        # print ("Final square will be col: " + str(col + len(word)))
         if col + len(word) > 21:
             return -1
     
@@ -127,7 +124,6 @@ def create_crossword(words):
             if i == len(word) - 1:
                 # This is the last letter so also check the right is clear
                 if col + i + 1 < 21:
-                    #print("Last letter (" + word[i] + ") check for word " + word + " has square " + grid[row][col + i + 1])
                     if grid[row][col + i + 1] != '#':
                         return -1 
                            
@@ -138,21 +134,23 @@ def create_crossword(words):
                 return -1
             
             if result == Status.MATCH:
-                score += 1
+                other_words_crossed += 1
 
             # The other option is Status.EMPTY which required no action.
-            # It's not a reason to abort and not a reason to increment the score.
             
-        return score
+        # If we have got to here we haven't hit any blockers in placing this word
+        if must_connect and other_words_crossed == 0:
+            return -1
+        else:
+            return other_words_crossed
 
     # Function to check if a word can be placed vertically at a specific position
     def can_place_vertically(grid, word, row, col):
         # Keep a record of how good this position is for this word
-        score = 0
+        other_words_crossed = 0
 
         # If the position plus the length of the word goes off the grid
         # it clearly can't be placed here.
-        # print ("Final square will be row: " + str(row + len(word)))
         if row + len(word) > 21:
             return -1
         
@@ -164,10 +162,8 @@ def create_crossword(words):
                     return -1 
         
             if i == len(word) - 1:
-                # print("Last word check")
                 # This is the last letter so also check below is clear
                 if row + i + 1 < 21:
-                    #print("Last letter (" + word[i] + ") check for word " + word + " has square " + grid[row + i + 1][col])
                     if grid[row + i + 1][col] != '#':
                         return -1 
                       
@@ -178,9 +174,15 @@ def create_crossword(words):
                 return -1
             
             if result == Status.MATCH:
-                score += 1
+                other_words_crossed += 1
 
-        return score
+            # The other option is Status.EMPTY which required no action.
+
+        # If we have got to here we haven't hit any blockers in placing this word
+        if must_connect and other_words_crossed == 0:
+            return -1
+        else:
+            return other_words_crossed
 
     # Function to build a whole grid
     def build_grid(words):
@@ -197,7 +199,6 @@ def create_crossword(words):
         for word_and_clue in words:
             word, clue = word_and_clue
             best_score = 0
-            regions = 1
             best_position = (0, 0, Orientation.UNKNOWN)
 
             # Make attempts at each word and chose the base location.
@@ -252,11 +253,6 @@ def create_crossword(words):
                                 best_position = (row, col, Orientation.VERTICAL)
 
             chosen_row, chosen_column, chosen_orientation = best_position
-	
-            if (best_score == 0):
-                # This word doesn't touch any others so increment the count
-                # of disconnected regions in the grid
-                regions += 1
 
             # Was a position successfully found?       
             if chosen_orientation == Orientation.HORIZONTAL:
@@ -277,27 +273,24 @@ def create_crossword(words):
                 # been placed so time to switch to SYSTEMATIC mode for the rest of the words
                 mode = Mode.SYSTEMATIC
 
-        return placed_words, grid, regions
+        return placed_words, grid
 
 
     # Record how long the generation takes
     start_time = time.time()
 
     best_so_far = 0
-    least_regions = 100 
     best_words = []
     best_grid = []
 
     builds = 0
     while builds < max_builds:
-        placed_words, grid, regions = build_grid(words)
-        # print("This time we placed " + str(len(placed_words)))
+        placed_words, grid = build_grid(words)
         if (len(placed_words) > best_so_far):
             best_so_far = len(placed_words)
-            print("New best grid with " + str(best_so_far) + " words and " + str(regions) + " regions.", file=sys.stderr)
+            print("New best grid with " + str(best_so_far) + " words.", file=sys.stderr)
             best_words = placed_words
             best_grid = grid
-     	
 
         builds += 1
 
@@ -316,6 +309,7 @@ parser.add_argument('--input-file', required=True, help='Input file path')
 parser.add_argument('--output-file', required=True, help='Output file path')
 parser.add_argument('--builds', default=200, help='Number builds to find the best grid')
 parser.add_argument('--random', default=1000, help='Number random of attempts to place to each word')
+parser.add_argument('--must-connect', action='store_true', help='Words must connect to be placed')
 
 # Parse the command-line arguments
 args = parser.parse_args()
@@ -325,6 +319,12 @@ filename = args.input_file
 output_file = args.output_file
 max_builds = int(args.builds)
 max_attempts = int(args.random)
+must_connect = args.must_connect
+
+if must_connect:
+    print ("Words must connect to be placed.")
+else:
+    print ("Words can be placed without connecting.")
 
 # List to hold words and clues
 words_and_clues = []
@@ -369,16 +369,8 @@ with open(output_file, 'w') as f_output:
     sorted_across = []
     sorted_down = []
 
-    #print("This is the order they were placed.")
-    #for placed_word in placed_words:
-    #    print(placed_word)
-
     # Sort the words into order of the square they start in
     placed_words.sort(key=lambda word: word[1])
-
-    #print("This is the sorted order.")
-    #for placed_word in placed_words:
-    #    print(placed_word)
 
     # Reduce the starting squares to a sequential order
     ordered_words = []
@@ -391,20 +383,15 @@ with open(output_file, 'w') as f_output:
     for i in range(len(placed_words)):
         word, square, clue, orientation = placed_words[i]  # Unpack the current tuple
 
-        #print("Word is " + word + ", last square is " + str(last_square) + " and this square is " + str(square))
-
         if (last_square == square):
             # This clue starts in the same square as the last so don't
             # increment the clue_number
-            # print("Adding word " + word + " without incrementing clue number.")
             ordered_words.append((word, clue_number, clue, orientation))
         else:
             clue_number += 1
             ordered_words.append((word, clue_number, clue, orientation))
         
         last_square = square
-
-    # print(ordered_words)
 
     for i in range(len(ordered_words)):
         word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple

@@ -1,72 +1,71 @@
 Title: ../dict/travel.tsv
-Words: 42 placed out of 91
-Gen time: 953 seconds
+Words: 41 placed out of 91
+Gen time: 2 seconds
 Date: 2024-05-05
 
 
-D#PELABUHAN####K###D#
-E###A######B#T#ALAMAT
-K#BELOK###FERI#M###P#
-A#I#U#E##B#R#M#P#K#A#
-T#S#-#R##A#H#U#O#E#N#
-#P##L#E##R#E#R#N#N###
-HENTI#TIBA#N# #G#D#P#
-#R##N#A##T#TOL##MACET
-#J##T# ## #I#A#B#R#R#
-BAN#U#A##L###U#A#A#B#
-#L##SEPEDA MOTOR#ARAH
-JAHU##I##U#####A#N#T#
-#N##B##D#T#BARAT###A#
-MAMPET#U####### #DESA
-#N##R##D#####D#D###A#
-##ATAS#U##DIBATALKAN#
-#C##N##K#####R#Y####B
-TENGGARA#PENGINAPAN#U
-#P##K##N####A#U#E###N
-BANDARA#####N#S#T###T
-#T##T##KETINGGALAN##U
+#########DARI#TIBA###
+#LURUS####T#####U####
+#####E#DIBATALKAN##M#
+####OLI###S##A##T##E#
+##P##A##B##PELABUHAN#
+#KERETA API##U#####Y#
+T#R##A##R#N##-#####O#
+E#J##N#BARAT LAUT##P#
+RUANG###T#P##I#####I#
+U#L##P## ####N##UTARA
+S#A#SEPEDA MOTOR#####
+##N##N##A####U##KAMAR
+#BAN#G##Y##K#SEWA####
+L#N#BIS#A##E####MOBIL
+I##J#N###MENGINAP#E##
+BERADA#T###D####O#R##
+U##L#PERBATASAN#N#J#H
+R##U#A#E###R####G#A#E
+#BERANGKAT#ARAH###L#N
+#########O#A######A#T
+#KETINGGALAN#BERHENTI
 
 
-A2. Harbour
-A8. Address
-A9. Turn
-A11. Ferry
-A15. Stop
-A16. Arrive
-A18. Toll
-A19. Traffic jam
-A21. Tyre
-A22. Motorcycle
-A23. Direction
-A24. Far
-A27. West
-A28. Blocked
-A29. Bigger village
-A31. On top, upper
-A32. Cancelled
-A35. Southeast
-A36. Inn
-A40. Airport
-A41. Left behind
+A1. From
+A3. Arrive
+A5. Straight ahead
+A7. Cancelled
+A10. Motor oil
+A13. Harbour
+A14. Train
+A17. Northwest
+A18. Room
+A20. North
+A21. Motorcycle
+A22. Room
+A23. Tyre
+A25. Rent
+A27. Bus
+A28. Car
+A31. Stay the night
+A32. Am at
+A34. Border
+A36. Depart
+A38. Direction
+A39. Left behind
+A40. Stop
 
-D1. Near, close
-D3. Traffic (then cross)
-D4. Village
-D5. Front
-D6. Stop
-D7. Northeast
-D9. Bus
-D10. Train
-D12. Northwest
-D13. Vehicle
-D14. Trip/ journey
-D17. Border
-D20. Southwest
-D25. Depart
-D26. Seat
-D30. From
-D33. Fast
-D34. Dead end
-D37. Alleyway
-D38. Homeland
-D39. Map
+D2. On top, upper
+D4. Dead end
+D6. South
+D8. Traffic (then cross)
+D9. Driving
+D11. Trip/ journey
+D12. Southwest
+D15. Stay
+D16. Straight ahead, keep going
+D19. Inn
+D22. Village
+D24. Vehicle
+D26. Holiday
+D29. Walk
+D30. Path
+D33. Truck
+D35. Stop
+D37. Toll
