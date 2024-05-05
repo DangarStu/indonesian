@@ -5,9 +5,7 @@ import datetime
 import csv
 import sys
 import time
-
-max_attempts = 10000
-max_builds = 2000
+import argparse
 
 class Status(Enum):
     EMPTY = 1
@@ -310,12 +308,23 @@ def create_crossword(words):
 
     return crossword, best_words, elapsed_time
 
-# Check if a filename was provided
-if len(sys.argv) < 2:
-    print("Usage: python script.py filename.csv")
-    sys.exit(1)  # Exit the script with an error status
+# Create an ArgumentParser object
+parser = argparse.ArgumentParser(description='Crossword generator')
 
-filename = sys.argv[1]  # Get the filename from command line arguments
+# Add arguments
+parser.add_argument('--input-file', required=True, help='Input file path')
+parser.add_argument('--output-file', required=True, help='Output file path')
+parser.add_argument('--builds', default=200, help='Number builds to find the best grid')
+parser.add_argument('--random', default=1000, help='Number random of attempts to place to each word')
+
+# Parse the command-line arguments
+args = parser.parse_args()
+
+# Access the values of the arguments
+filename = args.input_file
+output_file = args.output_file
+max_builds = int(args.builds)
+max_attempts = int(args.random)
 
 # List to hold words and clues
 words_and_clues = []
@@ -341,75 +350,78 @@ except Exception as e:
 
 crossword, placed_words, elapsed_time = create_crossword(words_and_clues)
 
-# Print the metadata
-print("Title: " + filename)
-print("Words: " + str(len(placed_words)) + " placed out of " + str(len(words_and_clues)))
-print("Gen time: " + str(int(elapsed_time)) + " seconds")
-print("Date: " + str(datetime.date.today()))
-print("\n")
+# Open the output file for writing
+with open(output_file, 'w') as f_output:
+    # Write the content to the output file
+    # Print the metadata
+    f_output.write("Title: " + filename + "\n")
+    f_output.write("Words: " + str(len(placed_words)) + " placed out of " + str(len(words_and_clues)) + "\n")
+    f_output.write("Gen time: " + str(int(elapsed_time)) + " seconds" + "\n")
+    f_output.write("Date: " + str(datetime.date.today()) + "\n")
+    f_output.write("\n\n")
 
 
-# Print the crossword grid
-print(crossword)
+    # Print the crossword grid
+    f_output.write(crossword)
 
-print("\n")
+    f_output.write("\n\n\n")
 
-sorted_across = []
-sorted_down = []
+    sorted_across = []
+    sorted_down = []
 
-#print("This is the order they were placed.")
-#for placed_word in placed_words:
-#    print(placed_word)
+    #print("This is the order they were placed.")
+    #for placed_word in placed_words:
+    #    print(placed_word)
 
-# Sort the words into order of the square they start in
-placed_words.sort(key=lambda word: word[1])
+    # Sort the words into order of the square they start in
+    placed_words.sort(key=lambda word: word[1])
 
-#print("This is the sorted order.")
-#for placed_word in placed_words:
-#    print(placed_word)
+    #print("This is the sorted order.")
+    #for placed_word in placed_words:
+    #    print(placed_word)
 
-# Reduce the starting squares to a sequential order
-ordered_words = []
+    # Reduce the starting squares to a sequential order
+    ordered_words = []
 
-clue_number = 0
-last_square = -1
+    clue_number = 0
+    last_square = -1
 
-# We need to order the words sequentially, but clues that start on the
-# same square need to have the same clue number
-for i in range(len(placed_words)):
-    word, square, clue, orientation = placed_words[i]  # Unpack the current tuple
+    # We need to order the words sequentially, but clues that start on the
+    # same square need to have the same clue number
+    for i in range(len(placed_words)):
+        word, square, clue, orientation = placed_words[i]  # Unpack the current tuple
 
-    #print("Word is " + word + ", last square is " + str(last_square) + " and this square is " + str(square))
+        #print("Word is " + word + ", last square is " + str(last_square) + " and this square is " + str(square))
 
-    if (last_square == square):
-        # This clue starts in the same square as the last so don't
-        # increment the clue_number
-        # print("Adding word " + word + " without incrementing clue number.")
-        ordered_words.append((word, clue_number, clue, orientation))
-    else:
-        clue_number += 1
-        ordered_words.append((word, clue_number, clue, orientation))
-    
-    last_square = square
+        if (last_square == square):
+            # This clue starts in the same square as the last so don't
+            # increment the clue_number
+            # print("Adding word " + word + " without incrementing clue number.")
+            ordered_words.append((word, clue_number, clue, orientation))
+        else:
+            clue_number += 1
+            ordered_words.append((word, clue_number, clue, orientation))
+        
+        last_square = square
 
-# print(ordered_words)
+    # print(ordered_words)
 
-for i in range(len(ordered_words)):
-    word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
-    if orientation == Orientation.HORIZONTAL:
-        sorted_across.append((word, square, clue))
+    for i in range(len(ordered_words)):
+        word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
+        if orientation == Orientation.HORIZONTAL:
+            sorted_across.append((word, square, clue))
 
-for i in range(len(ordered_words)):
-    word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
-    if orientation == Orientation.VERTICAL:
-        sorted_down.append((word, square, clue)) 
-    
-# Print the updated positions of the words
-for word, number, clue in sorted_across:
-    print(f"A{number}. {clue}")
+    for i in range(len(ordered_words)):
+        word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
+        if orientation == Orientation.VERTICAL:
+            sorted_down.append((word, square, clue)) 
+        
+    # Print the updated positions of the words
+    for word, number, clue in sorted_across:
+        f_output.write(f"A{number}. {clue}\n")
 
-print("")
+    f_output.write("\n")
 
-for word, number, clue in sorted_down:
-    print(f"D{number}. {clue}")
+    for word, number, clue in sorted_down:
+        f_output.write(f"D{number}. {clue}\n")
 

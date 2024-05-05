@@ -1,71 +1,72 @@
 Title: ../dict/travel.tsv
-Words: 41 placed out of 69
-Gen time: 1075 seconds
-Date: 2024-05-04
+Words: 42 placed out of 91
+Gen time: 953 seconds
+Date: 2024-05-05
 
 
-#TERBANG##D#####S####
-O###E###K#A#PERTIGAAN
-LIBURAN#E#E#E###N###Y
-I###J###R#R#N#B#I#P#E
-##INAP#BERANGKAT##E#B
-#K##L###T#H#I#R#BIS#R
-PERBATASAN##N#A#E#A#A
-#N##N### ##LAUT#L#W#N
-#D####UTARA#P# #O#A#G
-#A###P##P###A#L#K#T##
-#R##PERSIMPANGAN###B#
-NAIK#R####E###U###BAN
-#A###E####L###TREK#N#
-#N#TIMUR LAUT####E#D#
-#####P####B##P###M#A#
-TENGGARA##U#MENYOPIR#
-#####T##B#H##R###I#A#
-DIAERAH#A#A##G#T#N###
-##R##N#TRANSMISI#GANG
-ATAS####A######B#####
-##H#BARAT DAYA#ALAMAT
+D#PELABUHAN####K###D#
+E###A######B#T#ALAMAT
+K#BELOK###FERI#M###P#
+A#I#U#E##B#R#M#P#K#A#
+T#S#-#R##A#H#U#O#E#N#
+#P##L#E##R#E#R#N#N###
+HENTI#TIBA#N# #G#D#P#
+#R##N#A##T#TOL##MACET
+#J##T# ## #I#A#B#R#R#
+BAN#U#A##L###U#A#A#B#
+#L##SEPEDA MOTOR#ARAH
+JAHU##I##U#####A#N#T#
+#N##B##D#T#BARAT###A#
+MAMPET#U####### #DESA
+#N##R##D#####D#D###A#
+##ATAS#U##DIBATALKAN#
+#C##N##K#####R#Y####B
+TENGGARA#PENGINAPAN#U
+#P##K##N####A#U#E###N
+BANDARA#####N#S#T###T
+#T##T##KETINGGALAN##U
 
 
-A1. Flying
-A7. Three way junction.
-A9. Holidays
-A12. Stay
-A13. Depart
-A15. Bus
-A16. Border
-A17. Sea
-A18. North
-A20. Junction
-A23. Go up, ride
-A24. Tyre
-A25. Truck
-A27. Northeast
-A29. Southeast
-A30. Driving
-A32. Area, region
-A35. Transmission
-A36. Alleyway
-A37. On top, upper
-A38. Southwest
-A39. Address
+A2. Harbour
+A8. Address
+A9. Turn
+A11. Ferry
+A15. Stop
+A16. Arrive
+A18. Toll
+A19. Traffic jam
+A21. Tyre
+A22. Motorcycle
+A23. Direction
+A24. Far
+A27. West
+A28. Blocked
+A29. Bigger village
+A31. On top, upper
+A32. Cancelled
+A35. Southeast
+A36. Inn
+A40. Airport
+A41. Left behind
 
-D2. Walk
-D3. Region
-D4. Here
-D5. Motor oil
-D6. Train
-D7. Inn
-D8. Crossing
-D10. Northwest
-D11. Plane
-D14. Vehicle
-D15. Turn
-D19. Four way junction
-D21. Harbour
-D22. Airport
-D26. Camping
-D28. Go
-D31. West
-D33. Direction
-D34. Arrive
+D1. Near, close
+D3. Traffic (then cross)
+D4. Village
+D5. Front
+D6. Stop
+D7. Northeast
+D9. Bus
+D10. Train
+D12. Northwest
+D13. Vehicle
+D14. Trip/ journey
+D17. Border
+D20. Southwest
+D25. Depart
+D26. Seat
+D30. From
+D33. Fast
+D34. Dead end
+D37. Alleyway
+D38. Homeland
+D39. Map
