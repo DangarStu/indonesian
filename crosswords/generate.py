@@ -357,7 +357,7 @@ else:
     print ("  words can be placed without connecting.")
 
 if favour_words:
-    print ("  favouring number of words place")
+    print ("  favouring number of words placed")
 else:
     print ("  favouring number of cells filled")
 
