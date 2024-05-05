@@ -273,30 +273,47 @@ def create_crossword(words):
                 # been placed so time to switch to SYSTEMATIC mode for the rest of the words
                 mode = Mode.SYSTEMATIC
 
-        return placed_words, grid
+        # Calculate how many empty cells in this grid
+        empty_cells = 0
+
+        for row in range(21):
+            for col in range(21):
+                if grid[row][col] == '#':
+                    empty_cells += 1
+
+        return placed_words, empty_cells, grid
 
 
     # Record how long the generation takes
     start_time = time.time()
 
     best_so_far = 0
+    least_so_far = 21 * 21
     best_words = []
     best_grid = []
 
-    builds = 0
+    # Loop through and build the entire grid as many times as has been specified before 
+    # using the best that could be found.
+    builds = 1
+
     while builds < max_builds:
-        placed_words, grid = build_grid(words)
-        if (len(placed_words) > best_so_far):
-            best_so_far = len(placed_words)
-            elapsed_time = time.time() - start_time
-            empty_cells = 0
-            for row in range(21):
-                for col in range(21):
-                    if grid[row][col] == '#':
-                        empty_cells += 1
-            print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + " builds in " + str(elapsed_time) + " seconds.", file=sys.stderr)
-            best_words = placed_words
-            best_grid = grid
+        placed_words, empty_cells, grid = build_grid(words)
+
+        if favour_words:
+            if len(placed_words) > best_so_far:
+                best_so_far = len(placed_words)
+                elapsed_time = time.time() - start_time
+                print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + " builds in " + str(elapsed_time) + " seconds.", file=sys.stderr)
+                best_words = placed_words
+                best_grid = grid
+        else:
+            if empty_cells < least_so_far:
+                least_so_far = empty_cells
+                best_so_far = len(placed_words)
+                elapsed_time = time.time() - start_time
+                print ("Found new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + " builds in " + str(elapsed_time) + " seconds.", file=sys.stderr)
+                best_words = placed_words
+                best_grid = grid
 
         builds += 1
 
@@ -315,6 +332,7 @@ parser.add_argument('--output-file', required=True, help='Output file path')
 parser.add_argument('--builds', default=200, help='Number builds to find the best grid')
 parser.add_argument('--random', default=1000, help='Number random of attempts to place to each word')
 parser.add_argument('--must-connect', action='store_true', help='Words must connect to be placed')
+parser.add_argument('--favour-words', action='store_true', help='Favour number of words over filled cells')
 
 # Parse the command-line arguments
 args = parser.parse_args()
@@ -325,6 +343,7 @@ output_file = args.output_file
 max_builds = int(args.builds)
 max_attempts = int(args.random)
 must_connect = args.must_connect
+favour_words = args.favour_words
 
 if must_connect:
     print ("Generating from " + filename + ", words must connect to be placed.")
