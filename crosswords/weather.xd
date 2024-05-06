@@ -1,0 +1,59 @@
+Title: ../dict/weather.tsv
+Words: 29 placed out of 29
+Gen time: 17 seconds
+Date: 2024-05-07
+
+
+#####################
+####KABUT############
+######A#############M
+######S#############U
+#B#KILAT#########P##S
+#E#E##H#########BADAI
+#S#R#P#####K##K##Y##M
+#A#I#R#####E#LEMBAB##
+#HANGAT##B#R##P##N###
+###G#N###E#I##A##G###
+#####KEKERINGAN#B####
+#####I###A#G##A#M#P##
+###BERAWAN#A##S#K#E##
+#M###A###G#T#LANGIT##
+DERAJAT##I####N###I##
+#N###N#DINGIN###CERAH
+#D##P###########U####
+#U##A###########A####
+ANGIN###########C####
+#G##A########HUJAN###
+####SUHU#############
+
+
+A1. Fog
+A5. Lightening
+A7. Storm
+A11. Moist/ humid/ damp
+A12. Warm
+A14. Drought
+A17. Cloudy
+A19. Sky
+A20. Degree (celcius)
+A21. Cold
+A22. Sunny
+A24. Wind
+A25. Wet weather rain
+A26. Temperature
+A26. Temperature
+
+D2. Wet
+D3. Season
+D4. Wet
+D5. Dry weather
+D6. Umbrella
+D8. Weather forecast
+D9. Sweat
+D10. Too hot
+D13. Windy
+D15. Meteorologist
+D16. Thunder
+D18. Overcast
+D22. Weather
+D23. Hot

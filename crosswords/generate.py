@@ -83,8 +83,8 @@ def create_crossword(words):
             if grid[row-1][col] != '#':
                 return Status.OCCUPIED
             
-            return Status.MATCH
-            
+            return Status.EMPTY
+        
         if row == 0:
             # Check cell is clear to the below as we are against the
             # top edge of the grid
@@ -199,7 +199,7 @@ def create_crossword(words):
         for word_and_clue in words:
             word, clue = word_and_clue
             best_score = 0
-            best_position = (0, 0, Orientation.UNKNOWN)
+            best_position = (0, 0, 0, Orientation.UNKNOWN)
 
             # Make attempts at each word and chose the base location.
             if mode == Mode.RANDOM:
@@ -213,46 +213,53 @@ def create_crossword(words):
                     horizonal_score = can_place_horizontally(grid, word, row, col)
                     vertical_score = can_place_vertically(grid, word, row, col)
 
+                    if horizonal_score == -1 and vertical_score == -1:
+                        attempts += 1
+                        continue
+
                     # Which was best out of horizontal and vertical?
                     # Was it better than the best so far?
                     if horizonal_score >= vertical_score:
                         if horizonal_score >= best_score:
                             best_score = horizonal_score
-                            best_position = (row, col, Orientation.HORIZONTAL)
+                            best_position = (row, col, best_score, Orientation.HORIZONTAL)
                     else: 
                         if vertical_score >= best_score:
                             best_score = vertical_score
-                            best_position = (row, col, Orientation.VERTICAL)
+                            best_position = (row, col, best_score, Orientation.VERTICAL)
 
                     attempts += 1
 
             elif mode == Mode.CENTRE:
                 centre_column = int((21 - len(word)) / 2)
-                best_position = (10, centre_column, Orientation.HORIZONTAL)
+                best_position = (10, centre_column, 0, Orientation.HORIZONTAL)
 
                 # This is the first word placement so it can only have
-                # succeeded, break and place it.
+                # succeeded, place it and move on to RANDOM for the next word.
                 mode = Mode.RANDOM
 
             elif mode == Mode.SYSTEMATIC:
-                for row in range(21):
-                    for col in range(21):
+                for sys_row in range(21):
+                    for sys_col in range(21):
                         # Test fit the word going down and across from the chosen starting square
-                        horizonal_score = can_place_horizontally(grid, word, row, col)
-                        vertical_score = can_place_vertically(grid, word, row, col)
-
+                        horizonal_score = can_place_horizontally(grid, word, sys_row, sys_col)
+                        vertical_score = can_place_vertically(grid, word, sys_row, sys_col)
+                        
+                        if horizonal_score == -1 and vertical_score == -1:
+                            continue
+                    
                         # Which was best out of horizontal and vertical?
                         # Was it better than the best so far?
                         if horizonal_score >= vertical_score:
                             if horizonal_score >= best_score:
                                 best_score = horizonal_score
-                                best_position = (row, col, Orientation.HORIZONTAL)
+                                best_position = (sys_row, sys_col, best_score, Orientation.HORIZONTAL)
                         else: 
                             if vertical_score >= best_score:
                                 best_score = vertical_score
-                                best_position = (row, col, Orientation.VERTICAL)
+                                best_position = (sys_row, sys_col, best_score, Orientation.VERTICAL)
 
-            chosen_row, chosen_column, chosen_orientation = best_position
+            chosen_row, chosen_column, words_crossed, chosen_orientation = best_position
 
             # Was a position successfully found?       
             if chosen_orientation == Orientation.HORIZONTAL:
@@ -260,6 +267,7 @@ def create_crossword(words):
                     grid[chosen_row][chosen_column + i] = word[i]
                 
                 placed_words.append((word, (chosen_row * 21) + chosen_column + 1, clue, Orientation.HORIZONTAL))
+                print ("Placed word " + word + " horizontally at " + str(chosen_row) + ", " + str(chosen_column) + " where it crosses " + str(words_crossed) + " other words.")
 
 
             elif chosen_orientation == Orientation.VERTICAL:
@@ -267,6 +275,7 @@ def create_crossword(words):
                     grid[chosen_row + i][chosen_column] = word[i]
 
                 placed_words.append((word, (chosen_row * 21) + chosen_column + 1, clue, Orientation.VERTICAL))
+                print ("Placed word " + word + " vertically at " + str(chosen_row) + ", " + str(chosen_column) + " where it crosses " + str(words_crossed) + " other words.")
         
             else:
                 # If the chosen orientation is UNKNOWN then the word can't have
@@ -304,7 +313,7 @@ def create_crossword(words):
         else:
             builds_text = " builds in "
     
-        if len(placed_words) > best_so_far:
+        if len(placed_words) > best_so_far and filled_cells >= most_so_far:
             most_so_far = filled_cells
             best_so_far = len(placed_words)
             elapsed_time = time.time() - start_time
