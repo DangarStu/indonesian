@@ -7,8 +7,8 @@ solar	diesel
 ban	tyre
 bandara	airport
 barat	west
-barat daya	southwest
-barat laut	northwest
+baratdaya	southwest
+baratlaut	northwest
 belok	turn
 bensin	petrol
 berada	am at
@@ -24,7 +24,7 @@ dari	from
 dekat	near, close
 desa	bigger village
 dibatalkan	cancelled
-dudukan	seat
+kursi	seat
 feri	ferry
 gang	alleyway
 henti	stop
@@ -39,12 +39,12 @@ kanan	right
 kapal	boat
 kemping	camping
 kendaraan	vehicle
-kereta api	train
+keretaapi	train
 ketinggalan	left behind
 kiri	left
 kota	city
 kunjung	visit
-lalu-lintus	traffic (then cross)
+lalulintus	traffic (then cross)
 laut	sea
 lewat	through, past
 libur	holiday
@@ -60,9 +60,8 @@ mesin	engine
 naik	go up, ride
 negara	country
 nusa	homeland
-nyebrang	crossing
+persimpangan	junction
 oli	motor oil
-padat	conjested, dense
 pelabuhan	harbour
 penginapan	inn
 penuh	full
@@ -86,7 +85,7 @@ terbang	flying
 terus	straight ahead, keep going
 tiba	arrive
 timur	east
-timur laut	northeast
+timurlaut	northeast
 trek	truck
 trotoar	sidewalk
 turun	down, descend

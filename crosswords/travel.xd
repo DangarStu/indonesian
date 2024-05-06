@@ -1,71 +1,76 @@
 Title: ../dict/travel.tsv
-Words: 41 placed out of 91
-Gen time: 2 seconds
-Date: 2024-05-05
+Words: 46 placed out of 91
+Gen time: 280 seconds
+Date: 2024-05-06
 
 
-#########DARI#TIBA###
-#LURUS####T#####U####
-#####E#DIBATALKAN##M#
-####OLI###S##A##T##E#
-##P##A##B##PELABUHAN#
-#KERETA API##U#####Y#
-T#R##A##R#N##-#####O#
-E#J##N#BARAT LAUT##P#
-RUANG###T#P##I#####I#
-U#L##P## ####N##UTARA
-S#A#SEPEDA MOTOR#####
-##N##N##A####U##KAMAR
-#BAN#G##Y##K#SEWA####
-L#N#BIS#A##E####MOBIL
-I##J#N###MENGINAP#E##
-BERADA#T###D####O#R##
-U##L#PERBATASAN#N#J#H
-R##U#A#E###R####G#A#E
-#BERANGKAT#ARAH###L#N
-#########O#A######A#T
-#KETINGGALAN#BERHENTI
+#####MASUK##KENDARAAN
+#IKUT#T##E##E#######E
+B#U##LALULINTUS#####G
+E#R#M#S##U##I#E##K##A
+LOSMEN###A##N#L#JALUR
+O#I#N##BERANGKAT#M##A
+K###G#######G#T#JAHU#
+##K#I#PENGINAPAN#R###
+N#E#N#####N#L#N###B#G
+A#R#A###D#A#A####DESA
+I#E#PERSIMPANGAN##R#N
+KOTA####B#######RUANG
+##A#PERBATASAN####D##
+##A#####T#R###ALAMAT#
+T#PERJALANAN#B###E###
+OLI##A##L#H#KAMPONG##
+L##B#L##K##U#R###Y###
+###A#A#BARATDAYA#O##D
+#KANAN##N##A#T###PETA
+###########R#####I##R
+SOLAR#SEPEDA MOTOR##I
 
 
-A1. From
-A3. Arrive
-A5. Straight ahead
-A7. Cancelled
-A10. Motor oil
-A13. Harbour
-A14. Train
-A17. Northwest
-A18. Room
-A20. North
-A21. Motorcycle
-A22. Room
-A23. Tyre
-A25. Rent
-A27. Bus
-A28. Car
-A31. Stay the night
-A32. Am at
-A34. Border
-A36. Depart
-A38. Direction
-A39. Left behind
-A40. Stop
+A1. Enter
+A4. Vehicle
+A6. Follow
+A9. Traffic (then cross)
+A13. Guesthouse
+A14. Path
+A15. Depart
+A16. Far
+A18. Inn
+A24. Bigger village
+A25. Junction
+A26. City
+A27. Room
+A28. Border
+A30. Address
+A33. Trip/ journey
+A36. Motor oil
+A37. Village
+A40. Southwest
+A42. Right
+A43. Map
+A44. Diesel
+A45. Motorcycle
 
 D2. On top, upper
-D4. Dead end
-D6. South
-D8. Traffic (then cross)
-D9. Driving
-D11. Trip/ journey
-D12. Southwest
-D15. Stay
-D16. Straight ahead, keep going
-D19. Inn
-D22. Village
-D24. Vehicle
-D26. Holiday
-D29. Walk
-D30. Path
-D33. Truck
-D35. Stop
-D37. Toll
+D3. Exit
+D4. Left behind
+D5. Country
+D7. Seat
+D8. Turn
+D10. South
+D11. Stay the night
+D12. Room
+D17. Train
+D19. Stay
+D20. Go up, ride
+D21. Am at
+D22. Alleyway
+D23. Cancelled
+D29. Direction
+D31. Driving
+D32. Toll
+D34. Road
+D35. West
+D38. Tyre
+D39. North
+D41. From

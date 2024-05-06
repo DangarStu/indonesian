@@ -336,7 +336,7 @@ parser = argparse.ArgumentParser(description='Crossword generator')
 # Add arguments
 parser.add_argument('--input-file', required=True, help='Input file path')
 parser.add_argument('--output-file', required=True, help='Output file path')
-parser.add_argument('--builds', default=200, help='Number builds to find the best grid')
+parser.add_argument('--builds', default=42000, help='Number builds to find the best grid')
 parser.add_argument('--random', default=1000, help='Number random of attempts to place to each word')
 
 # Parse the command-line arguments
