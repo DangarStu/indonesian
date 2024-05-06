@@ -274,21 +274,21 @@ def create_crossword(words):
                 mode = Mode.SYSTEMATIC
 
         # Calculate how many empty cells in this grid
-        empty_cells = 0
+        filled_cells = 21*21
 
         for row in range(21):
             for col in range(21):
                 if grid[row][col] == '#':
-                    empty_cells += 1
+                    filled_cells -= 1
 
-        return placed_words, empty_cells, grid
+        return placed_words, filled_cells, grid
 
 
     # Record how long the generation takes
     start_time = time.time()
 
     best_so_far = 0
-    least_so_far = 21 * 21
+    most_so_far = 0
     best_words = []
     best_grid = []
 
@@ -297,7 +297,7 @@ def create_crossword(words):
     builds = 1
 
     while builds < max_builds:
-        placed_words, empty_cells, grid = build_grid(words)
+        placed_words, filled_cells, grid = build_grid(words)
 
         if builds == 1:
             builds_text = " build in "
@@ -305,18 +305,18 @@ def create_crossword(words):
             builds_text = " builds in "
     
         if len(placed_words) > best_so_far:
-            least_so_far = empty_cells
+            most_so_far = filled_cells
             best_so_far = len(placed_words)
             elapsed_time = time.time() - start_time
-            print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
+            print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(filled_cells) + " filled cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
             best_words = placed_words
             best_grid = grid
         elif len(placed_words) == best_so_far:
-            if empty_cells < least_so_far:
-                least_so_far = empty_cells
+            if filled_cells > most_so_far:
+                most_so_far = filled_cells
                 best_so_far = len(placed_words)
                 elapsed_time = time.time() - start_time
-                print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(empty_cells) + " empty cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
+                print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(filled_cells) + " filled cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
                 best_words = placed_words
                 best_grid = grid
 

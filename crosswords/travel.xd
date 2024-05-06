@@ -1,76 +1,77 @@
 Title: ../dict/travel.tsv
-Words: 46 placed out of 91
-Gen time: 280 seconds
+Words: 47 placed out of 87
+Gen time: 16 seconds
 Date: 2024-05-06
 
 
-#####MASUK##KENDARAAN
-#IKUT#T##E##E#######E
-B#U##LALULINTUS#####G
-E#R#M#S##U##I#E##K##A
-LOSMEN###A##N#L#JALUR
-O#I#N##BERANGKAT#M##A
-K###G#######G#T#JAHU#
-##K#I#PENGINAPAN#R###
-N#E#N#####N#L#N###B#G
-A#R#A###D#A#A####DESA
-I#E#PERSIMPANGAN##R#N
-KOTA####B#######RUANG
-##A#PERBATASAN####D##
-##A#####T#R###ALAMAT#
-T#PERJALANAN#B###E###
-OLI##A##L#H#KAMPONG##
-L##B#L##K##U#R###Y###
-###A#A#BARATDAYA#O##D
-#KANAN##N##A#T###PETA
-###########R#####I##R
-SOLAR#SEPEDA MOTOR##I
+K#TERUS#BIS#KANAN####
+I#I###O#A###U#U##TOL#
+R#M#JALUR#LURUS##R###
+IKUT##A#A###S#A#BELOK
+##R#KERETAAPI####K##E
+#M##A######E####J#M#M
+#E##MENYOPIR##P#A#E#P
+#S##A######J#BERHENTI
+LIBUR####ARAH#R#U#G#N
+#N###P##D##L##B###I#G
+A###PERSIMPANGAN##N##
+L##B#N##B##N##T##DARI
+A#GANG#DAERAH#A#T#P##
+M##R#I##T##N##S#I##K#
+A##A#N##A###O#A#M#BAN
+TROTOAR#LALULINTUS#M#
+###L#P##K###I###R##P#
+T#BARATDAYA##P##L##O#
+I##U#N##N###BERJALAN#
+BUNTU########T##U##G#
+A#######SEPEDAMOTOR##
 
 
-A1. Enter
-A4. Vehicle
-A6. Follow
-A9. Traffic (then cross)
-A13. Guesthouse
-A14. Path
-A15. Depart
-A16. Far
-A18. Inn
-A24. Bigger village
-A25. Junction
-A26. City
-A27. Room
-A28. Border
-A30. Address
-A33. Trip/ journey
-A36. Motor oil
-A37. Village
-A40. Southwest
-A42. Right
-A43. Map
-A44. Diesel
-A45. Motorcycle
+A2. Straight ahead, keep going
+A4. Bus
+A5. Right
+A7. Toll
+A8. Path
+A9. Straight ahead
+A10. Follow
+A11. Turn
+A13. Train
+A18. Driving
+A20. Stop
+A21. Holiday
+A22. Direction
+A26. Junction
+A28. From
+A29. Alleyway
+A30. Region
+A34. Tyre
+A35. Sidewalk
+A36. Traffic
+A38. Southwest
+A40. Walk
+A41. Dead end
+A42. Motorcycle
 
-D2. On top, upper
-D3. Exit
-D4. Left behind
-D5. Country
-D7. Seat
-D8. Turn
-D10. South
-D11. Stay the night
-D12. Room
-D17. Train
-D19. Stay
-D20. Go up, ride
-D21. Am at
-D22. Alleyway
-D23. Cancelled
-D29. Direction
-D31. Driving
-D32. Toll
-D34. Road
-D35. West
-D38. Tyre
-D39. North
-D41. From
+D1. Left
+D2. East
+D3. Diesel
+D4. West
+D5. Seat
+D6. Homeland
+D7. Truck
+D12. Camping
+D13. Room
+D14. Trip, journey
+D15. Engine
+D16. Far
+D17. Stay the night
+D19. Border
+D23. Inn
+D24. Cancelled
+D25. Address
+D27. Northwest
+D31. Northeast
+D32. Village
+D33. Motor oil
+D37. Arrive
+D39. Map
