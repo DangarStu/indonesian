@@ -313,21 +313,23 @@ def create_crossword(words):
         else:
             builds_text = " builds in "
     
-        if len(placed_words) > best_so_far and filled_cells >= most_so_far:
+        #if len(placed_words) > best_so_far and filled_cells >= most_so_far:
+        if len(placed_words) > best_so_far:
             most_so_far = filled_cells
             best_so_far = len(placed_words)
             elapsed_time = time.time() - start_time
             print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(filled_cells) + " filled cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
             best_words = placed_words
             best_grid = grid
-        elif len(placed_words) == best_so_far:
-            if filled_cells > most_so_far:
-                most_so_far = filled_cells
-                best_so_far = len(placed_words)
-                elapsed_time = time.time() - start_time
-                print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(filled_cells) + " filled cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
-                best_words = placed_words
-                best_grid = grid
+        #elif len(placed_words) == best_so_far:
+        #    if filled_cells > most_so_far:
+        #        Favouring more cells being filled has the negative effect of favouring less crossovers.
+        #        most_so_far = filled_cells
+        #        best_so_far = len(placed_words)
+        #        elapsed_time = time.time() - start_time
+        #        print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(filled_cells) + " filled cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
+        #        best_words = placed_words
+        #        best_grid = grid
 
         builds += 1
         sys.stdout.write('\rProgress: [{:<50}] {:.2f}%'.format('#' * int((builds/max_builds) * 50), (builds/max_builds) * 100))
