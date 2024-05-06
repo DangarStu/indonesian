@@ -27,6 +27,70 @@ def create_crossword(words):
     # ie. Place the largest words first while the grid is clear
     words.sort(key=lambda x: len(x[0]), reverse=True)
 
+    # Write the generated crossword out to the specified file
+    def write_to_file(crossword, placed_words, elapsed_time):
+        # Open the output file for writing
+        with open(output_file, 'w') as f_output:
+            # Write the content to the output file
+            # Print the metadata
+            f_output.write("Title: " + filename + "\n")
+            f_output.write("Words: " + str(len(placed_words)) + " placed out of " + str(len(words_and_clues)) + "\n")
+            f_output.write("Gen time: " + str(int(elapsed_time)) + " seconds" + "\n")
+            f_output.write("Date: " + str(datetime.date.today()) + "\n")
+            f_output.write("\n\n")
+
+
+            # Print the crossword grid
+            f_output.write(crossword)
+
+            f_output.write("\n\n\n")
+
+            sorted_across = []
+            sorted_down = []
+
+            # Sort the words into order of the square they start in
+            placed_words.sort(key=lambda word: word[1])
+
+            # Reduce the starting squares to a sequential order
+            ordered_words = []
+
+            clue_number = 0
+            last_square = -1
+
+            # We need to order the words sequentially, but clues that start on the
+            # same square need to have the same clue number
+            for i in range(len(placed_words)):
+                word, square, clue, orientation = placed_words[i]  # Unpack the current tuple
+
+                if (last_square == square):
+                    # This clue starts in the same square as the last so don't
+                    # increment the clue_number
+                    ordered_words.append((word, clue_number, clue, orientation))
+                else:
+                    clue_number += 1
+                    ordered_words.append((word, clue_number, clue, orientation))
+                
+                last_square = square
+
+            for i in range(len(ordered_words)):
+                word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
+                if orientation == Orientation.HORIZONTAL:
+                    sorted_across.append((word, square, clue))
+
+            for i in range(len(ordered_words)):
+                word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
+                if orientation == Orientation.VERTICAL:
+                    sorted_down.append((word, square, clue)) 
+                
+            # Print the updated positions of the words
+            for word, number, clue in sorted_across:
+                f_output.write(f"A{number}. {clue}\n")
+
+            f_output.write("\n")
+
+            for word, number, clue in sorted_down:
+                f_output.write(f"D{number}. {clue}\n")
+
     # When placing vertically, the first letter must be clear above and the last
     # letter must be clear below
     def is_clear_vertical(grid, letter, row, col):
@@ -313,33 +377,34 @@ def create_crossword(words):
         else:
             builds_text = " builds in "
     
-        #if len(placed_words) > best_so_far and filled_cells >= most_so_far:
-        if len(placed_words) > best_so_far:
+        if len(placed_words) > best_so_far and filled_cells >= most_so_far:
             most_so_far = filled_cells
             best_so_far = len(placed_words)
             elapsed_time = time.time() - start_time
             print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(filled_cells) + " filled cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
             best_words = placed_words
             best_grid = grid
-        #elif len(placed_words) == best_so_far:
-        #    if filled_cells > most_so_far:
-        #        Favouring more cells being filled has the negative effect of favouring less crossovers.
-        #        most_so_far = filled_cells
-        #        best_so_far = len(placed_words)
-        #        elapsed_time = time.time() - start_time
-        #        print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(filled_cells) + " filled cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
-        #        best_words = placed_words
-        #        best_grid = grid
+            # Convert grid to a printable string
+            crossword = '\n'.join([''.join(row) for row in best_grid])
+            write_to_file(crossword, best_words, elapsed_time)
+
+        elif len(placed_words) == best_so_far:
+            if filled_cells > most_so_far:
+                most_so_far = filled_cells
+                best_so_far = len(placed_words)
+                elapsed_time = time.time() - start_time
+                print ("\nFound new best grid with " + str(best_so_far) + " words and " + str(filled_cells) + " filled cells after " + str(builds) + builds_text + str(elapsed_time) + " seconds.", file=sys.stderr)
+                best_words = placed_words
+                best_grid = grid
+                # Convert grid to a printable string
+                crossword = '\n'.join([''.join(row) for row in best_grid])
+                write_to_file(crossword, best_words, elapsed_time)
 
         builds += 1
         sys.stdout.write('\rProgress: [{:<50}] {:.2f}%'.format('#' * int((builds/max_builds) * 50), (builds/max_builds) * 100))
         sys.stdout.flush()
 
-    # Convert grid to a printable string
-    crossword = '\n'.join([''.join(row) for row in best_grid])
-
-
-    return crossword, best_words, elapsed_time
+    return
 
 # Create an ArgumentParser object
 parser = argparse.ArgumentParser(description='Crossword generator')
@@ -383,67 +448,4 @@ except Exception as e:
     print(f"An error occurred: {e}")
     sys.exit(1)
 
-crossword, placed_words, elapsed_time = create_crossword(words_and_clues)
-
-# Open the output file for writing
-with open(output_file, 'w') as f_output:
-    # Write the content to the output file
-    # Print the metadata
-    f_output.write("Title: " + filename + "\n")
-    f_output.write("Words: " + str(len(placed_words)) + " placed out of " + str(len(words_and_clues)) + "\n")
-    f_output.write("Gen time: " + str(int(elapsed_time)) + " seconds" + "\n")
-    f_output.write("Date: " + str(datetime.date.today()) + "\n")
-    f_output.write("\n\n")
-
-
-    # Print the crossword grid
-    f_output.write(crossword)
-
-    f_output.write("\n\n\n")
-
-    sorted_across = []
-    sorted_down = []
-
-    # Sort the words into order of the square they start in
-    placed_words.sort(key=lambda word: word[1])
-
-    # Reduce the starting squares to a sequential order
-    ordered_words = []
-
-    clue_number = 0
-    last_square = -1
-
-    # We need to order the words sequentially, but clues that start on the
-    # same square need to have the same clue number
-    for i in range(len(placed_words)):
-        word, square, clue, orientation = placed_words[i]  # Unpack the current tuple
-
-        if (last_square == square):
-            # This clue starts in the same square as the last so don't
-            # increment the clue_number
-            ordered_words.append((word, clue_number, clue, orientation))
-        else:
-            clue_number += 1
-            ordered_words.append((word, clue_number, clue, orientation))
-        
-        last_square = square
-
-    for i in range(len(ordered_words)):
-        word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
-        if orientation == Orientation.HORIZONTAL:
-            sorted_across.append((word, square, clue))
-
-    for i in range(len(ordered_words)):
-        word, square, clue, orientation = ordered_words[i]  # Unpack the current tuple
-        if orientation == Orientation.VERTICAL:
-            sorted_down.append((word, square, clue)) 
-        
-    # Print the updated positions of the words
-    for word, number, clue in sorted_across:
-        f_output.write(f"A{number}. {clue}\n")
-
-    f_output.write("\n")
-
-    for word, number, clue in sorted_down:
-        f_output.write(f"D{number}. {clue}\n")
-
+create_crossword(words_and_clues)

@@ -1,59 +1,59 @@
 Title: ../dict/weather.tsv
 Words: 29 placed out of 29
-Gen time: 17 seconds
+Gen time: 0 seconds
 Date: 2024-05-07
 
 
-#####################
-####KABUT############
-######A#############M
-######S#############U
-#B#KILAT#########P##S
-#E#E##H#########BADAI
-#S#R#P#####K##K##Y##M
-#A#I#R#####E#LEMBAB##
-#HANGAT##B#R##P##N###
-###G#N###E#I##A##G###
-#####KEKERINGAN#B####
-#####I###A#G##A#M#P##
-###BERAWAN#A##S#K#E##
-#M###A###G#T#LANGIT##
-DERAJAT##I####N###I##
-#N###N#DINGIN###CERAH
-#D##P###########U####
-#U##A###########A####
-ANGIN###########C####
-#G##A########HUJAN###
-####SUHU#############
+#########BESAH#######
+########L###N########
+###B###PAYANG########
+###M##D#N###I#####H##
+###KERING###N#LEMBAB#
+###G##N#I#P##B####N##
+######G#T#R#MENDUNG#C
+###K##I###A##R####A#E
+##KEPANASAN##A##PETIR
+###R######K##W##A###A
+#M#I#KEKERINGAN#N###H
+#U#N######R##N##A####
+#S#G#DERAJAT####SUHU#
+KILAT#####A##########
+#M#T##BERANGIN#######
+######A##############
+######D#K##H#########
+#####BASAH#U#########
+######I#B##J#########
+#######CUACA#########
+########T##N#########
 
 
-A1. Fog
-A5. Lightening
-A7. Storm
-A11. Moist/ humid/ damp
-A12. Warm
-A14. Drought
-A17. Cloudy
-A19. Sky
-A20. Degree (celcius)
-A21. Cold
-A22. Sunny
-A24. Wind
-A25. Wet weather rain
-A26. Temperature
-A26. Temperature
+A1. Wet
+A5. Umbrella
+A8. Dry weather
+A9. Moist/ humid/ damp
+A12. Overcast
+A15. Too hot
+A16. Thunder
+A18. Drought
+A19. Degree (celcius)
+A20. Temperature
+A20. Temperature
+A21. Lightening
+A22. Windy
+A25. Wet
+A26. Weather
 
-D2. Wet
-D3. Season
-D4. Wet
-D5. Dry weather
-D6. Umbrella
-D8. Weather forecast
-D9. Sweat
-D10. Too hot
-D13. Windy
-D15. Meteorologist
-D16. Thunder
-D18. Overcast
-D22. Weather
-D23. Hot
+D2. Wind
+D3. Sky
+D4. Meteorologist
+D6. Cold
+D7. Warm
+D10. Weather forecast
+D11. Cloudy
+D13. Sunny
+D14. Sweat
+D16. Hot
+D17. Season
+D22. Storm
+D23. Fog
+D24. Wet weather rain
