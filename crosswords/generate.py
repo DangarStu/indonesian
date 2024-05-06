@@ -267,7 +267,7 @@ def create_crossword(words):
                     grid[chosen_row][chosen_column + i] = word[i]
                 
                 placed_words.append((word, (chosen_row * 21) + chosen_column + 1, clue, Orientation.HORIZONTAL))
-                print ("Placed word " + word + " horizontally at " + str(chosen_row) + ", " + str(chosen_column) + " where it crosses " + str(words_crossed) + " other words.")
+                #print ("Placed word " + word + " horizontally at " + str(chosen_row) + ", " + str(chosen_column) + " where it crosses " + str(words_crossed) + " other words.")
 
 
             elif chosen_orientation == Orientation.VERTICAL:
@@ -275,7 +275,7 @@ def create_crossword(words):
                     grid[chosen_row + i][chosen_column] = word[i]
 
                 placed_words.append((word, (chosen_row * 21) + chosen_column + 1, clue, Orientation.VERTICAL))
-                print ("Placed word " + word + " vertically at " + str(chosen_row) + ", " + str(chosen_column) + " where it crosses " + str(words_crossed) + " other words.")
+                #print ("Placed word " + word + " vertically at " + str(chosen_row) + ", " + str(chosen_column) + " where it crosses " + str(words_crossed) + " other words.")
         
             else:
                 # If the chosen orientation is UNKNOWN then the word can't have
