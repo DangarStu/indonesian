@@ -1,4 +1,12 @@
 #!/usr/local/bin/python
+
+# Program to generate crosswords from a two-column CSV or TSV file.
+# First row of file is ignore as headers.
+# Type ./generate --help for command line arguments
+# Crosswords are generated in .xd format (https://github.com/century-arcade/xd/)
+# And can be played with xdplayer (https://github.com/devottys/xdplayer)
+# Written by Stuart Allen 2024, free to all for all.
+
 from enum import Enum
 import random
 import datetime
@@ -38,7 +46,6 @@ def create_crossword(words):
             f_output.write("Gen time: " + str(int(elapsed_time)) + " seconds" + "\n")
             f_output.write("Date: " + str(datetime.date.today()) + "\n")
             f_output.write("\n\n")
-
 
             # Print the crossword grid
             f_output.write(crossword)
@@ -370,6 +377,10 @@ def create_crossword(words):
     builds = 1
 
     while builds < max_builds:
+        if len(best_words) == len(words):
+            # All the words have been placed, finish.
+            break
+
         placed_words, filled_cells, grid = build_grid(words)
 
         if builds == 1:
@@ -386,6 +397,8 @@ def create_crossword(words):
             best_grid = grid
             # Convert grid to a printable string
             crossword = '\n'.join([''.join(row) for row in best_grid])
+            # Write to file after each new best grid is discovered so the process can be
+            # exited if the user decides that the lastest one is good enough.
             write_to_file(crossword, best_words, elapsed_time)
 
         elif len(placed_words) == best_so_far:
@@ -398,6 +411,8 @@ def create_crossword(words):
                 best_grid = grid
                 # Convert grid to a printable string
                 crossword = '\n'.join([''.join(row) for row in best_grid])
+                 # Write to file after each new best grid is discovered so the process can be
+                # exited if the user decides that the lastest one is good enough.
                 write_to_file(crossword, best_words, elapsed_time)
 
         builds += 1
