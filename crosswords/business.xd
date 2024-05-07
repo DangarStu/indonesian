@@ -1,72 +1,72 @@
 Title: ../dict/business.tsv
 Words: 42 placed out of 48
-Gen time: 307 seconds
+Gen time: 1679 seconds
 Date: 2024-05-07
 
 
-LAPORAN#####KONTRAK#R
-##R####R########E#E#A
-#KODE#TUAN###P##K#U#P
-##F##P#G##P#PENGACARA
-#PEMBELI##E##N##N#N#T
-##S##N##U#M##D####G##
-##I#RENCANA##A####A#A
-#####L##N#S##PIMPINAN
-#BISNIS#G#U##A######G
-#E###T#P##K##T######G
-#L##DIPERPANJANG#NOTA
-#I#B###N##N##N######R
-C##A###G######BEKERJA
-AKUN##PEGAWAI#####E#N
-K##K###L#####U####S##
-A#K###KURSIPANAS##M##
-PRODUK#A#E#O#T#I##I##
-##L####R#W#S#U#B#G#J#
-#MEMPELAJARI#N#U#U#U#
-##G####N###S#G#KERTA#
-#KANTOR#PIKIR####U#L#
+P##########B##P#####P
+RESMI#####MEMPELAJARI
+O####R#G###L##N#####M
+D#SEWA#A###I##G#P###P
+U####PAJAK###PENELITI
+KOLEGA#I##P#L#L#G###N
+##A##T###PEMASUKAN##A
+##P#P#####N#B#A#W###N
+PROFESI#K#J#A#R#A####
+O#R#N###U#U###A#I##N#
+S#A#DIPERPANJANG#G#O#
+I#N#A#E#S#L######U#T#
+S###P#N#I##R#BEKERJA#
+I##UANG#P##U###O#U##K
+#P##T#A#ANGGARAN####A
+KERTA#C#N##I###TUJUAN
+#M##N#A#A###R##R####T
+#B####R#S##RENCANA##O
+KEUANGAN##H#K##K#K##R
+#L#######CAKAP###U###
+BISNIS####L#N##BANK##
 
 
-A1. Report
-A3. Contract
-A8. Code
-A9. Sir
-A13. Lawyer
-A14. Buyer
-A16. Plan
-A18. Boss, team leader
-A19. Business
-A21. Extended
-A22. Bill, receipt
-A25. Work
-A27. Account
-A28. Employee
-A31. Hot seat
-A35. Product
-A38. Study, investigate
-A39. Paper
-A40. Office
-A41. Think
+A5. Formal, official
+A6. Study, investigate
+A9. Rent, lease
+A11. Tax
+A12. Researcher
+A13. Colleague
+A17. Income
+A19. Profession
+A22. Extended
+A26. Work
+A28. Money
+A31. Budget
+A32. Paper
+A33. Objective, purpose, goal
+A35. Plan
+A37. Finance
+A39. Competitent
+A40. Business
+A41. Bank
 
-D2. Profession
-D4. Colleague
-D5. Finance
-D6. Meeting
-D7. Loss
-D10. Income
-D11. Researcher
-D12. Income
-D15. Money
-D17. Budget
-D19. Buy
-D20. Expenses
-D23. Bank
-D24. Competitent
-D26. Formal, official
-D29. Profit
-D30. Colleague
-D32. Rent, lease
-D33. Position, rank
-D34. Busy
-D36. Teacher
-D37. Sell
+D1. Product
+D2. Buy
+D3. Expenses
+D4. Boss, team leader
+D7. Meeting
+D8. Salary, wages
+D10. Employee
+D14. Report
+D15. Seller
+D16. Profit
+D18. Income
+D19. Position, rank
+D20. Hot seat
+D21. Bill, receipt
+D23. Lawyer
+D24. Teacher
+D25. Loss
+D27. Contract
+D29. Office
+D30. Buyer
+D34. Colleague
+D36. Account
+D38. Subject, matter
