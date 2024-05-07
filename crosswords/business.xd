@@ -1,72 +1,72 @@
 Title: ../dict/business.tsv
-Words: 42 placed out of 55
-Gen time: 3671 seconds
-Date: 2024-05-06
+Words: 42 placed out of 48
+Gen time: 307 seconds
+Date: 2024-05-07
 
 
-########R#CAKAP###K##
-P###A###E###O#E#R#O##
-E#KONTRAK#M#D#N#E#L#P
-K###G###A#E#E#G#C#E#E
-I###G#P#N#M##KEUANGAN
-RENCANA###P#B#L#N#A#E
-####R#J##PEMASUKAN##L
-#P##A#A###L#N#A#K#G#I
-TEMAN KERJA#KERTAMU#T
-#N########J###A#N#R#I
-#D##DIPERPANJANG##U##
-LABA######R#U###G####
-#P##N#PIMPINAN##A#L#P
-KANTOR###E##L###J#A#E
-#T##T#H##G###MEMIMPIN
-RANCANANYA########O#G
-#N####L##W#R#BERKERJA
-####B##S#AKUN#####A#C
-###PEMBELI#G#TUJUAN#A
-####L##W###I########R
-KURSI PANAS#MATA-MATA
+LAPORAN#####KONTRAK#R
+##R####R########E#E#A
+#KODE#TUAN###P##K#U#P
+##F##P#G##P#PENGACARA
+#PEMBELI##E##N##N#N#T
+##S##N##U#M##D####G##
+##I#RENCANA##A####A#A
+#####L##N#S##PIMPINAN
+#BISNIS#G#U##A######G
+#E###T#P##K##T######G
+#L##DIPERPANJANG#NOTA
+#I#B###N##N##N######R
+C##A###G######BEKERJA
+AKUN##PEGAWAI#####E#N
+K##K###L#####U####S##
+A#K###KURSIPANAS##M##
+PRODUK#A#E#O#T#I##I##
+##L####R#W#S#U#B#G#J#
+#MEMPELAJARI#N#U#U#U#
+##G####N###S#G#KERTA#
+#KANTOR#PIKIR####U#L#
 
 
-A2. Competitent
-A9. Contract
-A13. Finance
-A14. Plan
-A16. Income
-A19. Colleague
-A20. Paper
+A1. Report
+A3. Contract
+A8. Code
+A9. Sir
+A13. Lawyer
+A14. Buyer
+A16. Plan
+A18. Boss, team leader
+A19. Business
 A21. Extended
-A23. Profit
-A26. Boss, team leader
-A30. Office
-A32. Lead
-A33. The plan
-A35. Work
-A38. Account
-A39. Buyer
-A40. Objective, purpose, goal
-A41. Important place, hot seat
-A42. Spy
+A22. Bill, receipt
+A25. Work
+A27. Account
+A28. Employee
+A31. Hot seat
+A35. Product
+A38. Study, investigate
+A39. Paper
+A40. Office
+A41. Think
 
-D1. Colleague
-D3. Code
-D4. Expenses
-D5. Colleague
-D6. Think
-D7. Budget
-D8. Plan
-D10. Study, investigate
+D2. Profession
+D4. Colleague
+D5. Finance
+D6. Meeting
+D7. Loss
+D10. Income
 D11. Researcher
-D12. Tax
-D15. Bank
-D17. Income
-D18. Teacher
-D22. Sell
-D24. Salary, wages
-D25. Bill, receipt
-D27. Employee
-D28. Report
-D29. Lawyer
-D31. Subject, matter
-D34. Loss
-D36. Buy
-D37. Rent, lease
+D12. Income
+D15. Money
+D17. Budget
+D19. Buy
+D20. Expenses
+D23. Bank
+D24. Competitent
+D26. Formal, official
+D29. Profit
+D30. Colleague
+D32. Rent, lease
+D33. Position, rank
+D34. Busy
+D36. Teacher
+D37. Sell

@@ -350,6 +350,7 @@ diperiksa	checked	verb
 diperpanjang	extended	verb	business	Kontrak kerjaku diperpanjang oleh boss saya	
 dipilih	picked	verb			
 dipimpin	lead (past tense)	verb			
+impin	lead	verb			
 diri	self	pronoun			
 diri sendiri	be myself	verb	social		
 dirimu sendiri	be yourself	verb	social		
@@ -1000,7 +1001,7 @@ pegawai	employee	noun	business
 pegulat	wrestler	noun	sport		
 pekan	week	noun	time		
 pekerjaan	job	noun			
-pekir	think	verb	business		
+pikir	think	verb	business		
 pelabuhan	harbour	noun	travel		
 pelarajan	lesson	noun	study		
 pelatihan	excercise, practice	noun	study		
@@ -1158,7 +1159,6 @@ rasa	flavour	noun	food
 ratus	one hundred	noun	numbers		
 rawa	swamp	noun	nature		
 rebus	boiled	adjective	food		
-recanakan	plan	noun	business		
 reda	subside/ blow over	verb			
 rekan	colleague	noun	business		
 rembulan	moon	noun			
@@ -1302,6 +1302,7 @@ setiap	each, every	adjective
 setidaknya	unless	conjunction			
 setrika	ironing	verb	business		
 setuju	agree	verb			
+tuju	aim	noun	business		
 sewa	rent	noun	travel		
 sial	bugger (damn it)	verb	social		
 siang	noon	noun	time		
