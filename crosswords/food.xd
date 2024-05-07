@@ -1,83 +1,85 @@
 Title: ../dict/food.tsv
-Words: 53 placed out of 62
-Gen time: 3979 seconds
-Date: 2024-05-06
+Words: 55 placed out of 68
+Gen time: 5833 seconds
+Date: 2024-05-07
 
 
-#T#KECAP#ENAK########
-MAS#S##I####O##GULA##
-#H#####S#M##P#B##A##G
-BUMBU#PAHIT#IKAN#Y##A
-##E####U#N####Y#BUBUR
-GARPU#H##Y#RASA###A#A
-##I##SAMBAL###MASAK#M
-##C###N##K#D#M##E#A##
-#JAGUNG###SARAPAN#R##
-######U####G#N##D####
-MANIS#SEPIRING#WORTEL
-####E######N#K##K###O
-B###PISANG#G#U#B##K#B
-U###O########K#A#MEJA
-TELUR##P#B#####W##J#K
-I###SELEDRI#CABAI#U##
-R#L#I##S#O###S#N####G
-##A####A#KENTANG#JAHE
-##PERMEN#O#A#M######L
-##A####A#L#S########A
-AIR##MENGIRIS#MEREBUS
+KECAP#A#####MEMESAN##
+####A#SEPORSI#A###A##
+PEDAS#A#####N#S##ASIN
+####A#M##TELUR#M##I##
+LAPAR##M####M##ES####
+##A###RESTORAN#R#J#D#
+MINUM##M#E##N##E#AYAM
+A#A#E##B#H#B#S#B#G#G#
+N#SARAPAN#JAHE#U#U#I#
+I###I##Y#B#K#PESANAN#
+S#S#C#SATULAGI###G#G#
+#GELAS#R#B#R#RASA#M#J
+##N###P##U###I##I#A#A
+##DINGIN#R#MENGIRIS#J
+##O###S#S##A#G####A#A
+CUKA#MAKANAN####MAKAN
+####P#N#M##G#E##I####
+#BAWANG#B##KENTANG###
+####H##GARPU#A##Y#K##
+CABAI###L##K#K#WARUNG
+####TAHU########K#E##
 
 
-A2. Soy sauce
-A5. Delicious
-A7. Sir, brother (waiter)
-A8. Sugar
-A13. Seasoning
-A15. Bitter
-A16. Fish
-A17. Porridge
-A19. Fork
-A21. Flavour
-A22. Chilli sauce
-A23. Cooking
-A27. Corn
-A28. Breakfast
-A29. Sweet
-A31. One plate
-A32. Carrot
-A35. Banana
-A38. Table
-A39. Egg
-A42. Celeri
-A43. Chilli
-A47. Potato
-A49. Ginger
-A50. Candy
-A51. Water
-A52. Slice
-A53. To boil
+A1. Soy sauce
+A4. Order
+A7. One portion
+A8. Spicy
+A9. Salty
+A10. Egg
+A12. Hungry
+A15. Ice
+A16. Restaurant
+A20. To drink
+A22. Chicken
+A25. Breakfast
+A26. Ginger
+A28. Order
+A30. One more
+A31. Glass, cup
+A32. Flavour
+A37. Cold
+A38. Slice
+A40. Vinegar
+A41. Food
+A42. Eat
+A45. Onion
+A46. Potato
+A47. Fork
+A49. Chilli
+A50. Roadside stall
+A51. Tofu
 
-D1. Tofu
-D3. Ice
-D4. Knife
-D6. Coffee
-D9. Stale
-D10. Oil
-D11. Spinach
-D12. Salt
-D14. Pepper
-D18. Grilled, barbequed
-D20. Burnt for food
-D24. Spoon
-D25. Meat
-D26. Bowl
-D30. One portion
-D33. Radish
-D34. Grain (for small (and roundish) things) - include
-D36. Onion
-D37. Cheese
-D40. Order
-D41. Broccoli
-D44. Sour
-D45. Hungry
-D46. Glass, cup
-D48. Rice
+D2. Market
+D3. Sour
+D4. Drink
+D5. Sir, brother (waiter)
+D6. Rice
+D11. To boil
+D13. Hot
+D14. Pay
+D17. Tea
+D18. Corn
+D19. Meat
+D20. Sweet
+D21. Pepper
+D23. Grilled, barbequed
+D24. One plate
+D27. Porridge
+D29. Spoon
+D33. Water
+D34. Cooking
+D35. Snacking
+D36. Banana
+D38. Bowl
+D39. Chilli sauce
+D42. Oil
+D43. Bitter
+D44. Delicious
+D48. Cake
