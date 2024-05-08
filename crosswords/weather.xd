@@ -1,61 +1,68 @@
 Title: ../dict/weather.tsv
-Words: 31 placed out of 31
-Gen time: 9 seconds
-Date: 2024-05-07
+Words: 38 placed out of 39
+Gen time: 911 seconds
+Date: 2024-05-08
 
 
-##P######P#DINGIN####
-#CERAH###E#E#########
-##T##A###L#R##P######
-##I##N##MATAHARI##L##
-##R##G#M#N#J##A###A##
-####PAYUNG#A##KERING#
-#####T#S#I#T##I###G##
-S######I##K###R###I##
-U##B###M#BERAWAN##T##
-HUJAN###K#R#N#A######
-U##S#KEKERINGAN######
-#CUACA##P#N#I########
-###H#BERANGIN########
-#####U##N#A##########
-#KILAT##A#T##########
-######L#S##BMKG######
-####B#E#A##A#########
-####A#MENDUNG########
-####D#B####J#########
-###PANAS###I#########
-####I#B##TERIK#######
+LEMBAB####G######P###
+#####E###PETIR###E###
+#####R##M#L####K#L#H#
+####JASHUJAN##DERAJAT
+###G#W##S#P####P#N#N#
+##BERANGIN###K#A#G#G#
+#C#R#N##M##P#E#N#I#A#
+TERIK#S#S##R#R#A###T#
+#R#M##U#E##A#I#S#B###
+#A#I##H#M##K#N#A#A###
+#H#S#MUSIMDINGIN#S#L#
+#####E###U#R#A##BADAI
+#HUJAN###S#A#T###H#N#
+#####D##KILAT###M##G#
+#####U###M#N###BANJIR
+#KERING##G######T##T#
+#A###G##MUSIMPANAS##A
+#B#####B#G###A##H###N
+MUSIM##M#U###N#PAYUNG
+#T###KEKERINGAN#R###I
+#######G#####S#DINGIN
 
 
-A3. Cold
-A4. Sunny
-A7. Sun
-A10. Umbrella
-A11. Dry
-A15. Cloudy
-A17. Wet weather, rain
-A19. Drought
-A20. Weather
-A21. Windy
-A22. Lightening
-A24. Meteorologist
-A26. Overcast
-A27. Hot
-A28. Scorching
+A1. Moist, humid, damp
+A5. Thunder
+A9. Rain coat
+A10. Degree (celcius)
+A12. Windy
+A16. Scorching
+A19. Winter
+A22. Storm
+A23. Wet weather, rain
+A24. Lightening
+A26. Flood
+A27. Dry
+A28. Summer
+A32. Season
+A33. Umbrella
+A34. Drought
+A35. Cold
 
-D1. Thunder
-D2. Rainbow
-D3. Degree (celcius)
-D5. Warm
-D6. Forecast
-D8. Sky
-D9. Season
-D12. Temperature
+D2. Cloudy
+D3. Dark
+D4. Rainbow
+D6. Spring
+D7. Too hot
+D8. Warm
+D11. Drizzle
 D13. Sweat
-D14. Wet
-D16. Wind
-D18. Too hot
-D19. Fog
-D23. Moist, humid, damp
-D24. Flood
-D25. Storm
+D14. Sunny
+D15. Forecast
+D17. Temperature
+D18. Wet
+D19. Overcast
+D19. Overcast
+D20. Autumn
+D21. Sky
+D25. Sun
+D27. Fog
+D29. Hot
+D30. Wind
+D31. Meteorologist
