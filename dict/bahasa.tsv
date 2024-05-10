@@ -1225,7 +1225,7 @@ saya	I, me	noun	social
 sayang	darling, dear	noun	social		
 sayur	vegetables	noun	food		
 sebab	cause	noun			
-sebagai	as			Kamu sebagai apa?	
+sebagai	as	conjunction	grammar	Kamu sebagai apa?	
 sebaiknya	should	adverb	social		
 sebaliknya	conversely	conjunction	grammar		
 sebelah	adjacent	preposition			
@@ -1439,7 +1439,7 @@ terkenal	famous	adjective
 terkirim	sent/ delivered	verb			
 terlalu	too/ overly	adjective			
 terlalu cepat	too soon	too fast.			
-terlalu mahal	too expensive				
+terlalu mahal	too expensive		shopping		
 terlambat	late	adjective			
 terletak	located	adjective			
 termasuk	including	preposition			
