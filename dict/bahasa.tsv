@@ -310,6 +310,10 @@ dapur	kitchen	noun	home
 darah	blood	noun	body		
 dari	from	preposition	travel		
 daripada	than (compared to) rather than (when used alone)	conjunction	grammar		
+bakso	meatballs	noun	food		
+mie	noodles	noun	food		
+termasuk	included	preposition	grammar		
+samping	beside, side	preposition	grammar		
 dasar	root, base 	adjective			
 datang	come	verb	travel		
 datanglah	come	verb			
@@ -1236,7 +1240,7 @@ sebut	say	verb	jacl
 secara	in a way	preposition			
 sedadung	going	adjective			
 sedang	currently	adjective	time		
-sedankan	meanwhile	conjunction			
+sedankan	meanwhile	conjunction	grammar		
 sederhana	simple	adjective			
 sedia	ready	adjective	massage		
 sedih	sad	adjective	social		
@@ -1288,7 +1292,7 @@ sepeda motor	motorcycle	noun	travel
 seperdua	half	noun	numbers		
 seperempat	quarter	noun	numbers		
 seperti	example, resembles	verb			
-seperti apa	such as	conjunction			
+seperti apa	such as	conjunction	grammar		
 sepi	quiet	adjective			
 sepiring	one plate	noun	food		
 seporsi	one portion	noun	food		
@@ -1298,17 +1302,17 @@ serangan	attack	noun	social
 sering	often	adverb	time		
 seringai	grin	noun	social		
 serok	rake	verb			
-serta	as well as	conjunction			
+serta	as well as	conjunction	grammar		
 sesaui	match/ in accordance/ co-ordinates	adjective			
 seseorang	someone	adverb			
 sesua	whatever	pronoun	nanik		
 sesuai	appropriate, suitable	adjective			
 sesuatu	something, anything, any	pronoun			
-sesudah	after	conjunction			
+sesudah	after	conjunction	grammar		
 setelah	after	conjuncion			
 setengah	half	noun	numbers		
 setiap	each, every	adjective			
-setidaknya	unless	conjunction			
+setidaknya	unless	conjunction	grammar		
 setrika	ironing	verb	business		
 setuju	agree	verb			
 sewa	rent	noun	travel		
@@ -1516,7 +1520,7 @@ umum	common, general	adjective
 umur	age	noun			
 undang	invite	verb	social		
 universitas	university	noun	study		
-untuk	for (the purpose of)	conjunction			
+untuk	for (the purpose of)	conjunction	grammar		
 untung	profit	noun	business		
 untungnya	fortunately	adjective			
 urutan	order, sequence, position	noun			
