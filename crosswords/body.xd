@@ -1,73 +1,75 @@
 Title: ../dict/body.tsv
-Words: 43 placed out of 51
-Gen time: 125 seconds
+Words: 45 placed out of 50
+Gen time: 177 seconds
 Date: 2024-05-11
 
 
-##MATA##PERUT##RAMBUT
-##U####P####E#J###U#U
-KULIT##E##LENGAN##N#B
-U#U#E##R####G#R#D#C#U
-K#TELINGA##JARIKAKI#H
-U###A##E####N#T#H#T##
-####P##L####G#E#I####
-#BULA MATA####N###P##
-####K##N##O#M#GENDUT#
-##K##T#G##T#A#A###N##
+#BAHU################
+###A############PAKU#
+###T#TELAPAK####E####
+DAHI##Y##E####JARI##K
+##I#NYEKER#J####U###U
+DADA###A#G#A##LUTUT#L
+A#U#P##K#E#R##E###U#I
+GENDUT#I#L#I##N#MULUT
+U#G#N###JANTUNG#A#A##
+####G####N#E##A#T#N##
 #PERGELANGANTENGANG##
-L#P##N#N##K#A#G#L#G##
-U#A##G#K#### ##HIDUNG
-TULANG#A#NYEKER#S#N##
-U#A##O#K####A#####G#H
-T##BIRBIR#D#K##W#D##A
-#B###O###DAHINYA#A##T
-DADA#KAKI#R####J#GIGI
-#D###A####A###BAHU###
-JANTUNG#LEHER##H#####
-#N###################
+####U####A#G#L##K###J
+##T#N####N#A#BULAMATA
+#TENGGOROKAN#O##K#L#R
+B#N######A#G#W#PIPI#I
+I#GIGI#K#K##R#O###S#K
+R#A###TELINGA#T#W###A
+BUNCIT#P####M#OTAK##K
+I#G###BADAN#B#T#J###I
+R######L####U###A####
+####DARAH###TUBUH####
 
 
-A1. Eye
-A2. Stomach
-A4. Hair
-A9. Skin
-A11. Arm
-A13. Ears
-A14. Toes
-A15. Eye lashes
-A19. Fat (whole person)
-A19. Fattest of the fat people
-A22. Wrist
-A25. Nose
-A26. Bones
-A27. Bare feet
-A29. Lips
-A34. Forehead
-A35. Chest
-A36. Foot
-A37. Teeth
-A38. Shoulder
-A39. Heart
-A40. Neck
+A1. Shoulder
+A3. Nails
+A4. Palm or sole
+A7. Forehead
+A9. Finger
+A11. Bare feet
+A14. Chest
+A15. Knees
+A18. Fat (whole person)
+A18. Fattest of the fat people
+A19. Mouth
+A20. Heart
+A21. Wrist
+A25. Eye lashes
+A27. Throat
+A29. Cheek
+A30. Teeth
+A34. Ears
+A36. Fat
+A37. Brain
+A38. Body
+A39. Blood
+A40. Body
 
-D1. Mouth
-D3. Hand
-D5. Fat
-D6. Body
-D7. Ankle
-D8. Finger
-D9. Nail
-D10. Palm or sole
-D12. Forehead
-D16. Back
-D17. Brain
-D18. Anklebone
-D20. Head
-D21. Throat
-D23. Eyebrow
-D24. Knees
-D28. Heart or liver
-D30. Blood
-D31. Face
-D32. Chin
-D33. Body
+D2. Heart or liver
+D3. Stomach
+D5. Mata
+D6. Ankle
+D8. Nose
+D10. Skin
+D12. Foot
+D13. Finger
+D14. Chin
+D15. Arm
+D16. Bones
+D17. Back
+D19. Anklebone
+D22. Siku
+D23. Toes
+D24. Hand
+D26. Eyebrow
+D28. Lips
+D31. Head
+D32. Hair
+D33. Muscle
+D35. Face
