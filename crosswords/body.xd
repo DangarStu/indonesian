@@ -1,75 +1,72 @@
 Title: ../dict/body.tsv
-Words: 45 placed out of 50
-Gen time: 2008 seconds
-Date: 2024-05-11
+Words: 42 placed out of 48
+Gen time: 217 seconds
+Date: 2024-05-12
 
 
-###B#######PUNGGUNG##
-PAHA##P####E#########
-A##H#TENGGOROKAN#####
-KUKU##R####G##L#B####
-U#E##MULUT#E#HIDUNG##
-##P#T#T##E#L##S#L####
-##A#E##LENGAN##DARAH#
-##L#L####G#N####M###O
-#JARITENGANG###RAMBUT
-####N####N#A#T##T###O
-#PERGELANGANTENGANG#T
-#I##A#I####K#L####E##
-#P####D#MATAKAKI##N##
-#I#DADA####K#P##BADAN
-######H#JARIKAKI##U##
-#####B##A####K##LUTUT
-##K#TULANG##L########
-##U##N##T#E#ELBOW#D#G
-##L##C##U#Y#H##T#HATI
-#BIRBIR#NYEKER#A##H#G
-##T##T##G###R##KAKI#I
+####TELAPAK########T#
+########E###J##B###U#
+###BIRBIR##JANTUNG#L#
+######A#G#K#R##L###A#
+L#####H#E#U#I#TANGANG
+U#####U#L#L#K##M###G#
+T#MATA#JARITANGANG###
+U###E###N#T#K##T##P##
+TELINGA#G###I#RAMBUT#
+####G###A#D#######N#P
+#PERGELANGANTENGANG#A
+E###O###K#R#######G#K
+LEHER##MATAKAKI##KUKU
+B###O###K#H##E##G#N##
+O#KAKI##I####P#LENGAN
+W###A#H###LIDAH#N###Y
+##BUNCIT#####L##D###E
+O#A###D###WAJAH#U###K
+T#D##TUBUH#L##A#T#EYE
+OTAK##N####I##T#####R
+T#N#DAGU###S#GIGI####
 
 
-A2. Back
-A3. Thigh
-A5. Throat
-A7. Nail
-A10. Mouth
-A12. Nose
-A14. Arm
-A15. Blood
-A17. Finger
-A18. Hair
+A1. Palm or sole
+A6. Lips
+A8. Heart
+A11. Hand
+A12. Eye
+A14. Finger
+A16. Ears
+A17. Hair
 A20. Wrist
+A22. Neck
 A23. Anklebone
-A24. Chest
-A25. Body
-A26. Toes
-A28. Knees
-A30. Bones
-A33. Siku
-A37. Heart or liver
-A38. Lips
-A39. Bare feet
-A40. Foot
+A25. Nail
+A27. Foot
+A28. Arm
+A31. Tongue
+A32. Fat
+A34. Face
+A37. Body
+A38. Mata
+A39. Brain
+A40. Chin
+A41. Teeth
 
-D1. Shoulder
 D2. Ankle
-D3. Nails
-D4. Stomach
-D6. Eyebrow
-D8. Head
-D9. Eye lashes
-D11. Hand
-D13. Ears
-D16. Muscle
-D19. Palm or sole
-D20. Cheek
-D21. Tongue
-D22. Fat (whole person)
-D22. Fattest of the fat people
-D26. Heart
-D27. Fat
-D29. Skin
-D31. Neck
-D32. Mata
-D34. Brain
-D35. Forehead
-D36. Teeth
+D3. Bones
+D4. Toes
+D5. Eye lashes
+D7. Shoulder
+D9. Skin
+D10. Knees
+D13. Throat
+D15. Back
+D18. Blood
+D19. Nails
+D21. Siku
+D24. Head
+D26. Fat (whole person)
+D29. Bare feet
+D30. Nose
+D32. Body
+D33. Muscle
+D35. Eyebrow
+D36. Heart or liver
