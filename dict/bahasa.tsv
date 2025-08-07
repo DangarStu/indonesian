@@ -3,6 +3,11 @@ abang	older brother	noun	family	no
 acak	jumbled	adjective		no		
 acara	event, program, schedule	noun		yes		
 ada	is, are, am	verb		yes	Ada apa	Question
+batang	stem	classifier	grammar			
+lembar	sheet	classifier	grammar			
+pucuk	shoot	classifier	grammar			
+masing	worker	classifier	grammar			
+butir	grain	classifier	grammar			
 adalah	is, am, are	auxiliary verb		yes		Statement
 adik	younger brother	noun	family	yes		
 adil	fair	adverb	social	yes		
@@ -41,6 +46,7 @@ antara	in between	preposition		yes
 anu	mmmm	interjection	social	no		
 apa	what	pronoun		yes		
 apa pun	whatever	pronoun, conjunction		no		
+apa saja	anything	pronoun		yes		
 apa-apa	something	noun		no		
 apabila	if	conjunction		no		Formal
 apakah	is, are, do	verb		yes		Question
@@ -80,6 +86,7 @@ bahaya	danger	noun	emergency	no
 bahkan	even	adverb		no		Used to accentuate something
 bahu	shoulder	noun	body	no		
 bahwa	that	conjunction	grammar	no		Flow on conjunction
+bahwa	that	conjunction	grammar	no		
 baik	good	adjective	social	yes		
 baikkan	make it better	verb		no	Kita sudah baikkan	
 baiklah	okay	interjection		no		
@@ -105,7 +112,7 @@ bantu	help	verb	social	yes
 bantuan	assistance	noun	emergency	yes		
 banyak	many	adjective		yes		
 bapak	father, older man	mr	family	yes		
-barang	items, good	noun		no		
+barang	items, luggage	noun		no		
 barangkali	perhaps	adverb		no		
 barat	west	noun	travel	yes		
 barat daya	southwest	noun	travel	yes		
@@ -161,7 +168,7 @@ beranang	swimming	verb		no
 berangin	windy	adjective	weather	no		
 berangkat	depart	verb	travel	yes		
 berani	brave	adjective	social	yes		
-berankikan	dare	verb	social	yes		
+beranikan	dare	verb	social	yes		
 berapa	how many	adverb	shopping	yes		
 berapa kali	how many times?	adverb		yes		
 berarti	means	verb		yes		
@@ -193,6 +200,7 @@ berita	news (tv or radio)	noun	social	no
 berjalan	walk	verb	travel	yes		
 berjemur	sunbathing	verb	social	no		
 berkata	said	verb	social	yes		
+berkecukupan	sufficient			no		
 berkenalan	aquanited	adjective	social	no		
 berkerja	work	verb	business	yes		
 berkibar	fluttering	verb		no		
@@ -225,7 +233,7 @@ besar	big, large	adjective		yes
 besarnya	magnitude, dimensions	noun		no		
 besok	tomorrow	noun	time	yes		
 betul	that's right	adjective		yes		
-biar	let	verb		no		
+biar	let, allow	verb		no		
 biarkan saja	let whatever be			no		
 biarlah	so be it			no		
 biasa	normal	adjective		yes		
@@ -274,11 +282,10 @@ buncit	beer belly	adjective	body	no
 bundar	round	adjective		no		
 bunga	flowers	noun	plants	no		
 bungkus	wrap, package	noun		no		
-buntu	dead end	noun	travel	no		
+buntu	dead end, clogged	adjective	travel	no	Jalan buntu	
 bunuh	kill	verb		no		
 buruk	bad	adjective		yes		
 burung	bird	noun	animals	no		
-butir	grain (for small (and roundish) things) - include	noun	food	no		
 cabai	chilli	noun	food	yes		
 cakap	competitent	advjective	business	no		
 cakap-cakap	speak	verb	social	no		More Malaysian
@@ -309,7 +316,7 @@ cipta	create	verb		no
 cita	ambition	noun	business	no		
 cium	kiss, smell	verb	social	yes		
 coba	try	verb		yes		
-cocok	appropriate, suitable	adjective	(None)	no	(None)	(None)
+cocok	appropriate, suitable	adjective	 	no	Makanan ini cocok dengan minuman ini	 
 cokelat	brown	adjective	colours	yes		
 contoh	example	noun		yes		
 cuaca	weather	noun	weather	yes		
@@ -366,6 +373,7 @@ dibesarbesarkan	exagerated	adverb		no
 dicuri	stolen	adjective	emergency	no		
 didekat	close to	adjective		no		
 didik	educate	verb		no		
+diharapkan	expected	verb		no		
 dihinggapi	on (only for any insects and animals that fly)	preposition		no		
 dikata	said	verb	social	yes		
 dikisahkan	narrated	verb		no		
@@ -459,12 +467,13 @@ gurih	tasty	adjective	food	yes		Not sweet, not salty
 gurita	octopus	noun	animals	yes		
 guru	teacher	noun	study	yes		
 habis	finished, exhausted, run out	adjective		yes		
+hadap	face to face	adverb		yes		
 hadiah	gift, present	noun	social	no		
 hajat	wish, desire, intent	noun		no		
 hak	right, title	noun	business	yes		
 hal	matter, suff	noun		no	Apakah kamu menginginkan hal lainnya?	
 halaman	yard, page	noun		no		
-hambar	plain	bland		no		
+hambar	tasteless, plain	adjective		no		
 hamil	pregnant	advjective	family	yes		
 hampir	almost/ nearly	adjective		no		
 handuk	towel	noun		no		
@@ -473,7 +482,8 @@ hangus	burnt for food.	adjective	food	no
 hanya	only	adverb	social	yes	Hanya bercanda	
 hapus	erase, delete	verb		no		
 harap	hope, wish, please	verb	social	yes		
-harapan	wish	noun		no		
+harapan	wish	noun		yes		
+harapkan	expect	verb		yes		
 hari	day	noun	time	yes		
 hari ini	today	noun	time	yes		
 hari ulang tahun	birthday. (ulang - repeat)	noun	social	yes		
@@ -496,7 +506,7 @@ hilir	estuary	noun	boating	no
 hingaggap	on (only for any insects and animals that fly)	preposition		no		
 hingga	until	preposition		no		
 hitam	black	adjective		yes		
-hormati	respect	verb	social	no	Hormati orang yang lebih tua	
+hormati	respect	verb	social	no	Hormati sesepuhmu	
 hp	mobile phone (ha pay)	noun		no		
 hubungan	relationship, connection	noun	social	no		
 hujan	wet weather, rain	noun	weather	yes		
@@ -564,6 +574,7 @@ judi	gamble	verb		no
 juga	also	conjunction	grammar	yes		
 jumat	friday	noun	time	yes		
 jumlah	amount	noun	numbers	no		
+jumpa	see you, meet	verb	social	yes		
 jumput	pick up	verb		no		
 juta	one million	noun	numbers	yes		
 jutawan	millionaire	noun	business	yes		
@@ -626,14 +637,16 @@ kebetulan	what a conincidence!	expression		no
 kebetulan	what a conincidence	expression	social	no		
 kebiasaan	habit	noun	social	yes		
 kebun	flower garden, vegetable garden	noun	home	no		
-kecap	soy sauce	noun	food	no		
+kecap	soy sauce	noun	food	yes		
 kecelakaan	accident	noun	travel	yes		
 kecil	small	adjective		yes		
 kedang	extension	noun		no		
 kedapatan	to be found out, discovered	adjective		no		
+kedapatan	caught, found out	verb	social	yes		
 kedinginan	too cold	adjective		no		
 kedua	second	adjective		yes		
 keduanya	both	adjective		yes		
+kehidupan	life	noun		yes		
 keinginan	wish, desire	verb		no		
 kejar	chase	verb		no		
 kejelasan	clarity	noun		no		
@@ -728,6 +741,7 @@ kura-kura	tortoise	noun	animals	no
 kurang	not enough, less, minus	adjective		no		
 kurang-lebih	estimate	noun		no		
 kurangi	subtract	verb		no		
+kurangnya	lack of	adjective		no		
 kursi	chair, seat	noun	house	yes		
 kursi panas	important place, hot seat	noun	business	yes		
 kutub	pole	noun	travel	no		
@@ -740,6 +754,7 @@ lahir	born	verb		no
 lain	other	adjective		yes	Lain kali	
 laki-laki	male	adjective	family	yes		
 lakukan	do	verb		yes	Janang lakukan itu	
+lalim	tyrannical	adjective	social	no		Saya bekerja sulit hari ini karena bos saya lalim.
 lalu	then, previous	conjunction	grammar	yes		
 lalu lintus	traffic		travel	yes		
 lama	long (time)	adjective	time	yes		
@@ -749,15 +764,16 @@ lambat	slow, late, sluggish	adjective		yes
 lampar	throw	verb		no		
 lampar saja	just throw it	verb	grammar	no		
 lampu	light	adjective	time	yes		
+lancer	smooth, fluent	adjective		no		
 langit	sky	noun	weather	no		
 langit-langit	ceiling	noun	home	no		
 langsung	right away, directly	adverb		yes		
 lanjut	continue, carry on	verb		yes		
-lanpang	spacious	adjective		no		
-lanpangan	field, court	noun	sport	no		
-lantai	floor	noun	home	no	turun ke lantai bawah	
+lantai	floor	noun	home	yes	turun ke lantai bawah	
 lap	cloth, rag	noun		no		
+lapang	spacious	adjective		no		
 lapang	roomy, spacious	adjective		yes		
+lapangan	field, court	noun	sport	no		
 lapangan	field	noun	nature	yes		
 lapar	hungry	adjective	food	no		
 laporan	report	noun	business	no		
@@ -792,12 +808,15 @@ libur	holiday	noun	travel	yes
 liburan	holidays	noun	travel	yes		
 licin	slippery	adjective	travel	yes		
 lidah	tongue	noun	body	no		
+lihat	look	verb		yes		
 lingkungan	environment	noun	nature	yes		
+lintas	cross	verb	travel	yes		
 lintus	cross	verb	travel	yes		
 lipat	fold, times	noun	measuring	no		As is four fold.
 listrik	electricity	noun	technology	no		
 lobak	radish	noun	food	no		
 logis	logic, sensibile	noun		no	Logis sedikitlah	
+loket	counter	noun	travel	yes		As in ticket counter.
 lombah	race	noun	sport	no		
 longsor	landslide		emergency	no		
 losmen	guesthouse	noun	travel	no		Not common anymore.
@@ -825,12 +844,13 @@ makan	eat	verb	food	yes
 makanan	food	noun	food	yes		
 makanya	therefore	conjunction		no		
 makin	increasingly, more and more	adjective		yes		
-maksudnya	the meaning	noun	social	no	Apa maksudnya	
+maksud	meaning	noun	social	no	Apa maksudnya	
 malam	night	noun	time	yes		
 malas	lazy	adjective	social	yes		
 malu	shy	adjective	social	no		
 malu-malu	very shy	adjective	social	no		
 mampet	blocked	adjective	travel	no		
+mampir	stop by	verb	social	no		
 mampu	capable, able	adjective		no		
 mana	where	adverb	social	yes		
 mana-mana	anywhere	adverb	social	no		
@@ -869,10 +889,12 @@ melalui	through	preposition		no
 melampari	throw often	verb		no		
 melatih	train	verb		no		
 melawan	oppose	verb		no		
+melayangkan	to cast, to send	verb		no	Dia melayangkan surat itu ke kantor pos	Implies being sent through the air or with a trajectory although not strictly.
 meledak	explode	verb	emergency	no		
 melemparkan	throw	verb	jacl	no		
 meler	runny	adjective	health	no	Saya punya hidung meler	
 meletus	errupt	verb	nature	no		
+melintas	passing by	verb	travel	yes		
 melukis	painting	verb	arts	no		
 memakan	eat but more for animals	verb	animals	no		
 memanen	harvest	verb		no		
@@ -907,6 +929,7 @@ memperkenalkan	introduce	verb	social	no	Saya mau memperkenalkan kamu ke seseoroa
 memperoleh	obtain			no		
 memperpanjang	lengthen, renew	verb		no	Saya mau memperpanjang sewa saya	For time, to extend a lease etc.
 memulai	start	verb		yes		(None)
+memutuskan	decide	verb		yes		
 menakutkan	scary	adjective		no		
 menaman	planting	verb		no		
 menambahkan	adding	verb		no		
@@ -930,7 +953,7 @@ mendekat	approach	verb		yes
 mendengar	listen	verb	social	yes		
 mendengarkan	listen	verb		yes		
 mendirikan	establish	verb		no		
-mendung	overcast	adjective	weather	no		
+mendung	overcast	adjective	weather	yes		
 menelepon	telephone	verb	social	no		
 menemani	accompanies	verb	social	no		
 menerima	receive	verb		yes		
@@ -981,6 +1004,7 @@ menjadikan	make, render, cause	verb		yes
 menjaga	protect, guard	verb		no		
 menjatuhkan	drop	verb		yes		
 menjelaskan	explain	verb		yes		
+menjijikkan	disgusting	adjective	social	no		
 menolong	help	verb	emergency	yes		
 menolong	help, assist	verb	social	no		
 menonton	watching	verb		no	Saya suka menonton televisi	
@@ -992,6 +1016,7 @@ menunggu	wait	verb	jacl	yes
 menurut	according to	preposition	grammar	no		
 menyalakan	turn on	verb		no		
 menyapu	sweep	verb		yes		
+menyelesaikan	finish	verb		yes	Saya dapat menyelesaikan pekerjaan ini	
 menyenangkan	fun, pleasant	adjective	social	yes	Semoga harimu menyenangkan	
 menyentuh	touch	verb		no		
 menyikat	brushing	verb		no		
@@ -1029,14 +1054,14 @@ mobil	car	noun	travel	yes
 mohon	please	verb	social	yes		
 muda	young	adjective	social	yes	(None)	
 mudah	easy	adjective	colours	yes		
-muka	advance, face	noun	body	no		
+muka	advance, face	noun	body	yes		
 mulai	start	verb		yes		
 mulut	mouth	noun	body	yes		
 muncul	appear			yes		
 mundur	backward	verb		no		
 mungkin	maybe, possible			yes		
 murah	cheap			yes		
-murid	student	noun	study	no		
+murid	student	noun	study	yes		
 musim	season	noun	weather	yes		
 mutiara	pearl	noun		no		
 mutik	carving knife	noun	food	no		
@@ -1052,7 +1077,7 @@ nasihat	advise, tells	verb	social	no
 negara	country	noun	travel	no	Saya pergi negara lain	
 nelayan	fisherman	noun	boating	no		
 nggak, gak	no			yes		casual and common
-nih	here	noun		no		
+nih	here	noun	travel	no		
 nomor	number	noun	numbers	yes		
 nonton	watch (a movie)	verb	entertainment	no		
 numpang	hitchhiking	verb	travel	no		
@@ -1064,6 +1089,7 @@ nyegarkan	refresh	verb		no
 nyeker	bare feet	noun	body	no		
 obat	medicine	noun	health	no		
 olahraga	sport, athletics	noun	sport	no		
+oleh	by	preposition	grammar	yes		
 oleh kerena itu	therefore	conjunction		no		
 oli	motor oil	noun	travel	yes		
 omong-omong	by the way	conjunction	grammar	no		
@@ -1106,7 +1132,7 @@ pas	just right	adjective		no
 pasang	put, install	verb	jacl	no	pasang kemeja	
 pasangan	partner	noun	social	no		
 paskah	Easter	noun	religion	no		
-pasti	certain/ surely	adjective		no		
+pasti	certain, sure, certainly, surely	adjective		no		Can be adjective or adverb.
 patuh	obey	verb	social	no		
 patuhilah	obey	imperitive		no		
 patung	statue	noun		no		
@@ -1150,6 +1176,7 @@ pendek	short (time and distance)	adjective		yes
 pendidikan	education	noun	study	no		
 pendirian	faith in myself, confidence	verb	social	no		
 peneliti	researcher	noun	business	no		
+penetapan	determination	noun		no		
 pengacara	lawyer	noun	business	no		
 pengadilan	law court	noun	government	yes		
 pengajar	teacher	noun	profession	yes		
@@ -1161,6 +1188,7 @@ penghasilan	income	noun	money	no
 penginapan	inn	noun	travel	no		Not hotel, like Gustos place
 pengurus	manager	noun	business	no		
 penjahit	sewer	noun	professions	no		
+penjelasan	explanation	noun		yes		
 penjual	seller	noun	business	yes		
 penjudi	gambler	noun		no		
 pentas	perform	verb		no		
@@ -1196,9 +1224,10 @@ pergantian	replacement	noun		no
 pergelangan kaki	ankle	noun	body	no		
 pergelangan tengang	wrist	noun	body	no		
 pergi	go	verb	travel	yes		
+peringanan	warning	noun		yes		
 peristiwa	incident, event, occassion	noun	social	no		
 perjabat	offical	noun	business	no		
-perjalanan	trip/ journey	noun	travel	yes		
+perjalanan	trip, journey	noun	travel	yes		
 perkembangan	progress, development	noun		no		
 perkerja	worker	noun		yes		
 perkerjaan	working	verb	activities	no		
@@ -1262,12 +1291,13 @@ preman	thug, hoodlum	noun	social	no
 pria	man	noun	family	yes		
 produk	product	noun	business	no		
 profesi	profession	noun	business	no		
+pukau	fascinate	verb		no		
 pukul	punch	verb		yes		
 pukul	o'clock	noun	time	yes		
 pula	also	adverb		no		
 pulang	go home	verb		yes		
 pulau	island	noun	nature	yes		
-pulpen	fountain pen	noun		no		
+pulpen	fountain pen	noun		yes		
 pun	even, also	adverb		no		
 puncak	peak, summit	noun	nature	no		
 punggung	back	noun	body	no		
@@ -1285,7 +1315,7 @@ putri	daughter	noun	family	yes
 puturan	round, cycle	noun		no		
 putus	separated, broken	adjective		yes		Like breaking a piece of string
 putus-putus	breaking up (bad phone connection)	verb		yes		
-putuskan	decided	adjective		no		
+putuskan	decided	adjective		yes		
 rabu	wednesday	noun	time	yes		
 ragam	type, kind, variety	adjective		no		
 ragu	uncertain	adjective		no		
@@ -1339,6 +1369,7 @@ sakti	magic, sacred	adjective		no
 salah	wrong	adjective		yes		
 sama	same			yes		
 sambal	chilli sauce	noun	food	yes		
+sambil	while	adverb	time	yes		
 sampah	rubbish, trash	noun		no		
 sampai	until/ arrive			yes		
 sampai besok	until tomorrow!			yes		
@@ -1378,8 +1409,8 @@ sebuah	a	article
 sebut	say	verb	jacl	no		
 secara	in a way	preposition		yes		
 sedadung	going	adjective		no		
-sedang	currently	adjective	time	no		
-sedankan	meanwhile	conjunction	grammar	no		
+sedang	currently	adjective	time	yes		
+sedangkan	wherease, meanwhile	conjunction	grammar	no		
 sederhana	simple	adjective		no		
 sedia	ready	adjective	massage	yes		
 sedih	sad	adjective	social	yes		
@@ -1389,7 +1420,7 @@ segara	soon	adverb		yes
 sehari-hari	daily	adverb		yes		
 seharus	should	adverb	social	yes		
 sehat	well, healthy	adjective	health	yes		
-sehingga	so that/ so as	conjunction	grammar	yes		
+sehingga	as a result	conjunction	grammar	yes		
 sejauh	so far, as far as	adverb		yes		
 sejuk	cool	adjective		no	Cerita sejuk mas	
 sekali	very or one time	adjective		yes		
@@ -1416,7 +1447,7 @@ semangat	spirit	noun		no
 sembarangan	hapzarardly, carelessly	adjective		no		
 sembilan	nine	noun	numbers	no		
 sembuh	heal, recover	verb	health	no		
-sementara	temporary	adjective		no		
+sementara	while	conjunction	grammar	no		While someone else chose to do something different.
 semi	spring (not cold nice)			yes		
 semoga	hope, hopefully, ish	adverb		yes	Semoga selamat di jalan	
 sempurna	perfect	adjective		no		
@@ -1430,7 +1461,7 @@ sentuh	touch	verb		no	Jangan sentuh sepeda motorku
 senyum	smile	noun	social	no		
 seorang	a person	noun		no		
 sepak	football	noun	sport	yes	Sepak bola	
-separuh	half	noun		no		
+separuh	half	noun		no	Separuhnya habis.	When there are no units.
 sepatu	shoe	noun	clothing	yes		
 sepeda motor	motorcycle	noun	travel	yes		
 seperdua	half	noun	numbers	no		
@@ -1467,11 +1498,15 @@ siang	noon	noun	time	yes
 siap	ready	adjective		yes		
 siapa	who	pronoun		yes		
 sibuk	busy	adjective	business	yes		
+butuh	need	noun		no		
+nyaman	cozy	adjective		no		
+sebelumnya	previously	adverb	grammar	yes		
 sikat	brush	noun		no		
 siku-siku	90 degress.	noun		no		
 silikan	please, go ahead, be my guest	verb	social	yes	silikan masuk	
 simpan	save, keep	verb		yes		
 simpang	intersection	noun	travel	yes		
+singgah	stop by	verb	social	no		
 sini	here	noun	travel	yes		
 sinyalnya	the signal	noun		no		
 sip!	Okay, done deal!	interjection	shopping	no		
@@ -1501,7 +1536,7 @@ sukar	hard, difficult	adjective		no
 sukses	success	noun		yes		
 sulit	difficult	adjective		yes		
 sungai	river	noun	nature	no		
-supaya	cause	conjunction	grammar	no		
+supaya	so that	conjunction	grammar	no		
 surat	letter	noun	social	yes		
 suruh	tell me, ask	verb		no		
 surup	dropping	verb		no		
@@ -1524,6 +1559,8 @@ taman	park	noun	nature	no
 tambah	add, more, plus, becoming	preposition	grammar	yes		
 tambahan	addition	adjective		no	Kopi ini menjadi manis dengan tambahan gula	
 tambakan	add	verb		no		
+tampak	looks	adjective		no		
+tampaknya	it appears, it seems	adverb		no		
 tampan	handsome	adjective	social	no		
 tamu	guest, visitor	noun	social	no		
 tanah	soil, earth, land	noun	nature	no		
@@ -1560,6 +1597,7 @@ telat	late	adjective	time	no
 televisi	television	noun	home	yes		
 telinga	ears	noun	body	yes		
 telur	egg	noun	food	yes		
+telusur	browse, explore	verb	travel	no		
 teman	friend		social	yes		
 teman kerja	colleague		business	yes		
 tembak	shoot	verb		no		
@@ -1603,10 +1641,12 @@ terlalu cepat	too soon	too fast.		yes
 terlalu mahal	too expensive		shopping	yes		
 terlambat	late	adjective		yes		
 terletak	located	adjective		no		
+terlihat	visible	adjective		yes		
 termasuk	included	preposition		no	Ini tidak termask di sini.	
 termurah	cheapest	adjective	shoppping	no		
 ternyata	turns out	phrase		no		
 terpaksa	forced	adjective	social	no		
+terpukau	impressed, amazed	adjective		no		
 terputus	breaking up			no		
 tersebut	said, the, mentioned	adjective		no		
 tersedia	available	adjective		no		
@@ -1685,7 +1725,7 @@ umum	common, general	adjective		yes
 umur	age	noun		yes		
 universitas	university	noun	study	no		
 untuk	for, to	conjunction	grammar	yes	Siapa yang mengingatkan kamu untuk pergi?	
-untung	profit	noun	business	no		
+untung	profit, lucky	noun	business	yes		
 untungnya	fortunately	adjective		no		
 upacara	ceremony	noun		yes		
 urus	take care of	verb		no		

@@ -1,72 +1,75 @@
 Title: ../dict/body.tsv
-Words: 42 placed out of 48
-Gen time: 217 seconds
-Date: 2024-05-12
+Words: 45 placed out of 48
+Gen time: 1281 seconds
+Date: 2024-09-30
 
 
-####TELAPAK########T#
-########E###J##B###U#
-###BIRBIR##JANTUNG#L#
-######A#G#K#R##L###A#
-L#####H#E#U#I#TANGANG
-U#####U#L#L#K##M###G#
-T#MATA#JARITANGANG###
-U###E###N#T#K##T##P##
-TELINGA#G###I#RAMBUT#
-####G###A#D#######N#P
-#PERGELANGANTENGANG#A
-E###O###K#R#######G#K
-LEHER##MATAKAKI##KUKU
-B###O###K#H##E##G#N##
-O#KAKI##I####P#LENGAN
-W###A#H###LIDAH#N###Y
-##BUNCIT#####L##D###E
-O#A###D###WAJAH#U###K
-T#D##TUBUH#L##A#T#EYE
-OTAK##N####I##T#####R
-T#N#DAGU###S#GIGI####
+########R#MATAKAKI###
+##E#TANGAN##E#E#U####
+##Y#U###M###N#PAKU###
+##ELBOW#B#P#G#A#U####
+####U##TULANG#L##PIPI
+LIDAH###T#H#OTAK#E###
+##A#######A#R####R##H
+BAHU####B###OTOT#G##A
+##I#JANTUNG#K###PERUT
+####A#Y#L###A#T##L##I
+M#PERGELANGANTENGAN##
+U###I#K#M#####L##N###
+LUTUT#E#A#BUNCIT#G###
+U###A#R#T#####N##A###
+T###N###A##PUNGGUNG##
+##L#G#M#######A##K#B#
+#TELAPAK##W##A##DARAH
+##N#N#T###A##L#D#K#D#
+GIGI#KAKI#JARIKAKI#A#
+##A#######A##S#D###N#
+GENDUT##LEHER#DAGU###
 
 
-A1. Palm or sole
-A6. Lips
-A8. Heart
-A11. Hand
-A12. Eye
-A14. Finger
-A16. Ears
-A17. Hair
-A20. Wrist
-A22. Neck
-A23. Anklebone
-A25. Nail
-A27. Foot
-A28. Arm
-A31. Tongue
-A32. Fat
-A34. Face
-A37. Body
-A38. Mata
-A39. Brain
-A40. Chin
-A41. Teeth
+A2. Anklebone
+A7. Hand
+A8. Nails
+A9. Siku
+A11. Bones
+A12. Cheek
+A13. Tongue
+A15. Brain
+A17. Shoulder
+A19. Muscle
+A20. Heart
+A22. Stomach
+A25. Wrist
+A26. Knees
+A27. Fat
+A28. Back
+A32. Palm or sole
+A35. Blood
+A37. Teeth
+A38. Foot
+A39. Toes
+A40. Fat (whole person)
+A41. Neck
+A42. Chin
 
-D2. Ankle
-D3. Bones
-D4. Toes
-D5. Eye lashes
-D7. Shoulder
-D9. Skin
-D10. Knees
-D13. Throat
-D15. Back
-D18. Blood
-D19. Nails
-D21. Siku
-D24. Head
-D26. Fat (whole person)
-D29. Bare feet
-D30. Nose
-D32. Body
-D33. Muscle
-D35. Eyebrow
-D36. Heart or liver
+D1. Hair
+D3. Throat
+D4. Head
+D5. Nail
+D6. Mata
+D7. Body
+D10. Thigh
+D12. Ankle
+D14. Forehead
+D16. Heart or liver
+D18. Eye lashes
+D20. Finger
+D21. Bare feet
+D23. Ears
+D24. Mouth
+D29. Arm
+D30. Eye
+D31. Body
+D33. Face
+D34. Eyebrow
+D36. Chest
